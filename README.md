@@ -49,6 +49,10 @@ Se o servidor web apontar directamente para `/quase`, a rota
 `https://quase.pt/mundial/` continuara a funcionar desde que a pasta existente
 seja mantida intacta.
 
+O cutover do dominio e a configuracao Apache estao documentados em
+[`docs/server-cutover.md`](docs/server-cutover.md). Existe tambem um template
+de virtual host em [`server/apache-quase.pt.conf`](server/apache-quase.pt.conf).
+
 ## Afiliados
 
 A homepage ja inclui um aviso editorial para futuras integracoes com
