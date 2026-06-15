@@ -17,7 +17,7 @@
       content="Descobre alojamentos independentes, herdades, turismo rural e boutique hoteis escolhidos pelo charme, calma e autenticidade."
     />
     <meta property="og:locale" content="pt_PT" />
-    <meta name="theme-color" content="#efe7d8" />
+    <meta name="theme-color" content="#f7f3ea" />
     <link rel="canonical" href="https://quase.pt/" />
     <link rel="stylesheet" href="/styles.css" />
     <script type="application/ld+json">
@@ -41,60 +41,64 @@
         <a href="#colecoes">Colecoes</a>
         <a href="#criterios">Criterios</a>
         <a href="#afiliados">Afiliados</a>
-        <a class="nav-cta" href="#newsletter">Receber descobertas</a>
+        <a class="nav-cta" href="#newsletter">Newsletter</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Refugios com alma em Portugal</p>
-          <h1>Sitios bonitos para ficar quando apetece fugir do obvio.</h1>
+          <p class="eyebrow">Guia independente de estadias em Portugal</p>
+          <h1>Pequenos refugios. Grandes desculpas para ficar.</h1>
           <p class="lead">
-            O Quase.pt nasce como um guia editorial de herdades, casas de campo,
-            boutique hoteis e pequenos alojamentos independentes, escolhidos pelo
-            charme, tranquilidade e ligacao ao lugar.
+            Uma seleccao de herdades, casas de campo, boutique hoteis e alojamentos
+            com personalidade, escolhidos para quem prefere descobrir antes de comparar.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#colecoes">Explorar colecoes</a>
-            <a class="button button-secondary" href="#parcerias">Sugerir alojamento</a>
+            <a class="button button-primary" href="#colecoes">Ver coleccoes</a>
+            <a class="button button-secondary" href="#parcerias">Sugerir um lugar</a>
           </div>
         </div>
-        <aside class="hero-card" aria-label="Resumo editorial">
-          <span class="card-label">Primeira selecao</span>
-          <h2>Portugal, escolhido lugar a lugar</h2>
+
+        <div class="hero-gallery" aria-label="Ambiente visual do Quase.pt">
+          <article class="feature-stay feature-main">
+            <span class="stay-kicker">Alentejo</span>
+            <h2>Herdades de silencio, piscina e luz quente.</h2>
+          </article>
+          <article class="feature-stay feature-small feature-douro">
+            <span class="stay-kicker">Douro</span>
+            <p>Quintas com vista para vinhas.</p>
+          </article>
+          <article class="feature-stay feature-small feature-mar">
+            <span class="stay-kicker">Costa</span>
+            <p>Casas discretas perto do mar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section manifesto" id="manifesto">
+        <p class="eyebrow">Manifesto</p>
+        <div class="manifesto-grid">
+          <h2>Menos lista interminavel. Mais curadoria com gosto.</h2>
           <p>
-            Comecamos por refinar regioes e estilos: Alentejo, Douro, Minho,
-            serras, costa, ilhas e escapadinhas para dois.
+            O Quase.pt existe para encontrar projectos pequenos que se perdem entre
+            anuncios, comparadores e rankings automaticos. Primeiro vem a historia
+            do lugar. A reserva vem depois, com transparencia.
           </p>
-          <ul>
-            <li>Curadoria humana</li>
-            <li>Pequenos projectos</li>
-            <li>Links afiliados identificados</li>
-          </ul>
-        </aside>
-      </section>
-
-      <section class="section intro" id="manifesto">
-        <div>
-          <p class="eyebrow">Manifesto</p>
-          <h2>Menos publicidade massificada. Mais descoberta com criterio.</h2>
         </div>
-        <p>
-          Muitos alojamentos pequenos e especiais nao aparecem nas campanhas das
-          grandes marcas. Este projecto existe para dar contexto, gosto e
-          visibilidade a lugares que merecem ser descobertos antes de se tornarem
-          obvios.
-        </p>
       </section>
 
-      <section class="section" id="colecoes">
+      <section class="section collections" id="colecoes">
         <div class="section-heading">
-          <p class="eyebrow">Colecoes iniciais</p>
-          <h2>Escolhe pela vontade da viagem, nao apenas pelo mapa.</h2>
+          <p class="eyebrow">Coleccoes iniciais</p>
+          <h2>Escolhe pelo tipo de escapadinha.</h2>
+          <p>
+            Ainda antes de ter centenas de fichas, o site deve organizar a descoberta
+            por vontade: campo, mar, romantico, familia, isolamento, design ou mesa.
+          </p>
         </div>
 
-        <div class="filters" aria-label="Filtrar colecoes">
+        <div class="filters" aria-label="Filtrar coleccoes">
           <button class="filter is-active" type="button" data-filter="all">Todas</button>
           <button class="filter" type="button" data-filter="campo">Campo</button>
           <button class="filter" type="button" data-filter="mar">Perto do mar</button>
@@ -103,102 +107,126 @@
         </div>
 
         <div class="collection-grid">
-          <article class="collection-card" data-tags="campo romantico">
-            <span>Alentejo</span>
-            <h3>Herdades para desligar</h3>
-            <p>Casas rurais, montes e pequenos hoteis onde o silencio faz parte da estadia.</p>
+          <article class="collection-card card-alentejo" data-tags="campo romantico">
+            <div class="card-image"></div>
+            <div class="card-body">
+              <span>Alentejo</span>
+              <h3>Herdades para desligar</h3>
+              <p>Montes, casas rurais e hoteis pequenos onde a calma e parte da estadia.</p>
+            </div>
           </article>
-          <article class="collection-card" data-tags="campo romantico">
-            <span>Douro e Minho</span>
-            <h3>Quintas com paisagem</h3>
-            <p>Vinhas, jardins, pedra antiga e estadias perfeitas para fins de semana sem pressa.</p>
+          <article class="collection-card card-douro" data-tags="campo romantico">
+            <div class="card-image"></div>
+            <div class="card-body">
+              <span>Douro e Minho</span>
+              <h3>Quintas com paisagem</h3>
+              <p>Vinhas, jardins antigos, pedra e estadias feitas para fins de semana lentos.</p>
+            </div>
           </article>
-          <article class="collection-card" data-tags="mar familia">
-            <span>Costa Vicentina</span>
-            <h3>Refugios entre campo e mar</h3>
-            <p>Alojamentos pequenos para praia, caminhadas, comida simples e dias compridos.</p>
+          <article class="collection-card card-costa" data-tags="mar familia">
+            <div class="card-image"></div>
+            <div class="card-body">
+              <span>Costa Vicentina</span>
+              <h3>Entre campo e mar</h3>
+              <p>Alojamentos para praia, caminhadas, comida simples e dias compridos.</p>
+            </div>
           </article>
-          <article class="collection-card" data-tags="campo familia">
-            <span>Centro e Serras</span>
-            <h3>Casas de campo com conforto</h3>
-            <p>Lugares acolhedores para lareiras, trilhos, piscinas naturais e aldeias historicas.</p>
+          <article class="collection-card card-serra" data-tags="campo familia">
+            <div class="card-image"></div>
+            <div class="card-body">
+              <span>Centro e serras</span>
+              <h3>Casas com conforto</h3>
+              <p>Lareiras, trilhos, piscinas naturais e aldeias historicas por perto.</p>
+            </div>
           </article>
-          <article class="collection-card" data-tags="mar romantico">
-            <span>Madeira e Acores</span>
-            <h3>Ilhas para respirar fundo</h3>
-            <p>Pequenas unidades com natureza dramatica, vistas abertas e uma escala mais humana.</p>
+          <article class="collection-card card-ilhas" data-tags="mar romantico">
+            <div class="card-image"></div>
+            <div class="card-body">
+              <span>Madeira e Acores</span>
+              <h3>Ilhas para respirar</h3>
+              <p>Pequenas unidades com vistas abertas, natureza forte e escala humana.</p>
+            </div>
           </article>
-          <article class="collection-card" data-tags="romantico familia">
-            <span>Escapadinhas</span>
-            <h3>Para surpreender alguem</h3>
-            <p>Selecoes por ocasiao: aniversario, fim de semana a dois, descanso ou presente.</p>
+          <article class="collection-card card-gift" data-tags="romantico familia">
+            <div class="card-image"></div>
+            <div class="card-body">
+              <span>Escapadinhas</span>
+              <h3>Para oferecer ou surpreender</h3>
+              <p>Ideias para aniversarios, descanso a dois ou presentes com memoria.</p>
+            </div>
           </article>
         </div>
       </section>
 
       <section class="section criteria" id="criterios">
-        <div class="section-heading">
+        <div class="section-heading compact">
           <p class="eyebrow">Como escolhemos</p>
-          <h2>O criterio editorial vem antes da comissao.</h2>
+          <h2>Bonito nao chega. Tem de fazer sentido.</h2>
         </div>
-        <div class="criteria-grid">
+        <div class="criteria-list">
           <article>
-            <strong>Com alma</strong>
-            <p>Arquitectura, historia, design, hospitalidade ou uma ligacao clara ao territorio.</p>
+            <span>01</span>
+            <strong>Personalidade</strong>
+            <p>Arquitectura, historia, paisagem, hospitalidade ou uma ligacao clara ao territorio.</p>
           </article>
           <article>
+            <span>02</span>
             <strong>Pequena escala</strong>
             <p>Preferencia por projectos independentes, turismo rural e boutique stays.</p>
           </article>
           <article>
-            <strong>Utilidade real</strong>
-            <p>Indicacoes sobre para quem e ideal, melhor epoca, ambiente, localizacao e pontos fracos.</p>
+            <span>03</span>
+            <strong>Utilidade</strong>
+            <p>Para quem e ideal, melhor epoca, ambiente, acessos e pontos fracos.</p>
           </article>
           <article>
+            <span>04</span>
             <strong>Transparencia</strong>
-            <p>Quando houver links afiliados, serao identificados. A escolha editorial continua separada.</p>
+            <p>Links afiliados serao identificados. A escolha editorial continua separada.</p>
           </article>
         </div>
       </section>
 
-      <section class="section affiliate" id="afiliados">
+      <section class="section split affiliate" id="afiliados">
         <div>
           <p class="eyebrow">Modelo de afiliados</p>
-          <h2>Preparado para Travelpayouts, Booking e parcerias directas.</h2>
+          <h2>Reserva simples, contexto primeiro.</h2>
         </div>
-        <div class="affiliate-panel">
+        <div class="panel">
           <p>
-            As futuras fichas de alojamento podem incluir botoes como "Ver disponibilidade",
-            "Reservar no parceiro" ou "Contactar directamente", sempre com aviso de afiliado
-            quando aplicavel.
+            As futuras fichas podem incluir botoes como "Ver disponibilidade",
+            "Reservar no parceiro" ou "Contactar directamente", sempre com aviso
+            claro quando existir comissao.
           </p>
           <p class="note">
-            Este site podera receber comissoes por reservas feitas atraves de links de afiliado,
-            sem custo adicional para quem reserva.
+            O site podera receber comissoes por reservas feitas atraves de links
+            afiliados, sem custo adicional para quem reserva.
           </p>
         </div>
       </section>
 
       <section class="section newsletter" id="newsletter">
-        <div>
-          <p class="eyebrow">Newsletter</p>
-          <h2>Uma descoberta portuguesa por semana.</h2>
-          <p>
-            Antes de abrir uma base de dados grande, a newsletter ajuda a validar gosto,
-            regioes e procura real.
-          </p>
-        </div>
-        <form class="signup" action="mailto:ola@quase.pt" method="post" enctype="text/plain">
-          <label for="email">Email</label>
-          <div class="signup-row">
-            <input id="email" name="email" type="email" placeholder="o-teu-email@exemplo.pt" required />
-            <button class="button button-primary" type="submit">Quero receber</button>
+        <div class="newsletter-card">
+          <div>
+            <p class="eyebrow">Newsletter</p>
+            <h2>Uma descoberta por semana.</h2>
+            <p>
+              Um email curto com lugares bonitos, ideias de escapadinha e novidades
+              do projecto.
+            </p>
           </div>
-          <small>Sem spam. Apenas ideias de escapadinhas e novidades do projecto.</small>
-        </form>
+          <form class="signup" action="mailto:ola@quase.pt" method="post" enctype="text/plain">
+            <label for="email">Email</label>
+            <div class="signup-row">
+              <input id="email" name="email" type="email" placeholder="o-teu-email@exemplo.pt" required />
+              <button class="button button-primary" type="submit">Receber</button>
+            </div>
+            <small>Sem spam. Apenas descobertas e novidades do Quase.pt.</small>
+          </form>
+        </div>
       </section>
 
-      <section class="section partners" id="parcerias">
+      <section class="section split partners" id="parcerias">
         <div>
           <p class="eyebrow">Alojamentos e marcas</p>
           <h2>Tens um projecto pequeno, bonito e com historia?</h2>
