@@ -3,6 +3,8 @@
 ## Referencias editoriais
 
 - Instagram: <https://www.instagram.com/bestportugalhotels_/>
+- Website/feed publico associado: <https://www.bestportugalhotels.com/en/>
+- Seed extraida: [`data/reference/bestportugalhotels-instagram.json`](../data/reference/bestportugalhotels-instagram.json)
 
 Esta conta deve servir como referencia visual e editorial para o tipo de
 alojamentos a mapear quando forem criadas as listas e fichas do Quase.pt.
@@ -15,6 +17,32 @@ Notas importantes:
 - preferir imagens licenciadas, fornecidas pelo alojamento ou produzidas pelo
   projecto;
 - identificar links afiliados quando existirem.
+
+## Crawl inicial
+
+O Instagram directo nao devolve dados completos sem login e pode aplicar rate
+limits. O primeiro crawler usa apenas o feed publico embebido no site
+`bestportugalhotels.com`, que neste momento expõe 8 posts recentes.
+
+Comando:
+
+```bash
+npm run crawl:bph-instagram
+```
+
+Campos guardados:
+
+- URL do post/reel;
+- data;
+- handle do alojamento;
+- categoria indicada;
+- localizacao indicada;
+- preco de referencia quando existe;
+- URL de imagem apenas como referencia;
+- legenda apenas como referencia.
+
+Estas referencias servem para descobrir potenciais alojamentos; nao devem ser
+publicadas como review sem confirmacao manual e autorizacao/licenca de imagens.
 
 ## Tipo de alojamentos a procurar
 

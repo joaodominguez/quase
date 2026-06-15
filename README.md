@@ -86,6 +86,17 @@ de reserva reais, adicionar:
 As referencias editoriais e criterios para futuras listas de alojamentos estao
 em [`docs/content-strategy.md`](docs/content-strategy.md).
 
+Existe tambem um crawler de referencia para a conta/website Best Portugal Hotels:
+
+```bash
+npm run crawl:bph-instagram
+```
+
+O resultado fica em
+[`data/reference/bestportugalhotels-instagram.json`](data/reference/bestportugalhotels-instagram.json).
+Este ficheiro deve ser usado apenas para pesquisa editorial; imagens, captions e
+dados devem ser confirmados nas fontes oficiais antes de publicar.
+
 ## Backoffice
 
 O backoffice para gerir reviews, alojamentos, fotos e links afiliados vive em

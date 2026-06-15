@@ -10,7 +10,8 @@
     "dev": "next dev",
     "build": "next build",
     "deploy": "npm run build && ./scripts/deploy.sh",
-    "deploy:backoffice": "./scripts/deploy-backoffice.sh"
+    "deploy:backoffice": "./scripts/deploy-backoffice.sh",
+    "crawl:bph-instagram": "node scripts/crawl-bph-instagram.mjs"
   },
   "repository": {
     "type": "git",
