@@ -34,8 +34,15 @@ Exemplo seguro de sincronizacao a partir da raiz deste repositorio:
 ```bash
 rsync -avz --delete \
   --exclude "/.git/" \
+  --exclude "/scripts/" \
   --exclude "/mundial/" \
   ./ root@91.99.167.243:/quase/
+```
+
+Tambem existe um script equivalente:
+
+```bash
+./scripts/deploy.sh
 ```
 
 Se o servidor web apontar directamente para `/quase`, a rota
