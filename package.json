@@ -1,0 +1,30 @@
+{
+  "name": "quase",
+  "version": "1.0.0",
+  "description": "Primeira versao estatica do site principal de `quase.pt`: um guia editorial de refugios especiais em Portugal, com foco em herdades, casas de campo, boutique hoteis, turismo rural e pequenos projectos independentes.",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy": "npm run build && ./scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaodominguez/quase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaodominguez/quase/issues"
+  },
+  "homepage": "https://github.com/joaodominguez/quase#readme",
+  "dependencies": {
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}

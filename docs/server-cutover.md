@@ -21,7 +21,7 @@ servidor, nao no DNS do repositorio.
 
 Em 2026-06-15, o cutover foi aplicado no servidor:
 
-- os ficheiros publicos foram publicados em `/var/www/quase`;
+- os ficheiros publicos exportados pelo Next.js foram publicados em `/var/www/quase`;
 - `/var/www/quase/mundial` foi mantida no lugar;
 - foram criados e activados:
   - `/etc/apache2/sites-available/quase.pt.conf`;
@@ -48,20 +48,22 @@ Em 2026-06-15, o cutover foi aplicado no servidor:
    cp -a /etc/apache2/sites-enabled /root/apache-sites-enabled.backup.$(date +%Y%m%d%H%M%S)
    ```
 
-2. Publicar os ficheiros publicos do repositorio em `/var/www/quase`, sem
-   sincronizar a pasta `/mundial/`:
+2. Gerar o export estatico do Next.js:
 
    ```bash
-   rsync -avz \
-     index.html \
-     styles.css \
-     script.js \
-     robots.txt \
-     sitemap.xml \
-     root@91.99.167.243:/var/www/quase/
+   npm run build
    ```
 
-3. Criar/actualizar os virtual hosts de `quase.pt` a partir de:
+3. Publicar o conteudo de `out/` em `/var/www/quase`, sem sincronizar a pasta
+   `/mundial/`:
+
+   ```bash
+   rsync -avz --delete \
+     --exclude "/mundial/" \
+     out/ root@91.99.167.243:/var/www/quase/
+   ```
+
+4. Criar/actualizar os virtual hosts de `quase.pt` a partir de:
 
    ```text
    server/apache-quase.pt.conf
@@ -75,7 +77,7 @@ Em 2026-06-15, o cutover foi aplicado no servidor:
    /etc/apache2/sites-available/quase.pt-le-ssl.conf
    ```
 
-4. Confirmar certificado HTTPS.
+5. Confirmar certificado HTTPS.
 
    Se ja existir certificado para `quase.pt`, preencher no vhost:
 
@@ -91,7 +93,7 @@ Em 2026-06-15, o cutover foi aplicado no servidor:
    certbot certonly --webroot -w /var/www/quase -d quase.pt -d www.quase.pt
    ```
 
-5. Activar o site e validar:
+6. Activar o site e validar:
 
    ```bash
    a2ensite quase.pt.conf
@@ -100,7 +102,7 @@ Em 2026-06-15, o cutover foi aplicado no servidor:
    systemctl reload apache2
    ```
 
-6. Se o redirect para `www.airluso.pt` continuar, procurar outra configuracao
+7. Se o redirect para `www.airluso.pt` continuar, procurar outra configuracao
    que esteja a apanhar `quase.pt` antes deste vhost:
 
    ```bash
@@ -111,7 +113,7 @@ Em 2026-06-15, o cutover foi aplicado no servidor:
    Desactivar apenas a regra/vhost antigo que associa `quase.pt` ao WordPress
    do Airluso. Nao alterar a pasta `/var/www/quase/mundial/`.
 
-7. Purgar cache no Cloudflare se o comportamento antigo ficar em cache.
+8. Purgar cache no Cloudflare se o comportamento antigo ficar em cache.
 
 ## Verificacao
 

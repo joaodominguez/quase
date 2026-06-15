@@ -7,10 +7,12 @@ REMOTE_PATH="${REMOTE_PATH:-/var/www/quase/}"
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
-rsync -avz --chown=root:root \
-  index.html \
-  styles.css \
-  script.js \
-  robots.txt \
-  sitemap.xml \
+if [ ! -d out ]; then
+  echo "Missing ./out. Run npm run build before deploy." >&2
+  exit 1
+fi
+
+rsync -avz --delete --chown=root:root \
+  --exclude "/mundial/" \
+  out/ \
   "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}"

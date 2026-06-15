@@ -1,22 +1,37 @@
 # Quase.pt
 
-Primeira versao estatica do site principal de `quase.pt`: um guia editorial
-de refugios especiais em Portugal, com foco em herdades, casas de campo,
-boutique hoteis, turismo rural e pequenos projectos independentes.
+Frontend Next.js do site principal de `quase.pt`: um guia editorial de
+refugios especiais em Portugal, com foco em herdades, casas de campo, boutique
+hoteis, turismo rural e pequenos projectos independentes.
 
 ## Estrutura
 
 ```text
 .
-├── index.html
+├── app/
+├── data/
+├── public/
 ├── styles.css
-├── script.js
-├── robots.txt
-└── sitemap.xml
+├── next.config.mjs
+└── package.json
 ```
 
-Nao existem dependencias de build. O site pode ser servido directamente por
-Nginx, Apache, Caddy ou outro servidor estatico.
+O frontend usa Next.js com `output: "export"`. Em producao, o Apache serve os
+ficheiros estaticos gerados em `out/`; nao e necessario manter um processo Node
+a correr no servidor.
+
+## Desenvolvimento
+
+```bash
+npm install
+npm run dev
+```
+
+Build estatico:
+
+```bash
+npm run build
+```
 
 ## Deploy para o servidor
 
@@ -29,23 +44,19 @@ Importante:
 - nao apagar, mover, substituir ou sincronizar essa pasta;
 - qualquer deploy por `rsync` deve excluir explicitamente `/mundial/`.
 
-Exemplo seguro de sincronizacao a partir da raiz deste repositorio, enviando
-apenas os ficheiros publicos do site:
+Exemplo seguro de sincronizacao depois do build, enviando apenas o conteudo de
+`out/` e preservando `/mundial/`:
 
 ```bash
-rsync -avz \
-  index.html \
-  styles.css \
-  script.js \
-  robots.txt \
-  sitemap.xml \
-  root@91.99.167.243:/var/www/quase/
+rsync -avz --delete \
+  --exclude "/mundial/" \
+  out/ root@91.99.167.243:/var/www/quase/
 ```
 
 Tambem existe um script equivalente:
 
 ```bash
-./scripts/deploy.sh
+npm run deploy
 ```
 
 Se o servidor web apontar directamente para `/var/www/quase`, a rota

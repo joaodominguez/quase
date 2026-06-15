@@ -3,7 +3,7 @@
 ## Decisao recomendada
 
 Criar um backoffice proprio, simples, em **PHP 8.3 + SQLite**, alojado no mesmo
-servidor Apache.
+servidor Apache, e manter o **frontend publico em Next.js**.
 
 Motivos:
 
@@ -11,7 +11,7 @@ Motivos:
 - nao obriga a Node, Docker, Strapi, Directus ou WordPress nesta fase;
 - e suficiente para gerir reviews, fotos, estados de publicacao e links
   afiliados;
-- permite manter o site publico leve e rapido;
+- permite manter o site publico Next.js leve, rapido e exportavel como estatico;
 - nao mexe no projecto existente em `/var/www/quase/mundial`.
 
 ## Estrutura no servidor
@@ -19,8 +19,7 @@ Motivos:
 ```text
 /var/www/quase/
   index.html
-  styles.css
-  script.js
+  _next/
   uploads/
     stays/
       2026/
@@ -231,25 +230,17 @@ Fase seguinte:
 5. Publicar.
 6. O site publico passa a mostrar apenas `published`.
 
-## Site publico
+## Site publico Next.js
+
+O frontend publico deve ser Next.js para suportar muitas reviews, coleccoes e
+paginas de alojamento com boa estrutura.
 
 No MVP, ha duas opcoes:
 
-### Opcao A - PHP publico simples
+### Opcao A - Next.js export estatico
 
-Criar paginas publicas PHP:
-
-```text
-/ficar/
-/ficar/{slug}/
-/coleccoes/{slug}/
-```
-
-Vantagem: simples e dinamico.
-
-### Opcao B - Geracao estatica
-
-O backoffice gera ficheiros estaticos:
+O backoffice grava dados em SQLite e gera um JSON publico ou um export de dados
+para o build Next.js:
 
 ```text
 /data/stays.json
@@ -257,10 +248,28 @@ O backoffice gera ficheiros estaticos:
 /coleccoes/{slug}/index.html
 ```
 
-Vantagem: mais rapido e seguro publicamente.
+Vantagem: rapido, seguro e simples de servir em Apache.
 
-Recomendacao inicial: **Opcao A para MVP**, com possibilidade de passar para
-geracao estatica quando o modelo estabilizar.
+### Opcao B - Next.js dinamico com API
+
+Manter um processo Node/Next no servidor e consultar dados por API.
+
+Vantagem: conteudo actualiza sem rebuild.
+
+Desvantagem: mais operacao no servidor.
+
+Recomendacao inicial: **Opcao A - Next.js export estatico**, porque o site pode
+crescer em numero de reviews sem exigir um processo Node permanente.
+
+## Futuras rotas Next.js
+
+```text
+/                    homepage editorial
+/ficar/              listagem de alojamentos
+/ficar/{slug}/       review individual
+/coleccoes/{slug}/   coleccoes editoriais
+/regioes/{slug}/     paginas por regiao
+```
 
 ## Seguranca minima antes de publicar o admin
 
