@@ -7,7 +7,7 @@ REMOTE_PATH="${REMOTE_PATH:-/var/www/quase/}"
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
-rsync -avz \
+rsync -avz --chown=root:root \
   index.html \
   styles.css \
   script.js \

@@ -1,6 +1,6 @@
 # Cutover de quase.pt
 
-## Estado observado
+## Estado observado antes do cutover
 
 Em 2026-06-15, o dominio `quase.pt` ainda nao serve o novo projecto:
 
@@ -16,6 +16,20 @@ Em 2026-06-15, o dominio `quase.pt` ainda nao serve o novo projecto:
 
 Isto significa que a mudanca principal deve ser feita no Apache/site config do
 servidor, nao no DNS do repositorio.
+
+## Estado aplicado
+
+Em 2026-06-15, o cutover foi aplicado no servidor:
+
+- os ficheiros publicos foram publicados em `/var/www/quase`;
+- `/var/www/quase/mundial` foi mantida no lugar;
+- foram criados e activados:
+  - `/etc/apache2/sites-available/quase.pt.conf`;
+  - `/etc/apache2/sites-available/quase.pt-le-ssl.conf`;
+- foi emitido certificado Let's Encrypt para `quase.pt` e `www.quase.pt`;
+- `apache2ctl configtest` respondeu `Syntax OK`;
+- `https://quase.pt/` passou a responder `200 OK`;
+- `https://mundial.quase.pt/` continuou a responder `200 OK`.
 
 ## Objectivo
 
@@ -47,16 +61,18 @@ servidor, nao no DNS do repositorio.
      root@91.99.167.243:/var/www/quase/
    ```
 
-3. Criar/actualizar o virtual host de `quase.pt` a partir de:
+3. Criar/actualizar os virtual hosts de `quase.pt` a partir de:
 
    ```text
    server/apache-quase.pt.conf
+   server/apache-quase.pt-le-ssl.conf
    ```
 
-   Caminho recomendado no servidor:
+   Caminhos recomendados no servidor:
 
    ```text
    /etc/apache2/sites-available/quase.pt.conf
+   /etc/apache2/sites-available/quase.pt-le-ssl.conf
    ```
 
 4. Confirmar certificado HTTPS.
@@ -72,13 +88,14 @@ servidor, nao no DNS do repositorio.
    Se nao existir, criar com Certbot:
 
    ```bash
-   certbot --apache -d quase.pt -d www.quase.pt
+   certbot certonly --webroot -w /var/www/quase -d quase.pt -d www.quase.pt
    ```
 
 5. Activar o site e validar:
 
    ```bash
    a2ensite quase.pt.conf
+   a2ensite quase.pt-le-ssl.conf
    apache2ctl configtest
    systemctl reload apache2
    ```

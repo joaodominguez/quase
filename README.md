@@ -54,7 +54,9 @@ seja mantida intacta.
 
 O cutover do dominio e a configuracao Apache estao documentados em
 [`docs/server-cutover.md`](docs/server-cutover.md). Existe tambem um template
-de virtual host em [`server/apache-quase.pt.conf`](server/apache-quase.pt.conf).
+de virtual host HTTP em [`server/apache-quase.pt.conf`](server/apache-quase.pt.conf)
+e o vhost HTTPS em
+[`server/apache-quase.pt-le-ssl.conf`](server/apache-quase.pt-le-ssl.conf).
 
 ## Afiliados
 
