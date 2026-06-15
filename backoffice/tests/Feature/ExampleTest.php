@@ -10,10 +10,10 @@ class ExampleTest extends TestCase
     /**
      * A basic test example.
      */
-    public function test_guests_are_redirected_to_login(): void
+    public function test_backoffice_root_redirects_to_stays(): void
     {
         $response = $this->get('/');
 
-        $response->assertRedirect('/login');
+        $response->assertRedirect('/stays');
     }
 }
