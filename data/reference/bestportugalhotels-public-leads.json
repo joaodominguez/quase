@@ -1,0 +1,1196 @@
+{
+  "crawledAt": "2026-06-15T19:07:25.136Z",
+  "sources": [
+    "https://www.bestportugalhotels.com/en/",
+    "https://www.bestportugalhotels.com/en/hotels-x/",
+    "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml"
+  ],
+  "limitations": [
+    "Uses only public pages/sitemaps/embeds.",
+    "Direct Instagram crawling without login is not used.",
+    "Images and copy are references only; confirm data with official hotel sources before publishing."
+  ],
+  "count": 53,
+  "leads": [
+    {
+      "slug": "instagram-artsycascais",
+      "name": "@artsycascais",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@artsycascais",
+      "category": "Boutique Hotel",
+      "location": "Cascais, Portugal",
+      "priceReference": "from 360€/night",
+      "instagramPostUrl": "https://www.instagram.com/p/C3KULmBsYPQ/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-belavistahotelspa",
+      "name": "@belavistahotelspa",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@belavistahotelspa",
+      "category": "Luxury Hotel",
+      "location": "Portimão, Portugal",
+      "priceReference": "from 225€/night ⁣",
+      "instagramPostUrl": "https://www.instagram.com/p/C3GY6VTM8I5/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-evolutioncascaisestoril",
+      "name": "@evolutioncascaisestoril",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@evolutioncascaisestoril",
+      "category": "Boutique Hotel",
+      "location": "Cascais, Estoril *",
+      "priceReference": "Price Under Request",
+      "instagramPostUrl": "https://www.instagram.com/reel/C3DqOT8sAu3/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-feelviana",
+      "name": "@feelviana",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@feelviana",
+      "category": "Boutique Hotel",
+      "location": "Viana do Castelo, Portugal",
+      "priceReference": "from 115€/night",
+      "instagramPostUrl": "https://www.instagram.com/p/C3UnVoZMz_C/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-herdadedamatinha",
+      "name": "@herdadedamatinha",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@herdadedamatinha",
+      "category": "Charm House",
+      "location": "Cercal do Alentejo, Portugal",
+      "priceReference": "from 90€/night",
+      "instagramPostUrl": "https://www.instagram.com/reel/C3NAPlFi-18/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-lemonumentalpalace",
+      "name": "@lemonumentalpalace",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@lemonumentalpalace",
+      "category": "Luxury Hotel",
+      "location": "Porto, Portugal",
+      "priceReference": "Price Under Request",
+      "instagramPostUrl": "https://www.instagram.com/reel/C3SCkVusWyp/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-quintadacomporta",
+      "name": "@quintadacomporta",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@quintadacomporta",
+      "category": "Boutique Hotel",
+      "location": "Comporta, Portugal",
+      "priceReference": "from 235€/night",
+      "instagramPostUrl": "https://www.instagram.com/p/C3PhK6HsEWp/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "instagram-sublimecomporta",
+      "name": "@sublimecomporta",
+      "publicUrl": null,
+      "portfolioUrls": [],
+      "instagramHandle": "@sublimecomporta",
+      "category": "Luxury Hotel",
+      "location": "Comporta, Portugal",
+      "priceReference": "from 225€/night",
+      "instagramPostUrl": "https://www.instagram.com/reel/C3HvT-fs7tp/",
+      "source": "embedded Instagram feed",
+      "imageReferenceUrls": [],
+      "publicPageReachable": false
+    },
+    {
+      "slug": "34-guest-house",
+      "name": "34 Guest House",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/34-guest-house/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/34-guest-house/34-guest-house-3/",
+        "https://www.bestportugalhotels.com/en/hotels/34-guest-house/34-guest-house-4/",
+        "https://www.bestportugalhotels.com/en/hotels/34-guest-house/34-guest-house-2/",
+        "https://www.bestportugalhotels.com/en/hotels/34-guest-house/34-guest-house-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/34guest.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx-600x450.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx-300x225.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx-1024x768.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx-768x576.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/coimbraxx-1200x900.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "aqua-village",
+      "name": "Aqua Village - Oliveira do Hospital",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/aqua-village/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/aqua-village/aqua-village-2/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Aqua Village as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-600x379.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-300x189.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-1024x646.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-768x485.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-16x10.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/115897554-1200x758.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "casa-melo-alvim",
+      "name": "Casa Melo Alvim",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/casa-melo-alvim/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/casa-melo-alvim/casa-melo-alvim-2/",
+        "https://www.bestportugalhotels.com/en/hotels/casa-melo-alvim/casa-melo-alvim-3/",
+        "https://www.bestportugalhotels.com/en/hotels/casa-melo-alvim/casa-melo-alvim-4/",
+        "https://www.bestportugalhotels.com/en/hotels/casa-melo-alvim/casa-melo-alvim-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-600x399.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-1024x681.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-768x511.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-1200x798.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_3651-800x532.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "casas-da-baixa",
+      "name": "Casas da Baixa",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/casas-da-baixa/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/casas-da-baixa/casas-da-baixa-2/",
+        "https://www.bestportugalhotels.com/en/hotels/casas-da-baixa/casas-da-baixa-3/",
+        "https://www.bestportugalhotels.com/en/hotels/casas-da-baixa/casas-da-baixa-4/",
+        "https://www.bestportugalhotels.com/en/hotels/casas-da-baixa/casas-da-baixa-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.07.52.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05-300x201.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05-768x513.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05-800x535.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05-385x257.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/captura-de-ecra-2020-04-16-as-13.08.05-400x267.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "cascade-resort",
+      "name": "Cascade Resort - Algarve",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/cascade-resort/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/cascade-resort/cascade-resort-2/",
+        "https://www.bestportugalhotels.com/en/hotels/cascade-resort/cascade-resort-3/",
+        "https://www.bestportugalhotels.com/en/hotels/cascade-resort/cascade-resort-4/",
+        "https://www.bestportugalhotels.com/en/hotels/cascade-resort/cascade-resort-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "listingSource": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "description": "Discover Cascade Resort as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal-.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--1024x684.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--768x513.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--1200x802.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--800x534.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/foto-principal--385x257.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "chafariz-del-rei",
+      "name": "Chafariz D'El Rei",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/chafariz-del-rei/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/chafariz-del-rei/chafariz-del-rei-2/",
+        "https://www.bestportugalhotels.com/en/hotels/chafariz-del-rei/chafariz-del-rei-3/",
+        "https://www.bestportugalhotels.com/en/hotels/chafariz-del-rei/chafariz-del-rei-4/",
+        "https://www.bestportugalhotels.com/en/hotels/chafariz-del-rei/chafariz-del-rei-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-600x399.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-1024x681.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-768x511.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-1200x798.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/2-1-800x532.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "cooking-nature",
+      "name": "Cooking & Nature",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/cooking-nature/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/cooking-nature/cooking-nature-2/",
+        "https://www.bestportugalhotels.com/en/hotels/cooking-nature/cooking-nature-4/",
+        "https://www.bestportugalhotels.com/en/hotels/cooking-nature/cooking-nature-3/",
+        "https://www.bestportugalhotels.com/en/hotels/cooking-nature/cooking-nature-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/cooking.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/the-nest-5-1200x800.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "dautor-apartments",
+      "name": "D'Autor Apartments",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/dautor-apartments/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/dautor-apartments/dautor-4/",
+        "https://www.bestportugalhotels.com/en/hotels/dautor-apartments/dautor-2/",
+        "https://www.bestportugalhotels.com/en/hotels/dautor-apartments/dautor-3/",
+        "https://www.bestportugalhotels.com/en/hotels/dautor-apartments/dautor-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover D'Autor Apartments as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/6.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12-18x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/image-12-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "figueira",
+      "name": "Figueira by The Beautique Hotels",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/figueira/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/figueira/figueira-tbh-2/",
+        "https://www.bestportugalhotels.com/en/hotels/figueira/figueira-tbh-3/",
+        "https://www.bestportugalhotels.com/en/hotels/figueira/figueira-tbh-4/",
+        "https://www.bestportugalhotels.com/en/hotels/figueira/figueira-tbh-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Figueira by The Beautique Hotels as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/fig-by-tbh_detalhe-alcatifa.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586-300x169.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586-1024x576.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586-768x432.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586-16x9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586-1200x675.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/figueira-by-the-beautique-hotels-gallery40-_dsf6586-800x450.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "herdade-matinha",
+      "name": "Herdade da Matinha",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/herdade-matinha/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/herdade-matinha/herdade-matinha-2/",
+        "https://www.bestportugalhotels.com/en/hotels/herdade-matinha/herdade-matinha-2-2/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-600x351.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-300x175.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-1024x599.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-768x449.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-16x9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/herdade-da-matinha-1200x702.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "hotel-da-estrela",
+      "name": "Hotel da Estrela",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/hotel-da-estrela/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/hotel-da-estrela/hotel-da-estrela-4/",
+        "https://www.bestportugalhotels.com/en/hotels/hotel-da-estrela/hotel-da-estrela-2/",
+        "https://www.bestportugalhotels.com/en/hotels/hotel-da-estrela/hotel-da-estrela-3/",
+        "https://www.bestportugalhotels.com/en/hotels/hotel-da-estrela/hotel-da-estrela-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/estrela.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2-600x399.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2-1024x681.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2-768x511.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_5968-2-1200x798.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "lamego-hotel-life",
+      "name": "Lamego Hotel & Life",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/lamego-hotel-life/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/lamego-hotel-life/lamego-hotel-life-2/",
+        "https://www.bestportugalhotels.com/en/hotels/lamego-hotel-life/lamego-hotel-life-3/",
+        "https://www.bestportugalhotels.com/en/hotels/lamego-hotel-life/lamego-hotel-life-4/",
+        "https://www.bestportugalhotels.com/en/hotels/lamego-hotel-life/lamego-hotel-life-5/",
+        "https://www.bestportugalhotels.com/en/hotels/lamego-hotel-life/lamego-hotel-life-6/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Lamego Hotel & Life as one of the Best Hotels in Portugal. Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/1926-bar-3.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559-269x300.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559-918x1024.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559-768x857.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559-11x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559-1200x1339.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/img20211123152559-800x893.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "lux-housing-seculo-xxi",
+      "name": "LUX Housing Século XXI",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/lux-housing-seculo-xxi/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/lux-housing-seculo-xxi/lux-housing-seculo-xxi-3/",
+        "https://www.bestportugalhotels.com/en/hotels/lux-housing-seculo-xxi/lux-housing-seculo-xxi-5/",
+        "https://www.bestportugalhotels.com/en/hotels/lux-housing-seculo-xxi/lux-housing-seculo-xxi-4/",
+        "https://www.bestportugalhotels.com/en/hotels/lux-housing-seculo-xxi/lux-housing-seculo-xxi-2/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover LUX Housing Século XXI as one of the Best Stays in Portugal. Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00002.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2-300x225.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2-1024x768.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2-768x576.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2-1200x900.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/02/image00040-2-800x600.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "madalena",
+      "name": "Madalena by The Beautique Hotels",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/madalena/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/madalena/madalena-tbh-2/",
+        "https://www.bestportugalhotels.com/en/hotels/madalena/madalena-tbh-4/",
+        "https://www.bestportugalhotels.com/en/hotels/madalena/madalena-tbh-3/",
+        "https://www.bestportugalhotels.com/en/hotels/madalena/madalena-tbh-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Madalena by The Beautique Hotels as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-tbh-fachada.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_-300x169.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_-1024x576.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_-768x432.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_-16x9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_-1200x675.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/madalena-by-the-beautique-hotels-rnet-8835-gallery_mad9913.hr_-800x450.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "memmo-alfama",
+      "name": "Memmo Alfama",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/memmo-alfama/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/memmo-alfama/memmo-alfama-2/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-alfama/memmo-alfama-3/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-alfama/memmo-alfama-4/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-alfama/memmo-alfama-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-600x338.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-300x169.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-1024x576.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-768x432.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-16x9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-1200x675.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/01-ma-terrace-1-800x450.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "memmo-baleeira",
+      "name": "Memmo Baleeira",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/memmo-baleeira/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/memmo-baleeira/memmo-baleeira/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-baleeira/memmo-baleeira-3/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-baleeira/memmo-baleeira-4/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-baleeira/memmo-baleeira-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/002_memmobaleeira_outdoorpool-1-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "memmo-principe-real",
+      "name": "Memmo Principe Real - Lisboa",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/memmo-principe-real/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/memmo-principe-real/memmo-principe-real-2/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-principe-real/memmo-principe-real-4/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-principe-real/memmo-principe-real-3/",
+        "https://www.bestportugalhotels.com/en/hotels/memmo-principe-real/memmo-principe-real-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Memmo Principe Real as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/memmo_pr20190704_nunomarcelino0044-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "monte-santo-resort",
+      "name": "Monte Santo Resort - Algarve",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/monte-santo-resort/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/monte-santo-resort/monte-santo-resort-2/",
+        "https://www.bestportugalhotels.com/en/hotels/monte-santo-resort/monte-santo-resort-3/",
+        "https://www.bestportugalhotels.com/en/hotels/monte-santo-resort/monte-santo-resort-4/",
+        "https://www.bestportugalhotels.com/en/hotels/monte-santo-resort/monte-santo-resort-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Monte Santo Resort as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_almaspa-treatment.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool-300x240.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool-1024x819.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool-768x614.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool-1200x960.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/msr_outdoor-pool-800x640.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "monverde-wine-hotel",
+      "name": "Monverde Wine Experience Hotel",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/monverde-wine-hotel/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/monverde-wine-hotel/monverde-wine-hotel-2/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Monverde Wine Experience Hotel as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-600x616.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-292x300.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-997x1024.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-768x789.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-12x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/010-1200x1233.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "morgado-do-quintao",
+      "name": "Morgado do Quintão - Algarve",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/morgado-do-quintao/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/morgado-do-quintao/morgado-do-quintao-2/",
+        "https://www.bestportugalhotels.com/en/hotels/morgado-do-quintao/morgado-do-quintao-3/",
+        "https://www.bestportugalhotels.com/en/hotels/morgado-do-quintao/morgado-do-quintao-4/",
+        "https://www.bestportugalhotels.com/en/hotels/morgado-do-quintao/morgado-do-quintao-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "listingSource": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "description": "Discover Morgado do Quintão as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/a-mesa.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house-768x513.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house-1200x801.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/05/the-almond-house-800x534.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "naturarte",
+      "name": "Naturarte",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/naturarte/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/naturarte/naturarte-2/",
+        "https://www.bestportugalhotels.com/en/hotels/naturarte/naturarte-3/",
+        "https://www.bestportugalhotels.com/en/hotels/naturarte/naturarte-4/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Naturarte as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-800x533.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-385x257.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/9-400x267.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "next-hotel",
+      "name": "NEXT HOTEL",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/next-hotel/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/next-hotel/next-hotel-2/",
+        "https://www.bestportugalhotels.com/en/hotels/next-hotel/next-hotel-3/",
+        "https://www.bestportugalhotels.com/en/hotels/next-hotel/next-hotel-4/",
+        "https://www.bestportugalhotels.com/en/hotels/next-hotel/next-hotel-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "listingSource": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "description": "Discover NEXT Hotel as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7-18x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/10/2-salt-water-pool-7-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "ohai-nazare",
+      "name": "Ohai Nazaré - Exclusive Deals",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/ohai-nazare/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/ohai-nazare/ohai-nazare-2/",
+        "https://www.bestportugalhotels.com/en/hotels/ohai-nazare/ohai-nazare-4/",
+        "https://www.bestportugalhotels.com/en/hotels/ohai-nazare/ohai-nazare/",
+        "https://www.bestportugalhotels.com/en/hotels/ohai-nazare/ohai-nazare-3/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Ohai Nazaré as one of The Best Hotels in Portugal, and Sign Up to exclusive Deals with our BPH Card! Get inspired and amazed.",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-600x450.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-300x225.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-1024x768.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-768x576.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/ohai-800x600.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "praia-do-canal",
+      "name": "Praia do Canal",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/praia-do-canal/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-canal/praia-do-canal-2/",
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-canal/praia-do-canal-3/",
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-canal/praia-do-canal-4/",
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-canal/praia-do-canal-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Praia do Canal as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/329538662.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938-18x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/hs408938-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "praia-do-sal-resort",
+      "name": "Praia do Sal Resort",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/praia-do-sal-resort/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-sal-resort/praia-do-sal-resort-4/",
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-sal-resort/praia-do-sal-resort-3/",
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-sal-resort/praia-do-sal-resort-2/",
+        "https://www.bestportugalhotels.com/en/hotels/praia-do-sal-resort/praia-do-sal-resort-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/praiasal-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "quinta-bonita",
+      "name": "Quinta Bonita",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/quinta-bonita/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/quinta-bonita/quinta-bonita-2/",
+        "https://www.bestportugalhotels.com/en/hotels/quinta-bonita/quinta-bonita-3/",
+        "https://www.bestportugalhotels.com/en/hotels/quinta-bonita/quinta-bonita-4/",
+        "https://www.bestportugalhotels.com/en/hotels/quinta-bonita/quinta-bonita-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/bonita.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259-1024x682.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259-768x511.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/dji_0259-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "quinta-de-santana",
+      "name": "Quinta de Sant'Ana - Mafra",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/quinta-de-santana/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/quinta-de-santana/quinta-de-santana-3/",
+        "https://www.bestportugalhotels.com/en/hotels/quinta-de-santana/quinta-de-santana-4/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Quinta de Sant'Ana as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/santana.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/03/alexabbey_2018-12-1200x800.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "s-bento-residences",
+      "name": "S. Bento Residences",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/s-bento-residences/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/s-bento-residences/s-bento-residences-2/",
+        "https://www.bestportugalhotels.com/en/hotels/s-bento-residences/s-bento-residences-3/",
+        "https://www.bestportugalhotels.com/en/hotels/s-bento-residences/s-bento-residences-4/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/img_7965-e-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "saccharum",
+      "name": "Saccharum Resort",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/saccharum/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/saccharum/saccharum-2/",
+        "https://www.bestportugalhotels.com/en/hotels/saccharum/saccharum-3/",
+        "https://www.bestportugalhotels.com/en/hotels/saccharum/saccharum-4/",
+        "https://www.bestportugalhotels.com/en/hotels/saccharum/saccharum-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/saccharum.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1-768x513.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/1-fachada-saccharum-3-1-1200x801.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "salvaterracountryhouse",
+      "name": "Salvaterra Country House",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/salvaterracountryhouse/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/salvaterracountryhouse/salvaterracountryhouse-1/",
+        "https://www.bestportugalhotels.com/en/hotels/salvaterracountryhouse/salvaterra-country-house-2/",
+        "https://www.bestportugalhotels.com/en/hotels/salvaterracountryhouse/salvaterra-country-house-3/",
+        "https://www.bestportugalhotels.com/en/hotels/salvaterracountryhouse/salvaterra-country-house-4/",
+        "https://www.bestportugalhotels.com/en/hotels/salvaterracountryhouse/salvaterra-country-house-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "listingSource": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-600x379.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-300x189.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-1024x646.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-768x485.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-16x10.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-1200x758.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/salvaterra-country-house_025-1-800x505.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "savoy-palace",
+      "name": "Savoy Palace - Madeira",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/savoy-palace/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/savoy-palace/savoy-palace-2/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Savoy Palace as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/6-swimming-pool-1200x800.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "sobreiras-hotel",
+      "name": "Sobreiras Hotel",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/sobreiras-hotel/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/sobreiras-hotel/sobreiras-hotel-2/",
+        "https://www.bestportugalhotels.com/en/hotels/sobreiras-hotel/sobreiras-hotel-3/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/sobreiras-alentejo-country-hotel-1200x800.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "terra-rosa-country-house",
+      "name": "TERRA ROSA Country House & Vineyards",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/terra-rosa-country-house/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/terra-rosa-country-house/terra-rosa-5/",
+        "https://www.bestportugalhotels.com/en/hotels/terra-rosa-country-house/terra-rosa-2/",
+        "https://www.bestportugalhotels.com/en/hotels/terra-rosa-country-house/terra-rosa-4/",
+        "https://www.bestportugalhotels.com/en/hotels/terra-rosa-country-house/terra-rosa-3/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover TERRA ROSA Country House as one of the Best Hotels in Portugal. Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-18x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-800x533.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2022/01/1-2-385x257.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "the-addresses",
+      "name": "The Addresses - Algarve",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/the-addresses/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/the-addresses/the-addresses-2/",
+        "https://www.bestportugalhotels.com/en/hotels/the-addresses/the-addresses-4/",
+        "https://www.bestportugalhotels.com/en/hotels/the-addresses/the-addresses-3/",
+        "https://www.bestportugalhotels.com/en/hotels/the-addresses/the-addresses-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover The Addresses (Casa Um + Casa Dois) as one of the Best Hotels in Portugal, and Sign Up to Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-300x160.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-1024x547.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-768x410.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-16x9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-1200x641.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-800x427.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/07/2-theaddresses1511-1-385x206.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "the-noble-house",
+      "name": "The Noble House",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/the-noble-house/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/the-noble-house/the-noble-house-2/",
+        "https://www.bestportugalhotels.com/en/hotels/the-noble-house/the-noble-house-3/",
+        "https://www.bestportugalhotels.com/en/hotels/the-noble-house/the-noble-house-4/",
+        "https://www.bestportugalhotels.com/en/hotels/the-noble-house/the-noble-house-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-600x399.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-1024x681.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-768x511.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-1200x798.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/psr_4211-800x532.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "torel-1884",
+      "name": "Torel 1884 Suites & Apartments",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/torel-1884/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/torel-1884/torel-1884-2/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-1884/torel-1884-4/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-1884/torel-1884-3/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-1884/torel-1884-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-800x533.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-1-1-385x257.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "torel-avantgarde",
+      "name": "Torel Avantgarde",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/torel-avantgarde/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/torel-avantgarde/torel-avantgarde-2/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-avantgarde/torel-avantgarde-3/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-avantgarde/torel-avantgarde-4/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-avantgarde/torel-avantgarde-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-area.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/flower-room-800x534.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "torel-palace-lisboa",
+      "name": "Torel Palace Lisboa",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/torel-palace-lisboa/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-lisboa/torel-palace-lisboa-2/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-lisboa/torel-palace-lisboa-3/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-lisboa/torel-palace-lisboa-4/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-lisboa/torel-palace-lisboa-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/apartamentos-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8-300x153.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8-1024x521.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8-768x391.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8-16x8.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8-1200x610.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/outdoor-8-800x407.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "torel-palace-porto",
+      "name": "Torel Palace Porto - Oporto",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/torel-palace-porto/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-porto/torel-palace-porto-2/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-porto/torel-palace-porto-3/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-porto/torel-palace-porto-4/",
+        "https://www.bestportugalhotels.com/en/hotels/torel-palace-porto/torel-palace-porto-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Torel Palace Porto as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-800x533.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/common-areas-2-385x257.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "upon-lisbon",
+      "name": "Upon Lisbon",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/upon-lisbon/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/upon-lisbon/upon-lisbon-2/",
+        "https://www.bestportugalhotels.com/en/hotels/upon-lisbon/upon-lisbon-4/",
+        "https://www.bestportugalhotels.com/en/hotels/upon-lisbon/upon-lisbon-3/",
+        "https://www.bestportugalhotels.com/en/hotels/upon-lisbon/upon-lisbon-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-1200x801.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/04/upon-800x534.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "vale-do-rio",
+      "name": "Vale do Rio - Palmaz",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/vale-do-rio/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/vale-do-rio/vale-do-rio-5-2/",
+        "https://www.bestportugalhotels.com/en/hotels/vale-do-rio/vale-do-rio-2/",
+        "https://www.bestportugalhotels.com/en/hotels/vale-do-rio/vale-do-rio-5/",
+        "https://www.bestportugalhotels.com/en/hotels/vale-do-rio/vale-do-rio-4/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": "Discover Vale do Rio as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Exclusive Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dji_0013_4_5hdr.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/06/dsc04617_8_9-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "villa-margaridi",
+      "name": "Villa Margaridi",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/villa-margaridi/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/villa-margaridi/villa-margaridi-2/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/margaridi.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1-1536x1024.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/3-1-16x12.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "villa-termal-caldas-monchique",
+      "name": "Villa Termal Caldas Monchique",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/villa-termal-caldas-monchique/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/villa-termal-caldas-monchique/villa-termal-caldas-monchique-2/",
+        "https://www.bestportugalhotels.com/en/hotels/villa-termal-caldas-monchique/villa-termal-caldas-monchique-3/",
+        "https://www.bestportugalhotels.com/en/hotels/villa-termal-caldas-monchique/villa-termal-caldas-monchique-4/",
+        "https://www.bestportugalhotels.com/en/hotels/villa-termal-caldas-monchique/villa-termal-caldas-monchique-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/mies_portfolio-sitemap.xml",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-600x392.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-300x196.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-768x502.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-16x10.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-800x523.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-385x252.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/pequeno-almoco-6-1-400x261.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "wc-hotel",
+      "name": "WC by The Beautique Hotels",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/wc-hotel/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/wc-hotel/wc-hotel-thb-4/",
+        "https://www.bestportugalhotels.com/en/hotels/wc-hotel/wc-hotel-thb-3/",
+        "https://www.bestportugalhotels.com/en/hotels/wc-hotel/wc-hotel-by-thb-2/",
+        "https://www.bestportugalhotels.com/en/hotels/wc-hotel/wc-hotel-thb-5/"
+      ],
+      "source": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "listingSource": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "description": "Discover WC by The Beautique Hotels as one of the Best Hotels in Portugal, and Sign Up to exclusive Deals and Offers with our BPH Card!",
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/dsc_0034.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao-1024x682.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao-1200x800.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/08/wc-by-tbh-rececao-800x533.jpg"
+      ],
+      "publicPageReachable": true
+    },
+    {
+      "slug": "white-exclusive-suites",
+      "name": "WHITE Exclusive Suites & Villa",
+      "publicUrl": "https://www.bestportugalhotels.com/en/hotels/white-exclusive-suites/",
+      "portfolioUrls": [
+        "https://www.bestportugalhotels.com/en/hotels/white-exclusive-suites/white-exclusive-suites-2/",
+        "https://www.bestportugalhotels.com/en/hotels/white-exclusive-suites/white-exclusive-suites-3/",
+        "https://www.bestportugalhotels.com/en/hotels/white-exclusive-suites/white-exclusive-suites-2-2/",
+        "https://www.bestportugalhotels.com/en/hotels/white-exclusive-suites/white-exclusive-suites-4/"
+      ],
+      "source": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "listingSource": "https://www.bestportugalhotels.com/en/hotels-x/",
+      "description": null,
+      "imageReferenceUrls": [
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-2.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1-600x400.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1-300x200.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1-1024x683.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1-768x512.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1-16x12.jpg",
+        "https://www.bestportugalhotels.com/wp-content/uploads/2021/02/lf_white-49-1-1200x800.jpg"
+      ],
+      "publicPageReachable": true
+    }
+  ]
+}
