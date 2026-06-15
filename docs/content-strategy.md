@@ -4,7 +4,8 @@
 
 - Instagram: <https://www.instagram.com/bestportugalhotels_/>
 - Website/feed publico associado: <https://www.bestportugalhotels.com/en/>
-- Seed extraida: [`data/reference/bestportugalhotels-instagram.json`](../data/reference/bestportugalhotels-instagram.json)
+- Seed Instagram extraida: [`data/reference/bestportugalhotels-instagram.json`](../data/reference/bestportugalhotels-instagram.json)
+- Leads publicos extraidos: [`data/reference/bestportugalhotels-public-leads.json`](../data/reference/bestportugalhotels-public-leads.json)
 
 Esta conta deve servir como referencia visual e editorial para o tipo de
 alojamentos a mapear quando forem criadas as listas e fichas do Quase.pt.
@@ -21,13 +22,16 @@ Notas importantes:
 ## Crawl inicial
 
 O Instagram directo nao devolve dados completos sem login e pode aplicar rate
-limits. O primeiro crawler usa apenas o feed publico embebido no site
-`bestportugalhotels.com`, que neste momento expõe 8 posts recentes.
+limits. O crawler usa apenas fontes publicas:
+
+- feed publico embebido no site `bestportugalhotels.com`;
+- pagina publica de hoteis;
+- sitemap publico de portfolio/hoteis.
 
 Comando:
 
 ```bash
-npm run crawl:bph-instagram
+npm run crawl:bph-public
 ```
 
 Campos guardados:
@@ -38,6 +42,8 @@ Campos guardados:
 - categoria indicada;
 - localizacao indicada;
 - preco de referencia quando existe;
+- URL publico da ficha no Best Portugal Hotels quando existe;
+- URLs de portfolio publico quando existem;
 - URL de imagem apenas como referencia;
 - legenda apenas como referencia.
 

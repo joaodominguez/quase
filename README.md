@@ -89,13 +89,18 @@ em [`docs/content-strategy.md`](docs/content-strategy.md).
 Existe tambem um crawler de referencia para a conta/website Best Portugal Hotels:
 
 ```bash
-npm run crawl:bph-instagram
+npm run crawl:bph-public
 ```
 
-O resultado fica em
-[`data/reference/bestportugalhotels-instagram.json`](data/reference/bestportugalhotels-instagram.json).
-Este ficheiro deve ser usado apenas para pesquisa editorial; imagens, captions e
-dados devem ser confirmados nas fontes oficiais antes de publicar.
+Os resultados ficam em:
+
+- [`data/reference/bestportugalhotels-instagram.json`](data/reference/bestportugalhotels-instagram.json)
+- [`data/reference/bestportugalhotels-public-leads.json`](data/reference/bestportugalhotels-public-leads.json)
+
+O comando antigo `npm run crawl:bph-instagram` continua disponivel e aponta para
+o mesmo crawler. O resultado deve ser usado apenas para pesquisa editorial;
+imagens, captions e dados devem ser confirmados nas fontes oficiais antes de
+publicar.
 
 ## Backoffice
 

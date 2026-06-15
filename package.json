@@ -11,7 +11,8 @@
     "build": "next build",
     "deploy": "npm run build && ./scripts/deploy.sh",
     "deploy:backoffice": "./scripts/deploy-backoffice.sh",
-    "crawl:bph-instagram": "node scripts/crawl-bph-instagram.mjs"
+    "crawl:bph-instagram": "node scripts/crawl-bph-instagram.mjs",
+    "crawl:bph-public": "node scripts/crawl-bph-instagram.mjs"
   },
   "repository": {
     "type": "git",
