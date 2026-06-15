@@ -73,3 +73,10 @@ de reserva reais, adicionar:
 
 As referencias editoriais e criterios para futuras listas de alojamentos estao
 em [`docs/content-strategy.md`](docs/content-strategy.md).
+
+## Backoffice
+
+O plano recomendado para gerir reviews, alojamentos, fotos e links afiliados
+esta em [`docs/backoffice-plan.md`](docs/backoffice-plan.md). A proposta inicial
+e um backoffice simples em PHP 8.3 + SQLite, com base de dados e configuracao
+fora da web root.
