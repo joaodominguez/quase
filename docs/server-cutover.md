@@ -10,15 +10,18 @@ Em 2026-06-15, o dominio `quase.pt` ainda nao serve o novo projecto:
 - a resposta HTTPS inclui `X-Redirect-By: WordPress`, o que indica que o
   redireccionamento esta a ser feito pela configuracao/site WordPress no origin;
 - o origin responde como `Apache/2.4.58 (Ubuntu)`.
+- no servidor, a pasta correcta e `/var/www/quase`;
+- nao existe vhost Apache para `quase.pt`; o pedido HTTPS esta a cair no
+  primeiro vhost SSL, `airluso.pt`.
 
 Isto significa que a mudanca principal deve ser feita no Apache/site config do
 servidor, nao no DNS do repositorio.
 
 ## Objectivo
 
-- `https://quase.pt/` deve servir os ficheiros estaticos em `/quase`;
+- `https://quase.pt/` deve servir os ficheiros estaticos em `/var/www/quase`;
 - `https://quase.pt/mundial/` deve continuar a servir o projecto existente em
-  `/quase/mundial/`;
+  `/var/www/quase/mundial/`;
 - o redireccionamento para `www.airluso.pt` deve deixar de acontecer para
   `quase.pt`.
 
@@ -31,15 +34,17 @@ servidor, nao no DNS do repositorio.
    cp -a /etc/apache2/sites-enabled /root/apache-sites-enabled.backup.$(date +%Y%m%d%H%M%S)
    ```
 
-2. Publicar os ficheiros do repositorio em `/quase`, excluindo sempre
-   `/mundial/`:
+2. Publicar os ficheiros publicos do repositorio em `/var/www/quase`, sem
+   sincronizar a pasta `/mundial/`:
 
    ```bash
-   rsync -avz --delete \
-     --exclude "/.git/" \
-     --exclude "/scripts/" \
-     --exclude "/mundial/" \
-     ./ root@91.99.167.243:/quase/
+   rsync -avz \
+     index.html \
+     styles.css \
+     script.js \
+     robots.txt \
+     sitemap.xml \
+     root@91.99.167.243:/var/www/quase/
    ```
 
 3. Criar/actualizar o virtual host de `quase.pt` a partir de:
@@ -87,7 +92,7 @@ servidor, nao no DNS do repositorio.
    ```
 
    Desactivar apenas a regra/vhost antigo que associa `quase.pt` ao WordPress
-   do Airluso. Nao alterar a pasta `/quase/mundial/`.
+   do Airluso. Nao alterar a pasta `/var/www/quase/mundial/`.
 
 7. Purgar cache no Cloudflare se o comportamento antigo ficar em cache.
 

@@ -20,23 +20,26 @@ Nginx, Apache, Caddy ou outro servidor estatico.
 
 ## Deploy para o servidor
 
-O projecto deve ficar na raiz publica de `quase.pt`, dentro da pasta `/quase`
-do servidor.
+O projecto deve ficar na raiz publica de `quase.pt`, dentro da pasta
+`/var/www/quase` do servidor.
 
 Importante:
 
-- a pasta `/quase/mundial/` ja existe e pertence a outro subprojecto;
+- a pasta `/var/www/quase/mundial/` ja existe e pertence a outro subprojecto;
 - nao apagar, mover, substituir ou sincronizar essa pasta;
 - qualquer deploy por `rsync` deve excluir explicitamente `/mundial/`.
 
-Exemplo seguro de sincronizacao a partir da raiz deste repositorio:
+Exemplo seguro de sincronizacao a partir da raiz deste repositorio, enviando
+apenas os ficheiros publicos do site:
 
 ```bash
-rsync -avz --delete \
-  --exclude "/.git/" \
-  --exclude "/scripts/" \
-  --exclude "/mundial/" \
-  ./ root@91.99.167.243:/quase/
+rsync -avz \
+  index.html \
+  styles.css \
+  script.js \
+  robots.txt \
+  sitemap.xml \
+  root@91.99.167.243:/var/www/quase/
 ```
 
 Tambem existe um script equivalente:
@@ -45,7 +48,7 @@ Tambem existe um script equivalente:
 ./scripts/deploy.sh
 ```
 
-Se o servidor web apontar directamente para `/quase`, a rota
+Se o servidor web apontar directamente para `/var/www/quase`, a rota
 `https://quase.pt/mundial/` continuara a funcionar desde que a pasta existente
 seja mantida intacta.
 
