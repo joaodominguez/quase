@@ -9,6 +9,7 @@ hoteis, turismo rural e pequenos projectos independentes.
 ```text
 .
 ├── app/
+├── backoffice/
 ├── data/
 ├── public/
 ├── styles.css
@@ -87,7 +88,18 @@ em [`docs/content-strategy.md`](docs/content-strategy.md).
 
 ## Backoffice
 
-O plano recomendado para gerir reviews, alojamentos, fotos e links afiliados
-esta em [`docs/backoffice-plan.md`](docs/backoffice-plan.md). A proposta inicial
-e um backoffice simples em PHP 8.3 + SQLite, com base de dados e configuracao
-fora da web root.
+O backoffice para gerir reviews, alojamentos, fotos e links afiliados vive em
+[`backoffice/`](backoffice/) e usa Laravel + Filament. A arquitectura e notas de
+deploy estao em [`docs/backoffice-plan.md`](docs/backoffice-plan.md).
+
+Em desenvolvimento:
+
+```bash
+cd backoffice
+composer install
+php artisan migrate
+php artisan serve
+```
+
+Em producao, o backoffice fica em `/var/www/quase-backoffice` e e servido em
+`https://quase.pt/admin`.

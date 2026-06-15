@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "npm run build && ./scripts/deploy.sh"
+    "deploy": "npm run build && ./scripts/deploy.sh",
+    "deploy:backoffice": "./scripts/deploy-backoffice.sh"
   },
   "repository": {
     "type": "git",

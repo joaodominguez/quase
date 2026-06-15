@@ -31,6 +31,10 @@ Em 2026-06-15, o cutover foi aplicado no servidor:
 - `https://quase.pt/` passou a responder `200 OK`;
 - `https://mundial.quase.pt/` continuou a responder `200 OK`.
 
+O backoffice Laravel + Filament deve ficar em `/var/www/quase-backoffice` e ser
+servido em `https://quase.pt/admin`, com aliases Apache para `/admin`,
+`/livewire` e assets Filament.
+
 ## Objectivo
 
 - `https://quase.pt/` deve servir os ficheiros estaticos em `/var/www/quase`;
@@ -129,6 +133,7 @@ Depois:
 ```bash
 curl -I https://quase.pt/
 curl -I https://quase.pt/mundial/
+curl -I https://quase.pt/admin
 ```
 
 Resultado esperado para a raiz:

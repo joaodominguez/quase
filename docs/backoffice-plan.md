@@ -2,15 +2,16 @@
 
 ## Decisao recomendada
 
-Criar um backoffice proprio, simples, em **PHP 8.3 + SQLite**, alojado no mesmo
-servidor Apache, e manter o **frontend publico em Next.js**.
+Criar o backoffice em **Laravel + Filament**, mantendo o **frontend publico em
+Next.js**.
 
 Motivos:
 
 - o servidor ja tem PHP 8.3, `pdo_sqlite`, `sqlite3`, `gd`, `fileinfo` e MySQL;
-- nao obriga a Node, Docker, Strapi, Directus ou WordPress nesta fase;
-- e suficiente para gerir reviews, fotos, estados de publicacao e links
-  afiliados;
+- Filament da-nos CRUD, login, tabelas, filtros, uploads e formularios ricos sem
+  construir tudo de raiz;
+- e adequado para gerir muitos alojamentos/reviews como a referencia do
+  Instagram;
 - permite manter o site publico Next.js leve, rapido e exportavel como estatico;
 - nao mexe no projecto existente em `/var/www/quase/mundial`.
 
@@ -22,42 +23,40 @@ Motivos:
   _next/
   uploads/
     stays/
-      2026/
-        nome-do-alojamento/
-  admin/
-    index.php
-    login.php
-    stays.php
-    stay-edit.php
-    media.php
-    logout.php
+  mundial/
+
+/var/www/quase-backoffice/
+  app/
+  bootstrap/
+  config/
+  database/
+  public/
+  resources/
+  routes/
+  storage/
+  vendor/
 
 /var/www/quase-data/
   quase.sqlite
-
-/var/www/quase-private/
-  config.php
 ```
 
 Notas:
 
 - `uploads/` fica publico para servir imagens no site;
 - a base de dados fica fora da web root em `/var/www/quase-data`;
-- segredos e hash da password ficam fora da web root em
-  `/var/www/quase-private/config.php`;
+- segredos ficam no `.env` de `/var/www/quase-backoffice`, que nao e commitado;
+- o backoffice e servido em `https://quase.pt/admin`;
 - `/var/www/quase/mundial` continua intocado.
 
 ## Autenticacao
 
 MVP:
 
-- login em `/admin/`;
-- sessao PHP;
-- password guardada apenas como `password_hash`;
-- `config.php` fora da web root;
-- `SameSite=Lax`, `HttpOnly` e `Secure` nos cookies;
-- logout manual;
-- proteccao CSRF em formularios.
+- login Filament em `/admin`;
+- utilizadores Laravel;
+- passwords com hash Laravel;
+- sessoes e CSRF geridos por Laravel;
+- restricao opcional por dominio de email com `QUASE_ADMIN_EMAIL_DOMAIN`.
 
 Mais tarde:
 
@@ -84,16 +83,15 @@ CREATE TABLE stays (
   excerpt TEXT,
   review_body TEXT,
   ideal_for TEXT,
-  highlights_json TEXT,
-  practical_json TEXT,
+  highlights JSON,
+  practical JSON,
   price_range TEXT,
   official_url TEXT,
   affiliate_url TEXT,
   booking_url TEXT,
-  cover_image_id INTEGER,
   seo_title TEXT,
   seo_description TEXT,
-  published_at TEXT,
+  published_at TIMESTAMP,
   created_at TEXT NOT NULL,
   updated_at TEXT NOT NULL
 );
@@ -121,22 +119,7 @@ CREATE TABLE stay_images (
 );
 ```
 
-### `regions`
-
-Opcional no MVP, util quando a lista crescer.
-
-```sql
-CREATE TABLE regions (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  slug TEXT NOT NULL UNIQUE,
-  name TEXT NOT NULL,
-  intro TEXT,
-  seo_title TEXT,
-  seo_description TEXT
-);
-```
-
-### `collections`
+### Futuro: `regions` e `collections`
 
 Para paginas como "Herdades no Alentejo", "Boutique hoteis no Douro",
 "Escapadinhas romanticas" ou "Perto do mar".
@@ -201,15 +184,14 @@ Cada ficha deve permitir editar:
 
 Regras:
 
-- aceitar apenas `jpg`, `jpeg`, `png`, `webp`;
-- validar MIME real com `fileinfo`;
-- limitar tamanho por upload;
-- gerar nome seguro, sem depender do nome original;
-- guardar por ano e slug:
+- upload via Filament `FileUpload`;
+- guardar no disk `stays`, que aponta para `/var/www/quase/uploads`;
+- aceitar imagens;
+- guardar caminho em `stay_images.path`;
+- completar `alt_text`, `credit` e `sort_order` por imagem.
 
 ```text
-/uploads/stays/2026/herdade-exemplo/cover.webp
-/uploads/stays/2026/herdade-exemplo/01.webp
+/uploads/stays/nome-da-imagem.webp
 ```
 
 Fase seguinte:
@@ -273,20 +255,23 @@ crescer em numero de reviews sem exigir um processo Node permanente.
 
 ## Seguranca minima antes de publicar o admin
 
-- criar `/admin/` apenas depois de existir password forte;
-- guardar config fora de `/var/www/quase`;
+- criar o primeiro utilizador Filament apenas com password forte;
+- manter `.env` fora do repositorio;
 - nao commitar passwords;
-- CSRF em todos os formularios;
-- validar uploads por MIME e extensao;
-- limitar tipos e tamanho de imagem;
-- escapar todo o output HTML;
+- usar `APP_ENV=production` e `APP_DEBUG=false`;
+- usar `APP_URL=https://quase.pt/admin`;
+- definir `ASSET_URL=/admin` se necessario para assets sob o alias Apache;
+- manter `DB_DATABASE=/var/www/quase-data/quase.sqlite`;
+- manter `STAYS_UPLOADS_PATH=/var/www/quase/uploads`;
+- deixar Laravel/Filament gerir sessoes e CSRF;
 - preparar backups da SQLite;
 - restringir permissões:
 
 ```bash
-chown -R root:www-data /var/www/quase/admin
+chown -R root:www-data /var/www/quase-backoffice
+chown -R www-data:www-data /var/www/quase-backoffice/storage /var/www/quase-backoffice/bootstrap/cache
 chown -R www-data:www-data /var/www/quase/uploads /var/www/quase-data
-chmod 750 /var/www/quase-data /var/www/quase-private
+chmod 750 /var/www/quase-data
 ```
 
 ## Backups
@@ -297,7 +282,7 @@ Backup diario recomendado:
 tar -czf /root/backups/quase-$(date +%Y%m%d).tar.gz \
   /var/www/quase-data/quase.sqlite \
   /var/www/quase/uploads \
-  /var/www/quase-private/config.php
+  /var/www/quase-backoffice/.env
 ```
 
 ## Fases de implementacao
@@ -307,8 +292,9 @@ tar -czf /root/backups/quase-$(date +%Y%m%d).tar.gz \
 - login/logout;
 - criar/editar/listar alojamentos;
 - upload de capa e galeria;
-- estados `draft` e `published`;
-- API/public listagem simples.
+- estados `draft`, `review`, `published` e `archived`;
+- campos de links oficiais/afiliados/Booking;
+- SEO por alojamento.
 
 ### Fase 2 - Conteudo publico
 
