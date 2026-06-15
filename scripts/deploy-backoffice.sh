@@ -40,6 +40,9 @@ if [ ! -f .env ]; then
   grep -q '^ASSET_URL=' .env || printf '\nASSET_URL=/admin\n' >> .env
   php artisan key:generate --force
 fi
+if ! grep -q '^APP_KEY=base64:' .env; then
+  php artisan key:generate --force
+fi
 php artisan migrate --force
 php artisan filament:assets
 php artisan optimize:clear

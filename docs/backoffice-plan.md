@@ -259,7 +259,7 @@ crescer em numero de reviews sem exigir um processo Node permanente.
 - manter `.env` fora do repositorio;
 - nao commitar passwords;
 - usar `APP_ENV=production` e `APP_DEBUG=false`;
-- usar `APP_URL=https://quase.pt/admin`;
+- usar `APP_URL=https://quase.pt`;
 - definir `ASSET_URL=/admin` se necessario para assets sob o alias Apache;
 - manter `DB_DATABASE=/var/www/quase-data/quase.sqlite`;
 - manter `STAYS_UPLOADS_PATH=/var/www/quase/uploads`;
