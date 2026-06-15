@@ -59,3 +59,8 @@ de reserva reais, adicionar:
 - politica de privacidade;
 - politica de cookies, caso exista tracking/analytics;
 - consentimento RGPD quando necessario.
+
+## Conteudo
+
+As referencias editoriais e criterios para futuras listas de alojamentos estao
+em [`docs/content-strategy.md`](docs/content-strategy.md).
