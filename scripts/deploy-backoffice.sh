@@ -15,13 +15,16 @@ fi
 rsync -avz --delete --chown=root:www-data \
   -e "$SSH_COMMAND" \
   --exclude "/.env" \
+  --exclude "/.phpunit.result.cache" \
   --exclude "/vendor/" \
   --exclude "/node_modules/" \
+  --exclude "/database/database.sqlite" \
   --exclude "/storage/app/" \
   --exclude "/storage/framework/cache/" \
   --exclude "/storage/framework/sessions/" \
   --exclude "/storage/framework/views/" \
   --exclude "/storage/logs/" \
+  --exclude "/bootstrap/cache/*.php" \
   backoffice/ \
   "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}"
 
@@ -29,6 +32,7 @@ $SSH_COMMAND "${REMOTE_USER}@${REMOTE_HOST}" "set -euo pipefail
 mkdir -p /var/www/quase-data /var/www/quase/uploads '${REMOTE_PATH}/storage/app' '${REMOTE_PATH}/storage/framework/cache' '${REMOTE_PATH}/storage/framework/sessions' '${REMOTE_PATH}/storage/framework/views' '${REMOTE_PATH}/storage/logs' '${REMOTE_PATH}/bootstrap/cache'
 touch /var/www/quase-data/quase.sqlite
 cd '${REMOTE_PATH}'
+composer install --no-dev --optimize-autoloader
 if [ ! -f .env ]; then
   cp .env.example .env
   sed -i 's/^APP_ENV=.*/APP_ENV=production/' .env
@@ -36,7 +40,6 @@ if [ ! -f .env ]; then
   grep -q '^ASSET_URL=' .env || printf '\nASSET_URL=/admin\n' >> .env
   php artisan key:generate --force
 fi
-composer install --no-dev --optimize-autoloader
 php artisan migrate --force
 php artisan filament:assets
 php artisan optimize:clear
