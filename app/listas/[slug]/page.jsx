@@ -1,5 +1,5 @@
 import { lists, getList, hotelsForList } from "../../../data/lists";
-import HotelCard from "../../components/HotelCard";
+import ReviewRow from "../../components/ReviewRow";
 
 export function generateStaticParams() {
   return lists.map((list) => ({ slug: list.slug }));
@@ -24,7 +24,7 @@ export default async function ListPage({ params }) {
   const list = getList(slug);
   if (!list) {
     return (
-      <main className="section">
+      <main className="legal">
         <p>Lista nao encontrada.</p>
       </main>
     );
@@ -34,16 +34,18 @@ export default async function ListPage({ params }) {
 
   return (
     <main>
-      <header className="page-hero">
-        <p className="eyebrow">{list.region}</p>
+      <header className="page-intro">
+        <p className="section-label">{list.region}</p>
         <h1>{list.title}</h1>
         <p className="lead">{list.summary}</p>
       </header>
       <section className="section">
-        <div className="hotel-grid">
-          {items.map((hotel, index) => (
-            <HotelCard hotel={hotel} index={index} key={hotel.slug} />
-          ))}
+        <div className="wrap">
+          <div className="review-list">
+            {items.map((hotel) => (
+              <ReviewRow hotel={hotel} key={hotel.slug} />
+            ))}
+          </div>
         </div>
       </section>
     </main>

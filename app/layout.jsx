@@ -9,16 +9,14 @@ export const metadata = {
     template: "%s · Quase",
   },
   description:
-    "Guia de hoteis com SPA e piscina interior em Portugal, Acores e Madeira — para ficar quando queres agua quente, nao so vista.",
-  alternates: {
-    canonical: "/",
-  },
+    "Reviews de hoteis com SPA e piscina interior em Portugal, Acores e Madeira — com preco, quando ir, temperatura e onde reservar.",
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: "https://quase.pt/",
     title: "Quase · SPA e piscinas interiores",
     description:
-      "Hoteis com SPA e piscina interior em Portugal, Acores e Madeira.",
+      "Reviews de SPA e piscinas interiores em Portugal, Acores e Madeira.",
     locale: "pt_PT",
     siteName: "Quase",
   },
