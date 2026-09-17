@@ -11,12 +11,6 @@ export default function ContactPage() {
         Sugestões de hotéis com spa ou piscina interior, parcerias e correções:{" "}
         <a href="mailto:hello@quase.pt">hello@quase.pt</a>
       </p>
-      <p>
-        Instagram:{" "}
-        <a href="https://www.instagram.com/quase.pt" rel="noreferrer" target="_blank">
-          @quase.pt
-        </a>
-      </p>
     </main>
   );
 }
