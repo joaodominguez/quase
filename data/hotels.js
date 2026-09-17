@@ -27,7 +27,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: true,
     tone: "porto",
-    image: "/images/hotels/yeatman.jpg",
+    image: "/images/hotels/yeatman-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -56,7 +56,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "douro",
-    image: "/images/hotels/six-senses.jpg",
+    image: "/images/hotels/six-senses-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -85,7 +85,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "norte",
-    image: "/images/hotels/vidago.jpg",
+    image: "/images/hotels/vidago-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -114,7 +114,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "acores",
-    image: "/images/hotels/octant-furnas.jpg",
+    image: "/images/hotels/octant-furnas-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -143,7 +143,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "acores",
-    image: "/images/hotels/pedras-do-mar.jpg",
+    image: "/images/hotels/pedras-do-mar-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -172,7 +172,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "norte",
-    image: "/images/hotels/gomariz.jpg",
+    image: "/images/hotels/gomariz-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -201,7 +201,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "centro",
-    image: "/images/hotels/areias.jpg",
+    image: "/images/hotels/areias-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -230,7 +230,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "alentejo",
-    image: "/images/hotels/sublime.jpg",
+    image: "/images/hotels/sublime-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -259,7 +259,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "algarve",
-    image: "/images/hotels/longevity.jpg",
+    image: "/images/hotels/longevity-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -288,7 +288,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "madeira",
-    image: "/images/hotels/savoy.jpg",
+    image: "/images/hotels/savoy-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -317,7 +317,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "madeira",
-    image: "/images/hotels/reids.jpg",
+    image: "/images/hotels/reids-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
   {
@@ -347,7 +347,7 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "acores",
-    image: "/images/hotels/terra-nostra.jpg",
+    image: "/images/hotels/terra-nostra-v2.jpg",
     imageCredit: "Imagem ilustrativa (nao oficial)",
   },
 ];

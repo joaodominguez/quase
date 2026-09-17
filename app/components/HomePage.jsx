@@ -17,7 +17,7 @@ export default function HomePage() {
       <section className="hero" aria-label="Quase">
         <div className="hero-media">
           <img
-            src="/images/hero/home.jpg"
+            src="/images/hero/home-v2.jpg"
             alt="Piscina e spa — imagem ilustrativa"
             fetchPriority="high"
           />
