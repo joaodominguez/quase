@@ -1,9 +1,15 @@
 import Link from "next/link";
+import MediaBlock from "./MediaBlock";
 
 export default function ReviewRow({ hotel }) {
   return (
     <Link className="review-row" href={`/ficar/${hotel.slug}/`}>
-      <div className="media media-sm" data-tone={hotel.tone} aria-hidden="true" />
+      <MediaBlock
+        src={hotel.image}
+        alt={`${hotel.name} — imagem ilustrativa`}
+        tone={hotel.tone}
+        size="sm"
+      />
       <div>
         <h3>{hotel.name}</h3>
         <p className="muted">

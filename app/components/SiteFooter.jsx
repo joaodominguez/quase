@@ -32,7 +32,8 @@ export default function SiteFooter() {
       </div>
       <p className="footer-copy">
         Links de reserva podem ser afiliados. Precos e temperaturas sao referencia editorial
-        e devem ser confirmados na reserva.
+        e devem ser confirmados na reserva. Fotos actuais sao ilustrativas (stock) ate haver
+        imagens oficiais ou licenciadas.
       </p>
     </footer>
   );

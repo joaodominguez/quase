@@ -103,10 +103,15 @@ img {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background:
-    linear-gradient(180deg, rgba(15, 28, 32, 0.25) 0%, rgba(15, 28, 32, 0.55) 45%, rgba(12, 22, 26, 0.88) 100%),
-    radial-gradient(ellipse 70% 50% at 70% 30%, rgba(90, 170, 180, 0.28), transparent 60%),
-    linear-gradient(135deg, #1a3d44 0%, #0f2428 40%, #2a555c 100%);
+  overflow: hidden;
+  background: #0f2428;
+}
+
+.hero-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.02);
   animation: drift 20s ease-in-out infinite alternate;
 }
 
@@ -114,21 +119,20 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background: repeating-linear-gradient(
-    -8deg,
-    transparent 0,
-    transparent 14px,
-    rgba(255, 255, 255, 0.02) 14px,
-    rgba(255, 255, 255, 0.02) 15px
+  background: linear-gradient(
+    180deg,
+    rgba(15, 28, 32, 0.35) 0%,
+    rgba(15, 28, 32, 0.45) 40%,
+    rgba(12, 22, 26, 0.82) 100%
   );
 }
 
 @keyframes drift {
   from {
-    transform: scale(1);
+    transform: scale(1.02);
   }
   to {
-    transform: scale(1.04);
+    transform: scale(1.08);
   }
 }
 
@@ -247,14 +251,24 @@ img {
   line-height: 1.1;
 }
 
-/* —— Media atmospheres (photo placeholders) —— */
+/* —— Media / photos —— */
 .media {
   position: relative;
   overflow: hidden;
   background: #1a3036;
 }
 
-.media::before {
+.media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Fallback atmosphere only when no photo */
+.media:not(:has(img))::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -263,48 +277,40 @@ img {
     linear-gradient(160deg, #24555e 0%, #102428 55%, #1c3d44 100%);
 }
 
-.media[data-tone="porto"]::before {
+.media[data-tone="porto"]:not(:has(img))::before {
   background:
     radial-gradient(ellipse 70% 50% at 60% 30%, rgba(100, 160, 190, 0.3), transparent 55%),
     linear-gradient(150deg, #1e3a48 0%, #0f1f28 50%, #2a4a55 100%);
 }
 
-.media[data-tone="douro"]::before {
+.media[data-tone="douro"]:not(:has(img))::before {
   background:
     radial-gradient(ellipse 60% 50% at 30% 70%, rgba(140, 90, 60, 0.25), transparent 50%),
     linear-gradient(145deg, #2a4038 0%, #1a2820 45%, #3d4a38 100%);
 }
 
-.media[data-tone="acores"]::before {
+.media[data-tone="acores"]:not(:has(img))::before {
   background:
     radial-gradient(ellipse 70% 55% at 75% 25%, rgba(90, 180, 150, 0.28), transparent 55%),
     linear-gradient(155deg, #1a3d40 0%, #0e2428 50%, #245550 100%);
 }
 
-.media[data-tone="norte"]::before {
-  background:
-    linear-gradient(150deg, #2c3a42 0%, #151e24 50%, #3a454c 100%);
+.media[data-tone="norte"]:not(:has(img))::before {
+  background: linear-gradient(150deg, #2c3a42 0%, #151e24 50%, #3a454c 100%);
 }
 
-.media[data-tone="madeira"]::before {
+.media[data-tone="madeira"]:not(:has(img))::before {
   background:
     radial-gradient(ellipse 65% 50% at 40% 20%, rgba(80, 140, 180, 0.3), transparent 55%),
     linear-gradient(160deg, #1a3540 0%, #0f2028 55%, #2a4850 100%);
 }
 
-.media[data-tone="alentejo"]::before,
-.media[data-tone="centro"]::before,
-.media[data-tone="algarve"]::before {
+.media[data-tone="alentejo"]:not(:has(img))::before,
+.media[data-tone="centro"]:not(:has(img))::before,
+.media[data-tone="algarve"]:not(:has(img))::before {
   background:
     radial-gradient(ellipse 70% 50% at 50% 40%, rgba(180, 160, 110, 0.2), transparent 55%),
     linear-gradient(150deg, #3a4540 0%, #1c2824 50%, #4a5548 100%);
-}
-
-.media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.15) 100%);
 }
 
 .media-lg {
@@ -320,6 +326,12 @@ img {
   width: 160px;
   min-width: 160px;
   aspect-ratio: 4 / 3;
+}
+
+.image-credit {
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: 0.8rem;
 }
 
 /* —— Facts row —— */
@@ -490,8 +502,17 @@ img {
   aspect-ratio: auto;
 }
 
-.review-hero .media::before {
-  filter: brightness(0.85);
+.review-hero .media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 20, 24, 0.2) 0%,
+    rgba(10, 20, 24, 0.35) 40%,
+    rgba(10, 20, 24, 0.72) 100%
+  );
+  pointer-events: none;
 }
 
 .review-hero-inner {

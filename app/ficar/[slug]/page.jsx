@@ -21,6 +21,7 @@ export async function generateMetadata({ params }) {
       title: `${hotel.name} · Quase`,
       description: hotel.summary,
       url: `https://quase.pt/ficar/${hotel.slug}/`,
+      images: hotel.image ? [{ url: hotel.image }] : undefined,
     },
   };
 }
@@ -47,7 +48,13 @@ export default async function HotelPage({ params }) {
   return (
     <main>
       <header className="review-hero">
-        <div className="media" data-tone={hotel.tone} aria-hidden="true" />
+        <div className="media review-hero-media" data-tone={hotel.tone}>
+          <img
+            src={hotel.image}
+            alt={`${hotel.name} — imagem ilustrativa`}
+            fetchPriority="high"
+          />
+        </div>
         <div className="review-hero-inner">
           <p className="eyebrow">
             {hotel.region} · {hotel.location}
@@ -74,6 +81,10 @@ export default async function HotelPage({ params }) {
         </p>
 
         <FactsRow hotel={hotel} />
+
+        {hotel.imageCredit ? (
+          <p className="image-credit">Foto: {hotel.imageCredit}</p>
+        ) : null}
       </article>
 
       <div className="review-actions">

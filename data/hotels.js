@@ -1,4 +1,4 @@
-/** Reviews SPA / piscina interior. Imagens: atmosfera CSS ate haver fotos licenciadas. */
+/** Reviews SPA / piscina interior. Imagens stock ilustrativas (Unsplash) ate fotos oficiais/licenciadas. */
 
 export const hotels = [
   {
@@ -27,6 +27,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: true,
     tone: "porto",
+    image: "/images/hotels/yeatman.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "six-senses-douro-valley",
@@ -54,6 +56,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "douro",
+    image: "/images/hotels/six-senses.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "vidago-palace",
@@ -81,6 +85,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "norte",
+    image: "/images/hotels/vidago.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "octant-furnas",
@@ -108,6 +114,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "acores",
+    image: "/images/hotels/octant-furnas.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "pedras-do-mar-resort-spa",
@@ -135,6 +143,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "acores",
+    image: "/images/hotels/pedras-do-mar.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "torre-de-gomariz-wine-spa",
@@ -162,6 +172,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "norte",
+    image: "/images/hotels/gomariz.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "areias-do-seixo",
@@ -189,6 +201,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "centro",
+    image: "/images/hotels/areias.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "sublime-comporta",
@@ -216,6 +230,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "alentejo",
+    image: "/images/hotels/sublime.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "longevity-health-wellness-alvor",
@@ -243,6 +259,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "algarve",
+    image: "/images/hotels/longevity.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "savoy-palace-madeira",
@@ -270,6 +288,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "madeira",
+    image: "/images/hotels/savoy.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "reids-palace-madeira",
@@ -297,6 +317,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "madeira",
+    image: "/images/hotels/reids.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
   {
     slug: "terra-nostra-garden-hotel",
@@ -325,6 +347,8 @@ export const hotels = [
     bookingLabel: "Booking",
     featured: false,
     tone: "acores",
+    image: "/images/hotels/terra-nostra.jpg",
+    imageCredit: "Unsplash — ilustrativa",
   },
 ];
 

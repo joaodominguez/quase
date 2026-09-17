@@ -31,4 +31,6 @@ Backup do CMS antigo: `/root/backups/quase-wipe-*` no servidor.
 
 ## Fotos
 
-So imagens proprias, fornecidas pelo hotel ou licenciadas. Ate la, o site usa atmosfera visual sem fotografias de terceiros.
+Imagens actuais em `public/images/` sao stock Unsplash **ilustrativas** (nao fotos
+oficiais dos hoteis). Substituir por imagens proprias, fornecidas pelo alojamento
+ou licenciadas antes de comunicar como fotografia do sitio.

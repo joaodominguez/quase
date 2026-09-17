@@ -15,7 +15,13 @@ export default function HomePage() {
   return (
     <main>
       <section className="hero" aria-label="Quase">
-        <div className="hero-media" aria-hidden="true" />
+        <div className="hero-media">
+          <img
+            src="/images/hero/home.jpg"
+            alt="Piscina e spa — imagem ilustrativa"
+            fetchPriority="high"
+          />
+        </div>
         <div className="hero-inner">
           <p className="hero-brand">quase</p>
           <h1>Agua quente. Tempo lento.</h1>
@@ -32,7 +38,13 @@ export default function HomePage() {
         <div className="wrap">
           <p className="section-label">Em destaque</p>
           <article className="featured">
-            <MediaBlock tone={featured.tone} size="lg" />
+            <MediaBlock
+              src={featured.image}
+              alt={`${featured.name} — imagem ilustrativa`}
+              tone={featured.tone}
+              size="lg"
+              priority
+            />
             <div className="featured-body">
               <h3>{featured.name}</h3>
               <p className="featured-meta">
