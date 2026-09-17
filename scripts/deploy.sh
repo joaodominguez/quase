@@ -14,5 +14,6 @@ fi
 
 # Static export lives at DocumentRoot /var/www/quase (not Laravel /public).
 rsync -avz --delete --chown=www-data:www-data \
+  -e "ssh -o StrictHostKeyChecking=no" \
   out/ \
   "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}"
