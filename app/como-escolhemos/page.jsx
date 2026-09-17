@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Como escolhemos",
   description:
-    "Critérios editoriais do quase: spa relevante, piscina interior, água no quarto e experiência termal.",
+    "Critérios editoriais do quase: spa, piscina interior e, na área de motéis, suítes com privacidade.",
   alternates: { canonical: "/como-escolhemos/" },
 };
 
@@ -11,15 +11,24 @@ export default function HowPage() {
       <h1>Como escolhemos</h1>
       <p>
         O quase e um guia editorial independente. Não publicamos tudo — cada hotel entra
-        porque a água e um motivo real para ficar.
+        porque a água e um motivo real para ficar. A área de motéis segue a mesma lógica
+        de selecção editorial, com foco em suítes, privacidade e informação verificável.
       </p>
 
-      <h2>Critérios</h2>
+      <h2>Critérios — spa</h2>
       <ul>
         <li>Spa relevante, com circuito de água ou tratamentos serios;</li>
         <li>piscina interior aquecida de uso comum;</li>
         <li>piscina ou plunge no quarto;</li>
         <li>ligação termal clara ao alojamento.</li>
+      </ul>
+
+      <h2>Critérios — motéis</h2>
+      <ul>
+        <li>Suítes privadas com estacionamento / acesso discreto;</li>
+        <li>informação de tipologias e preços confirmável (site oficial preferido);</li>
+        <li>estadias curtas ou noite com regras claras;</li>
+        <li>área geográfica útil (Grande Porto e Grande Lisboa no arranque).</li>
       </ul>
 
       <h2>O que dizemos em cada review</h2>

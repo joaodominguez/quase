@@ -6,6 +6,7 @@ import {
   bookingUrl,
 } from "../../data/hotels";
 import FactsRow from "./FactsRow";
+import HotelsMap from "./HotelsMap";
 import ReviewCard from "./ReviewCard";
 
 const minPrice = Math.min(...hotels.map((hotel) => hotel.priceFrom));
@@ -117,6 +118,18 @@ export default function HomePage() {
               <ReviewCard hotel={hotel} key={hotel.slug} />
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section" id="mapa" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <div className="section-head">
+            <h2>De onde são os hotéis</h2>
+            <Link className="link-quiet" href="/reviews/">
+              Lista completa →
+            </Link>
+          </div>
+          <HotelsMap hotels={hotels} />
         </div>
       </section>
     </main>

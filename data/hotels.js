@@ -3,6 +3,8 @@
 export const hotels = [
   {
     slug: "the-yeatman",
+    lat: 41.1365,
+    lon: -8.6155,
     name: "The Yeatman",
     region: "Porto",
     hub: "portugal",
@@ -32,6 +34,8 @@ export const hotels = [
   },
   {
     slug: "six-senses-douro-valley",
+    lat: 41.109,
+    lon: -7.838,
     name: "Six Senses Douro Valley",
     region: "Douro",
     hub: "portugal",
@@ -61,6 +65,8 @@ export const hotels = [
   },
   {
     slug: "vidago-palace",
+    lat: 41.632,
+    lon: -7.573,
     name: "Vidago Palace",
     region: "Norte",
     hub: "portugal",
@@ -90,6 +96,8 @@ export const hotels = [
   },
   {
     slug: "octant-furnas",
+    lat: 37.772,
+    lon: -25.311,
     name: "Octant Hotels Furnas",
     region: "Açores",
     hub: "acores",
@@ -119,6 +127,8 @@ export const hotels = [
   },
   {
     slug: "pedras-do-mar-resort-spa",
+    lat: 37.833,
+    lon: -25.66,
     name: "Pedras do Mar Resort & Spa",
     region: "Açores",
     hub: "acores",
@@ -148,6 +158,8 @@ export const hotels = [
   },
   {
     slug: "torre-de-gomariz-wine-spa",
+    lat: 41.648,
+    lon: -8.43,
     name: "Torre de Gomariz Wine & Spa Hotel",
     region: "Minho",
     hub: "portugal",
@@ -177,6 +189,8 @@ export const hotels = [
   },
   {
     slug: "areias-do-seixo",
+    lat: 39.118,
+    lon: -9.38,
     name: "Areias do Seixo",
     region: "Centro",
     hub: "portugal",
@@ -206,6 +220,8 @@ export const hotels = [
   },
   {
     slug: "sublime-comporta",
+    lat: 38.313,
+    lon: -8.77,
     name: "Sublime Comporta",
     region: "Alentejo",
     hub: "portugal",
@@ -235,6 +251,8 @@ export const hotels = [
   },
   {
     slug: "longevity-health-wellness-alvor",
+    lat: 37.13,
+    lon: -8.59,
     name: "Longevity Health & Wellness Hotel",
     region: "Algarve",
     hub: "portugal",
@@ -264,6 +282,8 @@ export const hotels = [
   },
   {
     slug: "savoy-palace-madeira",
+    lat: 32.644,
+    lon: -16.925,
     name: "Savoy Palace",
     region: "Madeira",
     hub: "madeira",
@@ -293,6 +313,8 @@ export const hotels = [
   },
   {
     slug: "reids-palace-madeira",
+    lat: 32.636,
+    lon: -16.933,
     name: "Belmond Reid's Palace",
     region: "Madeira",
     hub: "madeira",
@@ -322,6 +344,8 @@ export const hotels = [
   },
   {
     slug: "terra-nostra-garden-hotel",
+    lat: 37.771,
+    lon: -25.314,
     name: "Terra Nostra Garden Hotel",
     region: "Açores",
     hub: "acores",

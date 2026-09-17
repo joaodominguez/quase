@@ -8,8 +8,8 @@ export default function SiteFooter() {
         <div className="footer-brand">
           <Logo withTagline />
           <p>
-            Guia editorial de hotéis com SPA e piscina interior em Portugal, Açores e
-            Madeira.
+            Guia editorial de hotéis com SPA e piscina interior — e uma área à parte para
+            motéis em Portugal.
           </p>
         </div>
         <div>
@@ -19,6 +19,7 @@ export default function SiteFooter() {
             <Link href="/portugal/">Portugal</Link>
             <Link href="/acores/">Açores</Link>
             <Link href="/madeira/">Madeira</Link>
+            <Link href="/moteis/">Motéis</Link>
           </nav>
         </div>
         <div>
