@@ -1,12 +1,14 @@
 import Link from "next/link";
 import {
+  hotels,
   getFeaturedHotel,
   getLatestReviews,
   bookingUrl,
 } from "../../data/hotels";
 import FactsRow from "./FactsRow";
-import MediaBlock from "./MediaBlock";
-import ReviewRow from "./ReviewRow";
+import ReviewCard from "./ReviewCard";
+
+const minPrice = Math.min(...hotels.map((hotel) => hotel.priceFrom));
 
 export default function HomePage() {
   const featured = getFeaturedHotel();
@@ -14,55 +16,87 @@ export default function HomePage() {
 
   return (
     <main>
-      <section className="hero" aria-label="Quase">
+      <section className="hero">
+        <div className="hero-copy">
+          <p className="kicker">Guia de spa e piscinas interiores</p>
+          <h1>
+            Água quente,
+            <br />
+            tempo lento.
+          </h1>
+          <p>
+            Reviews de hotéis com spa e piscina interior em Portugal, Açores e Madeira.
+            Para quem viaja para repousar, não para passar a correr.
+          </p>
+          <div className="hero-actions">
+            <Link className="button button-primary" href="/reviews/">
+              Ver reviews
+            </Link>
+            <Link className="link-quiet" href="/como-escolhemos/">
+              Como escolhemos →
+            </Link>
+          </div>
+        </div>
         <div className="hero-media">
           <img
             src="/images/hero/home-v2.jpg"
-            alt="Piscina e spa — imagem ilustrativa"
+            alt="Piscina interior com vapor — imagem ilustrativa"
             fetchPriority="high"
           />
-        </div>
-        <div className="hero-inner">
-          <p className="hero-brand">quase</p>
-          <h1>Agua quente. Tempo lento.</h1>
-          <p className="lead">
-            SPA e piscinas interiores em Portugal, Acores e Madeira.
+          <p className="media-caption">
+            {featured.name} · {featured.location}
           </p>
-          <Link className="button button-teal" href="#destaque">
-            Explorar guia →
-          </Link>
         </div>
       </section>
 
-      <section className="section" id="destaque">
+      <section className="stats" aria-label="Resumo do guia">
+        <div>
+          <strong>{hotels.length}</strong>
+          <span>Reviews</span>
+        </div>
+        <div>
+          <strong>3</strong>
+          <span>Regiões</span>
+        </div>
+        <div>
+          <strong>{minPrice}€</strong>
+          <span>Preços desde</span>
+        </div>
+        <div>
+          <strong>Hoje</strong>
+          <span>Actualizado</span>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="wrap">
-          <p className="section-label">Em destaque</p>
+          <p className="label">Review em destaque</p>
           <article className="featured">
-            <MediaBlock
-              src={featured.image}
-              alt={`${featured.name} — imagem ilustrativa`}
-              tone={featured.tone}
-              size="lg"
-              priority
-            />
-            <div className="featured-body">
+            <div className="featured-media">
+              <img
+                src={featured.image}
+                alt={`${featured.name} — imagem ilustrativa`}
+                fetchPriority="high"
+              />
+            </div>
+            <div>
               <h3>{featured.name}</h3>
-              <p className="featured-meta">
-                {featured.location}, {featured.region}
+              <p className="place">
+                {featured.location} · {featured.region}
               </p>
-              <p className="featured-summary">{featured.summary}</p>
+              <p className="excerpt">{featured.summary}</p>
               <FactsRow hotel={featured} />
-              <div className="button-row" style={{ marginTop: "1.25rem" }}>
-                <Link className="button button-teal" href={`/ficar/${featured.slug}/`}>
-                  Ler review →
+              <div className="actions">
+                <Link className="button button-primary" href={`/ficar/${featured.slug}/`}>
+                  Ler review
                 </Link>
                 <a
-                  className="button button-outline-dark"
+                  className="button button-ghost"
                   href={bookingUrl(featured)}
                   rel="nofollow sponsored noopener"
                   target="_blank"
                 >
-                  Ver disponibilidade →
+                  Ver disponibilidade
                 </a>
               </div>
             </div>
@@ -70,37 +104,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section" id="reviews" style={{ paddingTop: 0 }}>
+      <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">
-          <p className="section-label">Ultimas reviews</p>
-          <h2 className="section-title">Mais fichas para ler</h2>
-          <div className="review-list">
-            {latest.map((hotel) => (
-              <ReviewRow hotel={hotel} key={hotel.slug} />
-            ))}
+          <div className="section-head">
+            <h2>Ultimas reviews</h2>
+            <Link className="link-quiet" href="/reviews/">
+              Ver todas →
+            </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="section" id="reservar" style={{ paddingTop: 0 }}>
-        <div className="wrap">
-          <p className="section-label">Onde reservar</p>
-          <h2 className="section-title">Links de reserva</h2>
-          <div className="booking-note">
-            <p>
-              Em cada review indicamos onde reservar. Quando existir parceria, usamos links
-              afiliados — a escolha editorial continua independente.
-            </p>
-            <div className="booking-links">
-              <a
-                href={bookingUrl(featured)}
-                rel="nofollow sponsored noopener"
-                target="_blank"
-              >
-                Booking
-              </a>
-              <span>Site oficial do hotel (quando indicado na ficha)</span>
-            </div>
+          <div className="card-grid">
+            {latest.map((hotel) => (
+              <ReviewCard hotel={hotel} key={hotel.slug} />
+            ))}
           </div>
         </div>
       </section>

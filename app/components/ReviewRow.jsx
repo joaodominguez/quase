@@ -1,32 +1,22 @@
 import Link from "next/link";
-import MediaBlock from "./MediaBlock";
 
 export default function ReviewRow({ hotel }) {
   return (
-    <Link className="review-row" href={`/ficar/${hotel.slug}/`}>
-      <MediaBlock
-        src={hotel.image}
-        alt={`${hotel.name} — imagem ilustrativa`}
-        tone={hotel.tone}
-        size="sm"
-      />
+    <Link className="row" href={`/ficar/${hotel.slug}/`}>
+      <div className="row-media">
+        <img src={hotel.image} alt={`${hotel.name} — imagem ilustrativa`} loading="lazy" />
+      </div>
       <div>
-        <h3>{hotel.name}</h3>
-        <p className="muted">
+        <p className="place">
           {hotel.location} · {hotel.region}
         </p>
-        <p className="blurb">{hotel.summary}</p>
+        <h3>{hotel.name}</h3>
+        <p>{hotel.summary}</p>
       </div>
-      <div className="review-stats">
-        <div>
-          <strong>{hotel.priceFrom}€</strong>/noite
-        </div>
-        <div>{hotel.whenToGo}</div>
-        <div>{hotel.tempC}°C</div>
+      <div className="row-meta">
+        <strong>{hotel.priceFrom}€</strong>
+        {hotel.whenToGo} · {hotel.tempC}°C
       </div>
-      <span className="review-chevron" aria-hidden="true">
-        ›
-      </span>
     </Link>
   );
 }

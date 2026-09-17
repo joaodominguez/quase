@@ -5,10 +5,10 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="section legal">
+    <main className="prose-page">
       <h1>Contacto</h1>
       <p>
-        Sugestoes de hoteis com SPA ou piscina interior, parcerias e correcoes:{" "}
+        Sugestões de hotéis com spa ou piscina interior, parcerias e correções:{" "}
         <a href="mailto:hello@quase.pt">hello@quase.pt</a>
       </p>
       <p>

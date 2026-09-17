@@ -1,24 +1,22 @@
 export const metadata = {
   title: "Privacidade",
   alternates: { canonical: "/privacidade/" },
-  robots: { index: true, follow: true },
 };
 
 export default function PrivacyPage() {
   return (
-    <main className="section legal">
+    <main className="prose-page">
       <h1>Privacidade</h1>
       <p>
-        O quase.pt e um guia editorial. Podemos usar cookies tecnicos e ferramentas de
-        medicao (por exemplo analytics) para perceber que paginas sao uteis.
+        O quase e um guia editorial. Podemos usar cookies tecnicos e ferramentas de medição
+        para perceber que paginas sao uteis.
       </p>
       <p>
-        Se usarmos links de reserva afiliados, o parceiro pode registar a origem do clique.
-        Nao vendemos listas de emails. A newsletter, quando activa, e de opt-in.
+        Quando usamos links de reserva afiliados, o parceiro pode registar a origem do
+        clique. Não vendemos listas de contactos.
       </p>
       <p>
-        Para pedidos relacionados com dados pessoais:{" "}
-        <a href="mailto:hello@quase.pt">hello@quase.pt</a>.
+        Pedidos sobre dados pessoais: <a href="mailto:hello@quase.pt">hello@quase.pt</a>.
       </p>
     </main>
   );

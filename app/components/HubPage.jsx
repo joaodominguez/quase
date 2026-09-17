@@ -1,14 +1,14 @@
 import { hotelsByHub } from "../../data/hotels";
-import ReviewRow from "../components/ReviewRow";
+import ReviewRow from "./ReviewRow";
 
 const hubs = {
   portugal: {
     title: "Portugal continental",
-    lead: "SPA, palaces termais e piscinas interiores — com preco, quando ir e temperatura de referencia.",
+    lead: "Spa, palaces termais e piscinas interiores do Minho ao Algarve.",
   },
   acores: {
-    title: "Acores",
-    lead: "Furnas, falésias e spa de ilha — agua quente quando o tempo muda.",
+    title: "Açores",
+    lead: "Furnas, falésias e água quente quando o tempo muda de humor.",
   },
   madeira: {
     title: "Madeira",
@@ -16,33 +16,29 @@ const hubs = {
   },
 };
 
-function HubPage({ hub }) {
-  const copy = hubs[hub];
-  const items = hotelsByHub(hub);
-
-  return (
-    <main>
-      <header className="page-intro">
-        <p className="section-label">Destino</p>
-        <h1>{copy.title}</h1>
-        <p className="lead">{copy.lead}</p>
-      </header>
-      <section className="section">
-        <div className="wrap">
-          <div className="review-list">
-            {items.map((hotel) => (
-              <ReviewRow hotel={hotel} key={hotel.slug} />
-            ))}
-          </div>
-        </div>
-      </section>
-    </main>
-  );
-}
-
 export function makeHub(hub) {
-  return function Page() {
-    return <HubPage hub={hub} />;
+  return function HubPage() {
+    const copy = hubs[hub];
+    const items = hotelsByHub(hub);
+
+    return (
+      <main>
+        <div className="wrap page-head">
+          <p className="kicker">Destino</p>
+          <h1>{copy.title}</h1>
+          <p>{copy.lead}</p>
+        </div>
+        <section className="section">
+          <div className="wrap">
+            <div className="rows">
+              {items.map((hotel) => (
+                <ReviewRow hotel={hotel} key={hotel.slug} />
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+    );
   };
 }
 

@@ -24,8 +24,8 @@ export default async function ListPage({ params }) {
   const list = getList(slug);
   if (!list) {
     return (
-      <main className="legal">
-        <p>Lista nao encontrada.</p>
+      <main className="prose-page">
+        <h1>Lista não encontrada</h1>
       </main>
     );
   }
@@ -34,14 +34,14 @@ export default async function ListPage({ params }) {
 
   return (
     <main>
-      <header className="page-intro">
-        <p className="section-label">{list.region}</p>
+      <div className="wrap page-head">
+        <p className="kicker">{list.region}</p>
         <h1>{list.title}</h1>
-        <p className="lead">{list.summary}</p>
-      </header>
+        <p>{list.summary}</p>
+      </div>
       <section className="section">
         <div className="wrap">
-          <div className="review-list">
+          <div className="rows">
             {items.map((hotel) => (
               <ReviewRow hotel={hotel} key={hotel.slug} />
             ))}

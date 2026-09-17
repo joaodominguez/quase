@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { hotels, getHotel, bookingUrl } from "../../../data/hotels";
-import FactsRow from "../../components/FactsRow";
 
 export function generateStaticParams() {
   return hotels.map((hotel) => ({ slug: hotel.slug }));
@@ -18,7 +17,7 @@ export async function generateMetadata({ params }) {
     description: hotel.summary,
     alternates: { canonical: `/ficar/${hotel.slug}/` },
     openGraph: {
-      title: `${hotel.name} · Quase`,
+      title: `${hotel.name} · quase`,
       description: hotel.summary,
       url: `https://quase.pt/ficar/${hotel.slug}/`,
       images: hotel.image ? [{ url: hotel.image }] : undefined,
@@ -27,7 +26,7 @@ export async function generateMetadata({ params }) {
 }
 
 function yesNo(value) {
-  return value ? "Sim" : "Nao";
+  return value ? "Sim" : "Não";
 }
 
 export default async function HotelPage({ params }) {
@@ -36,70 +35,133 @@ export default async function HotelPage({ params }) {
 
   if (!hotel) {
     return (
-      <main className="legal">
-        <p>Review nao encontrada.</p>
+      <main className="prose-page">
+        <h1>Review não encontrada</h1>
+        <p>
+          <Link href="/reviews/">Ver todas as reviews</Link>
+        </p>
       </main>
     );
   }
 
+  const related = hotels.filter((item) => item.slug !== hotel.slug).slice(0, 2);
   const hubLabel =
-    hotel.hub === "portugal" ? "Portugal" : hotel.hub === "acores" ? "Acores" : "Madeira";
+    hotel.hub === "portugal" ? "Portugal" : hotel.hub === "acores" ? "Açores" : "Madeira";
 
   return (
     <main>
-      <header className="review-hero">
-        <div className="media review-hero-media" data-tone={hotel.tone}>
+      <header className="review-head">
+        <div className="review-head-copy">
+          <p className="kicker">
+            {hotel.region} · {hotel.location}
+          </p>
+          <h1>{hotel.name}</h1>
+          <p className="lead">{hotel.summary}</p>
+        </div>
+        <div className="review-media">
           <img
             src={hotel.image}
             alt={`${hotel.name} — imagem ilustrativa`}
             fetchPriority="high"
           />
         </div>
-        <div className="review-hero-inner">
-          <p className="eyebrow">
-            {hotel.region} · {hotel.location}
-          </p>
-          <h1>{hotel.name}</h1>
-          <p className="lead">{hotel.summary}</p>
-        </div>
       </header>
 
-      <article className="review-body">
-        <h2>Porque e que importa</h2>
-        <p>{hotel.why}</p>
+      <div className="wrap review-layout">
+        <article className="prose">
+          <h2>Porque importa</h2>
+          <p>{hotel.why}</p>
 
-        <h2>Para quem e</h2>
-        <p>{hotel.forWhom}</p>
+          <h2>Para quem</h2>
+          <p>{hotel.forWhom}</p>
 
-        <h2>Melhor epoca</h2>
-        <p>{hotel.season}</p>
+          <h2>Melhor época</h2>
+          <p>{hotel.season}</p>
 
-        <h2>Agua e spa</h2>
-        <p>
-          SPA: {yesNo(hotel.water.spa)}. Piscina interior: {yesNo(hotel.water.indoorPool)}.
-          Piscina no quarto: {yesNo(hotel.water.roomPool)}. {hotel.water.notes}
-        </p>
+          <h2>Água e spa</h2>
+          <p>{hotel.water.notes}</p>
 
-        <FactsRow hotel={hotel} />
+          <figure>
+            <img
+              src={hotel.image}
+              alt={`Piscina interior — ${hotel.name}`}
+              loading="lazy"
+            />
+            <figcaption>
+              {hotel.imageCredit || "Imagem ilustrativa (não oficial)"}
+            </figcaption>
+          </figure>
+        </article>
 
-        {hotel.imageCredit ? (
-          <p className="image-credit">Foto: {hotel.imageCredit}</p>
-        ) : null}
-      </article>
-
-      <div className="review-actions">
-        <a
-          className="button button-teal"
-          href={bookingUrl(hotel)}
-          rel="nofollow sponsored noopener"
-          target="_blank"
-        >
-          Ver disponibilidade
-        </a>
-        <Link className="button button-outline-dark" href={`/${hotel.hub}/`}>
-          Mais em {hubLabel} →
-        </Link>
+        <aside className="booking-panel">
+          <h2>{hotel.name}</h2>
+          <p className="place">{hotel.location}</p>
+          <ul className="panel-list">
+            <li>
+              <span>Preço desde</span>
+              <strong>{hotel.priceFrom}€</strong>
+            </li>
+            <li>
+              <span>Quando ir</span>
+              <strong>{hotel.whenToGo}</strong>
+            </li>
+            <li>
+              <span>Temp. agora</span>
+              <strong>{hotel.tempC}°C</strong>
+            </li>
+            <li>
+              <span>Spa</span>
+              <strong>{yesNo(hotel.water.spa)}</strong>
+            </li>
+            <li>
+              <span>Piscina interior</span>
+              <strong>{yesNo(hotel.water.indoorPool)}</strong>
+            </li>
+            <li>
+              <span>Piscina no quarto</span>
+              <strong>{yesNo(hotel.water.roomPool)}</strong>
+            </li>
+          </ul>
+          <a
+            className="button button-primary"
+            href={bookingUrl(hotel)}
+            rel="nofollow sponsored noopener"
+            target="_blank"
+          >
+            Ver disponibilidade
+          </a>
+          <p className="panel-note">
+            Reservar via {hotel.bookingLabel || "Booking"} ·{" "}
+            <Link href={`/${hotel.hub}/`}>mais em {hubLabel}</Link>
+          </p>
+        </aside>
       </div>
+
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <p className="label">Relacionado</p>
+          <div className="rows">
+            {related.map((item) => (
+              <Link className="row" href={`/ficar/${item.slug}/`} key={item.slug}>
+                <div className="row-media">
+                  <img src={item.image} alt={item.name} loading="lazy" />
+                </div>
+                <div>
+                  <p className="place">
+                    {item.location} · {item.region}
+                  </p>
+                  <h3>{item.name}</h3>
+                  <p>{item.summary}</p>
+                </div>
+                <div className="row-meta">
+                  <strong>{item.priceFrom}€</strong>
+                  {item.tempC}°C
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

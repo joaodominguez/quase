@@ -3,10 +3,10 @@ import { hotels } from "./hotels";
 export const lists = [
   {
     slug: "piscinas-interiores-portugal",
-    title: "Hoteis com piscina interior em Portugal",
+    title: "Hotéis com piscina interior em Portugal",
     region: "Portugal continental",
     summary:
-      "Quando chove ou o Atlantico esta frio: estadias escolhidas pela agua quente la dentro.",
+      "Quando chove ou o Atlântico esta frio: estadias escolhidas pela água quente la dentro.",
     hotelSlugs: [
       "six-senses-douro-valley",
       "vidago-palace",
@@ -19,7 +19,7 @@ export const lists = [
   },
   {
     slug: "spa-acores-madeira",
-    title: "SPA e agua quente nos Acores e Madeira",
+    title: "SPA e água quente nos Açores e Madeira",
     region: "Ilhas",
     summary:
       "Ilhas com vapor, termas e piscina coberta — para ficar quando o tempo muda de humor.",
@@ -36,7 +36,7 @@ export const lists = [
     title: "SPA para um fim de semana",
     region: "Escapadinhas",
     summary:
-      "Poucos dias, muito tempo dentro de agua: uma seleccao curta para desligar depressa.",
+      "Poucos dias, muito tempo dentro de água: uma selecção curta para desligar depressa.",
     hotelSlugs: [
       "the-yeatman",
       "torre-de-gomariz-wine-spa",

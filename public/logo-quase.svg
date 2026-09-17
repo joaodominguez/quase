@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96" role="img" aria-label="quase">
+  <text
+    x="0"
+    y="58"
+    font-family="Cormorant Garamond, Georgia, 'Times New Roman', serif"
+    font-size="72"
+    font-weight="600"
+    letter-spacing="-2"
+    fill="currentColor"
+  >quase</text>
+  <path
+    d="M2 74 H108 c14 0 20 7 34 7 s20 -7 34 -7 h110"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.6"
+    stroke-linecap="round"
+    opacity="0.85"
+  />
+</svg>
