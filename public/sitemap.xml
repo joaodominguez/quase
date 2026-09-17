@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://quase.pt/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://quase.pt/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/portugal/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/acores/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/madeira/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/privacidade/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/contacto/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/listas/piscinas-interiores-portugal/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/listas/spa-acores-madeira/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/listas/spa-fim-de-semana/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/six-senses-douro-valley/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/vidago-palace/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/longevity-health-wellness-alvor/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/areias-do-seixo/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/sublime-comporta/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/the-yeatman/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/octant-furnas/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/pedras-do-mar-resort-spa/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/terra-nostra-garden-hotel/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/savoy-palace-madeira/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/reids-palace-madeira/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://quase.pt/ficar/torre-de-gomariz-wine-spa/</loc><lastmod>2026-09-17</lastmod></url>
 </urlset>

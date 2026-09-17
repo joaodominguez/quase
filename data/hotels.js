@@ -1,0 +1,268 @@
+/** Fichas editoriais — SPA e/ou piscina interior. Fotos: placeholder atmosferico ate licenca propria. */
+export const hotels = [
+  {
+    slug: "six-senses-douro-valley",
+    name: "Six Senses Douro Valley",
+    region: "Douro",
+    hub: "portugal",
+    location: "Lamego",
+    tags: ["spa", "piscina-interior", "piscina-exterior"],
+    summary:
+      "Spa de referencia no Douro, com piscina interior, rituais de vinoterapia e vistas para o vale.",
+    why: "O spa e o motivo da viagem: circuitos de agua, tratamentos longos e silencio acima do rio.",
+    forWhom: "Casais e escapadinhas de bem-estar com orcamento alto.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Piscina interior climatizada e spa completo com sauna e salas de tratamento.",
+    },
+    season: "Todo o ano; especialmente forte em dias de chuva e outono/inverno.",
+    bookingQuery: "Six Senses Douro Valley",
+    tone: "douro",
+  },
+  {
+    slug: "vidago-palace",
+    name: "Vidago Palace",
+    region: "Norte",
+    hub: "portugal",
+    location: "Vidago",
+    tags: ["spa", "piscina-interior", "historico"],
+    summary:
+      "Palace termal com spa serio e piscina interior — agua, historia e ritmo lento no interior norte.",
+    why: "Combina arquitectura de palace com programa termal e piscina coberta para dias frios.",
+    forWhom: "Quem quer spa sem estetica de resort de praia.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Spa termal e piscina interior no complexo.",
+    },
+    season: "Outono e inverno brilham; verao tambem funciona para desligar.",
+    bookingQuery: "Vidago Palace Hotel",
+    tone: "norte",
+  },
+  {
+    slug: "longevity-health-wellness-alvor",
+    name: "Longevity Health & Wellness Hotel",
+    region: "Algarve",
+    hub: "portugal",
+    location: "Alvor",
+    tags: ["spa", "piscina-interior", "wellness"],
+    summary:
+      "Hotel de wellness no Algarve com foco em saude, spa e piscina interior — menos festa, mais rotina de agua.",
+    why: "Pensado para quem viaja pelo spa, nao so pela praia.",
+    forWhom: "Wellness, resets de alguns dias, viajantes a solo ou a dois.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Circuito de spa e piscina interior dedicados ao programa de bem-estar.",
+    },
+    season: "Fora de pico e dias de vento/chuva no Algarve.",
+    bookingQuery: "Longevity Health Wellness Hotel Alvor",
+    tone: "algarve",
+  },
+  {
+    slug: "areias-do-seixo",
+    name: "Areias do Seixo",
+    region: "Centro",
+    hub: "portugal",
+    location: "Santa Cruz",
+    tags: ["spa", "piscina-interior", "design"],
+    summary:
+      "Design junto ao Atlantico, com spa e agua interior para quando o mar nao convida a entrar.",
+    why: "Ambiente de refugio com spa cuidado e piscina coberta — contraste com a costa selvagem.",
+    forWhom: "Casais e design lovers que querem spa sem grande resort.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Spa e piscina interior no hotel.",
+    },
+    season: "Inverno atlantico e fins de semana longos.",
+    bookingQuery: "Areias do Seixo Charm Hotel",
+    tone: "centro",
+  },
+  {
+    slug: "sublime-comporta",
+    name: "Sublime Comporta",
+    region: "Alentejo",
+    hub: "portugal",
+    location: "Comporta",
+    tags: ["spa", "piscina-interior", "piscina-exterior"],
+    summary:
+      "Comporta em modo slow: spa, piscina e pinhal — com opcao de agua interior para dias cinzentos.",
+    why: "O spa ancora a estadia quando a praia nao e o plano.",
+    forWhom: "Escapadinhas a dois e quem foge de resorts massificados.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Spa e piscinas; confirmar disponibilidade da coberta na epoca da reserva.",
+    },
+    season: "Primavera e outono; verao com reserva cedo.",
+    bookingQuery: "Sublime Comporta",
+    tone: "alentejo",
+  },
+  {
+    slug: "the-yeatman",
+    name: "The Yeatman",
+    region: "Porto",
+    hub: "portugal",
+    location: "Vila Nova de Gaia",
+    tags: ["spa", "piscina-interior", "cidade"],
+    summary:
+      "Spa com vista para o Porto, piscina interior e vinoterapia — cidade com desculpa de agua quente.",
+    why: "Um dos melhores argumentos de spa em contexto urbano no Norte.",
+    forWhom: "City break com meio dia de spa; casais e celebracoes.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Cidade do Vinho spa com piscina interior panoramica.",
+    },
+    season: "Todo o ano; ideal em chuva no Porto.",
+    bookingQuery: "The Yeatman Porto",
+    tone: "porto",
+  },
+  {
+    slug: "octant-furnas",
+    name: "Octant Hotels Furnas",
+    region: "Acores",
+    hub: "acores",
+    location: "Furnas, Sao Miguel",
+    tags: ["spa", "piscina-interior", "termal"],
+    summary:
+      "Furnas e sinonimo de agua quente: spa e piscina interior no meio do vale geotermico.",
+    why: "Casa natural com o tema do site — vapor, minerais, chuva la fora.",
+    forWhom: "Quem vai aos Acores para desligar e entrar em agua termal.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Piscina interior e zona de spa; Furnas oferece ainda piscinas termais na regiao.",
+    },
+    season: "Qualquer epoca; chuva acoriana e aliada.",
+    bookingQuery: "Octant Furnas",
+    tone: "acores",
+  },
+  {
+    slug: "pedras-do-mar-resort-spa",
+    name: "Pedras do Mar Resort & Spa",
+    region: "Acores",
+    hub: "acores",
+    location: "Fenais da Luz, Sao Miguel",
+    tags: ["spa", "piscina-interior", "mar"],
+    summary:
+      "Cliffside em Sao Miguel com spa e piscina — Atlantico la fora, agua quente la dentro.",
+    why: "Contraste mar bravo / spa abrigado: o briefing perfeito para piscina interior.",
+    forWhom: "Casais e viajantes de spa com vista de ilha.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Spa e piscinas no resort; confirmar indoor na reserva.",
+    },
+    season: "Outono e inverno acorianos sao o argumento.",
+    bookingQuery: "Pedras do Mar Resort Spa",
+    tone: "acores",
+  },
+  {
+    slug: "terra-nostra-garden-hotel",
+    name: "Terra Nostra Garden Hotel",
+    region: "Acores",
+    hub: "acores",
+    location: "Furnas, Sao Miguel",
+    tags: ["termal", "piscina-exterior", "jardim"],
+    summary:
+      "Junto ao parque termal de Furnas — a agua mineral e a razao de estar; hotel classico de jardim.",
+    why: "Ligado ao universo termal das Furnas (piscina de agua ferruginosa no parque).",
+    forWhom: "Quem prioriza experiencia termal e jardim botanico.",
+    water: {
+      spa: false,
+      indoorPool: false,
+      roomPool: false,
+      notes:
+        "Foco termal via Parque Terra Nostra (agua exterior mineral). Incluido pela ligacao termal unica — nao e indoor hotel pool.",
+    },
+    season: "Todo o ano em Furnas.",
+    bookingQuery: "Terra Nostra Garden Hotel",
+    tone: "acores",
+  },
+  {
+    slug: "savoy-palace-madeira",
+    name: "Savoy Palace",
+    region: "Madeira",
+    hub: "madeira",
+    location: "Funchal",
+    tags: ["spa", "piscina-interior", "cidade"],
+    summary:
+      "Grande hotel em Funchal com spa e piscina interior — Madeira em modo conforto, nao so levadas.",
+    why: "Piscina coberta e spa robustos quando a montanha esta coberta de nuvens.",
+    forWhom: "Familias e casais que querem spa + cidade.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Spa amplo e piscina interior no complexo.",
+    },
+    season: "Inverno madeirense e ombro de epoca.",
+    bookingQuery: "Savoy Palace Madeira",
+    tone: "madeira",
+  },
+  {
+    slug: "reids-palace-madeira",
+    name: "Belmond Reid's Palace",
+    region: "Madeira",
+    hub: "madeira",
+    location: "Funchal",
+    tags: ["spa", "piscina-interior", "historico"],
+    summary:
+      "Classico da Madeira com spa e piscinas — cha no jardim, agua quente quando o Atlantico arrefece.",
+    why: "Palace com oferta de spa e piscina para estadias longas e celebracoes.",
+    forWhom: "Lua de mel, aniversarios, viajantes de palace.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Spa e piscinas no palace; validar indoor na epoca.",
+    },
+    season: "Outono a primavera.",
+    bookingQuery: "Belmond Reids Palace",
+    tone: "madeira",
+  },
+  {
+    slug: "torre-de-gomariz-wine-spa",
+    name: "Torre de Gomariz Wine & Spa Hotel",
+    region: "Minho",
+    hub: "portugal",
+    location: "Vila Verde",
+    tags: ["spa", "piscina-interior", "vinho"],
+    summary:
+      "Quinta no Minho com spa e piscina interior — vinho verde, pedra e agua quente.",
+    why: "Escala humana, spa proprio e piscina coberta no verde minhoto.",
+    forWhom: "Casais e escapes de fim de semana a partir do Porto.",
+    water: {
+      spa: true,
+      indoorPool: true,
+      roomPool: false,
+      notes: "Wine & Spa com piscina interior.",
+    },
+    season: "Chuva minhota = argumento principal.",
+    bookingQuery: "Torre de Gomariz Wine Spa",
+    tone: "norte",
+  },
+];
+
+export function getHotel(slug) {
+  return hotels.find((hotel) => hotel.slug === slug);
+}
+
+export function hotelsByHub(hub) {
+  return hotels.filter((hotel) => hotel.hub === hub);
+}
+
+export function hotelsByTag(tag) {
+  return hotels.filter((hotel) => hotel.tags.includes(tag));
+}

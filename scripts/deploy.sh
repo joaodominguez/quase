@@ -12,7 +12,7 @@ if [ ! -d out ]; then
   exit 1
 fi
 
-rsync -avz --delete --chown=root:root \
-  --exclude "/mundial/" \
+# Static export lives at DocumentRoot /var/www/quase (not Laravel /public).
+rsync -avz --delete --chown=www-data:www-data \
   out/ \
   "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}"
