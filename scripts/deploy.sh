@@ -67,6 +67,10 @@ ln -sfn '$RELEASE_DIR' '$REMOTE_APP/current'
 # Keep Apache DocumentRoot content in sync for assets fallback / robots
 if [ -d '$REMOTE_APP/public' ]; then
   rsync -a --delete '$RELEASE_DIR/public/' '$REMOTE_APP/public/' || true
+  # Proxy rules for Apache (must survive public/ sync)
+  if [ -f '$RELEASE_DIR/deploy/apache-public.htaccess' ]; then
+    cp '$RELEASE_DIR/deploy/apache-public.htaccess' '$REMOTE_APP/public/.htaccess'
+  fi
 fi
 # Prune old releases
 cd '$REMOTE_RELEASES'
