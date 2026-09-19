@@ -1,11 +1,12 @@
 import HubPage from "@/components/HubPage";
 import { sitiosByTipo } from "@/lib/sitios";
+import { hubMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = hubMetadata({
   title: "Motéis",
   description: "Motéis em Portugal: suítes, privacidade e estadias curtas.",
-  alternates: { canonical: "/moteis/" },
-};
+  path: "/moteis/",
+});
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       lead="Suítes privadas, estacionamento e estadias por horas ou noite."
       sitios={sitiosByTipo("motel")}
       kicker="Categoria"
+      path="/moteis/"
     />
   );
 }

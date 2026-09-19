@@ -1,6 +1,7 @@
 import { getSitioBySlug } from "@/lib/sitios";
 import { loadSitios } from "@/lib/sitios-store";
 import Ficha from "@/components/Ficha";
+import { sitioMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return loadSitios()
@@ -12,11 +13,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const sitio = getSitioBySlug(slug);
   if (!sitio) return { title: "Motel" };
-  return {
-    title: `${sitio.nome} — ${sitio.onde?.split(",")[0] || ""}`.replace(/ — $/, ""),
-    description: sitio.resumo,
-    alternates: { canonical: sitio.url },
-  };
+  return sitioMetadata(sitio);
 }
 
 export default async function Page({ params }) {

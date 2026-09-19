@@ -1,11 +1,12 @@
 import HubPage from "@/components/HubPage";
 import { sitiosByRegiao } from "@/lib/sitios";
+import { hubMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = hubMetadata({
   title: "Açores",
   description: "Água quente nos Açores: Furnas, Ferraria e hotéis com piscina interior.",
-  alternates: { canonical: "/acores/" },
-};
+  path: "/acores/",
+});
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       lead="Furnas, falésias e água quente quando o Atlântico muda de humor."
       sitios={sitiosByRegiao("acores")}
       kicker="Região"
+      path="/acores/"
     />
   );
 }

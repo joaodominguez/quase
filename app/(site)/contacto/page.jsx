@@ -1,7 +1,10 @@
-export const metadata = {
+import { hubMetadata } from "@/lib/seo";
+
+export const metadata = hubMetadata({
   title: "Contacto",
-  alternates: { canonical: "/contacto/" },
-};
+  description: "Correções e sugestões para o quase — ola@quase.pt.",
+  path: "/contacto/",
+});
 
 export default function Page() {
   return (

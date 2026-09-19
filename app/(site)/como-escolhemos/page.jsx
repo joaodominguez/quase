@@ -1,8 +1,10 @@
-export const metadata = {
+import { hubMetadata } from "@/lib/seo";
+
+export const metadata = hubMetadata({
   title: "Como escolhemos",
   description: "Critérios editoriais do quase: água aquecida, fontes verificáveis, transparência.",
-  alternates: { canonical: "/como-escolhemos/" },
-};
+  path: "/como-escolhemos/",
+});
 
 export default function Page() {
   return (

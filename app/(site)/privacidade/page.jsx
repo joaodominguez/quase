@@ -1,7 +1,10 @@
-export const metadata = {
+import { hubMetadata } from "@/lib/seo";
+
+export const metadata = hubMetadata({
   title: "Privacidade",
-  alternates: { canonical: "/privacidade/" },
-};
+  description: "Política de privacidade do quase — cookies técnicos e medição GA4.",
+  path: "/privacidade/",
+});
 
 export default function Page() {
   return (

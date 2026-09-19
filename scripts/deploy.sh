@@ -60,6 +60,10 @@ rsync_cmd -avz --delete -e "ssh -o StrictHostKeyChecking=no" \
 rsync_cmd -avz -e "ssh -o StrictHostKeyChecking=no" \
   data/sitios.json "${REMOTE_USER}@${REMOTE_HOST}:${RELEASE_DIR}/data/sitios.json"
 
+# Apache proxy rules for DocumentRoot /var/www/quase/public
+rsync_cmd -avz -e "ssh -o StrictHostKeyChecking=no" \
+  deploy/apache-public.htaccess "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_APP}/public/.htaccess"
+
 echo "==> Switching current → $STAMP"
 ssh_cmd "${REMOTE_USER}@${REMOTE_HOST}" bash -s <<EOF
 set -euo pipefail
@@ -67,10 +71,6 @@ ln -sfn '$RELEASE_DIR' '$REMOTE_APP/current'
 # Keep Apache DocumentRoot content in sync for assets fallback / robots
 if [ -d '$REMOTE_APP/public' ]; then
   rsync -a --delete '$RELEASE_DIR/public/' '$REMOTE_APP/public/' || true
-  # Proxy rules for Apache (must survive public/ sync)
-  if [ -f '$RELEASE_DIR/deploy/apache-public.htaccess' ]; then
-    cp '$RELEASE_DIR/deploy/apache-public.htaccess' '$REMOTE_APP/public/.htaccess'
-  fi
 fi
 # Prune old releases
 cd '$REMOTE_RELEASES'
@@ -85,5 +85,9 @@ else
   echo "WARNING: $REMOTE_APP/start.sh missing — start manually" >&2
 fi
 EOF
+
+# Restore Apache proxy htaccess after public/ sync (--delete would wipe it)
+rsync_cmd -avz -e "ssh -o StrictHostKeyChecking=no" \
+  deploy/apache-public.htaccess "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_APP}/public/.htaccess"
 
 echo "==> Deployed release $STAMP"

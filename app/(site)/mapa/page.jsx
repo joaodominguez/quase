@@ -1,17 +1,25 @@
 import { allSitios } from "@/lib/sitios";
 import MapaIlustrado from "@/components/MapaIlustrado";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbJsonLd, hubMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = hubMetadata({
   title: "Mapa",
   description: "Mapa dos sítios do quase em Portugal, Açores e Madeira.",
-  alternates: { canonical: "/mapa/" },
-};
+  path: "/mapa/",
+});
 
 export default function Page() {
   const sitios = allSitios().filter((s) => s.geo?.lat);
 
   return (
     <main id="principal">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Início", path: "/" },
+          { name: "Mapa", path: "/mapa/" },
+        ])}
+      />
       <div className="col">
         <div className="mapa-topo">
           <h1>Onde é que isto fica</h1>

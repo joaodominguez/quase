@@ -1,11 +1,12 @@
 import HubPage from "@/components/HubPage";
 import { sitiosByCategoria } from "@/lib/sitios";
+import { hubMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = hubMetadata({
   title: "Hotéis com piscina interior",
   description: "Hotéis com piscina interior aquecida em Portugal, Açores e Madeira.",
-  alternates: { canonical: "/hoteis-piscina-interior/" },
-};
+  path: "/hoteis-piscina-interior/",
+});
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       lead="Piscina coberta e aquecida — o plano B (ou A) para chuva e inverno."
       sitios={sitiosByCategoria("hotel")}
       kicker="Categoria"
+      path="/hoteis-piscina-interior/"
     />
   );
 }

@@ -1,10 +1,12 @@
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbJsonLd, hubMetadata, itemListJsonLd } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = hubMetadata({
   title: "Listas",
   description: "Listas editoriais do quase sobre água quente em Portugal.",
-  alternates: { canonical: "/listas/" },
-};
+  path: "/listas/",
+});
 
 const LISTAS = [
   {
@@ -32,6 +34,24 @@ const LISTAS = [
 export default function Page() {
   return (
     <main id="principal" className="col prose-page">
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Início", path: "/" },
+            { name: "Listas", path: "/listas/" },
+          ]),
+          itemListJsonLd({
+            name: "Listas editoriais do quase",
+            description: "Recortes editoriais a partir dos 103 sítios do índice.",
+            path: "/listas/",
+            sitios: LISTAS.map((l) => ({
+              id: l.slug,
+              nome: l.title,
+              url: `/listas/${l.slug}/`,
+            })),
+          }),
+        ]}
+      />
       <h1>Listas</h1>
       <p>Recortes editoriais a partir dos 103 sítios do índice.</p>
       <ul>

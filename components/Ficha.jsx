@@ -1,4 +1,5 @@
 import Cartao from "./Cartao";
+import JsonLd from "./JsonLd";
 import {
   CAT_LABEL,
   CAT_CLASS,
@@ -6,6 +7,11 @@ import {
   mapsUrl,
   nearby,
 } from "../lib/sitios";
+import {
+  breadcrumbJsonLd,
+  sitioBreadcrumbs,
+  sitioJsonLd,
+} from "../lib/seo";
 
 export default function Ficha({ sitio }) {
   const cat = CAT_LABEL[sitio.categoria] || sitio.categoria;
@@ -18,6 +24,12 @@ export default function Ficha({ sitio }) {
 
   return (
     <main id="principal">
+      <JsonLd
+        data={[
+          sitioJsonLd(sitio),
+          breadcrumbJsonLd(sitioBreadcrumbs(sitio)),
+        ]}
+      />
       <section className={`heroi ${catClass}`}>
         <div className="col">
           <p className="kicker-ficha">{cat}</p>

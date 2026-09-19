@@ -1,5 +1,6 @@
 import HubPage from "@/components/HubPage";
 import { allSitios, sitiosByRegiao, sitiosByCategoria } from "@/lib/sitios";
+import { hubMetadata } from "@/lib/seo";
 
 const LISTAS = {
   "agua-quente-em-janeiro": {
@@ -46,11 +47,11 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const L = LISTAS[slug];
   if (!L) return { title: "Lista" };
-  return {
+  return hubMetadata({
     title: L.title,
     description: L.lead,
-    alternates: { canonical: `/listas/${slug}/` },
-  };
+    path: `/listas/${slug}/`,
+  });
 }
 
 export default async function Page({ params }) {
@@ -63,5 +64,13 @@ export default async function Page({ params }) {
       </main>
     );
   }
-  return <HubPage title={L.title} lead={L.lead} sitios={L.pick()} kicker="Lista" />;
+  return (
+    <HubPage
+      title={L.title}
+      lead={L.lead}
+      sitios={L.pick()}
+      kicker="Lista"
+      path={`/listas/${slug}/`}
+    />
+  );
 }

@@ -1,22 +1,25 @@
 import "../styles/globals.css";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "../lib/seo";
 
 export const metadata = {
-  metadataBase: new URL("https://quase.pt"),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "quase — onde há água quente em Portugal",
-    template: "%s — quase",
+    default: `${SITE_NAME} — onde há água quente em Portugal`,
+    template: `%s — ${SITE_NAME}`,
   },
-  description:
-    "Cento e três sítios em Portugal onde se entra em água aquecida no inverno: termas, hotéis com piscina interior aquecida e motéis.",
+  description: SITE_DESCRIPTION,
   icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
   openGraph: {
     type: "website",
-    url: "https://quase.pt/",
-    siteName: "quase",
+    siteName: SITE_NAME,
     locale: "pt_PT",
-    title: "quase — onde há água quente em Portugal",
-    description:
-      "Cento e três sítios em Portugal onde se entra em água aquecida no inverno.",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

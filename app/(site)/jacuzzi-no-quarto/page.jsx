@@ -1,11 +1,12 @@
 import HubPage from "@/components/HubPage";
 import { sitiosByCategoria } from "@/lib/sitios";
+import { hubMetadata } from "@/lib/seo";
 
-export const metadata = {
+export const metadata = hubMetadata({
   title: "Jacuzzi no quarto",
   description: "Alojamentos com jacuzzi ou piscina privativa no quarto.",
-  alternates: { canonical: "/jacuzzi-no-quarto/" },
-};
+  path: "/jacuzzi-no-quarto/",
+});
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       lead="Água quente sem sair do quarto."
       sitios={sitiosByCategoria("jacuzzi-no-quarto")}
       kicker="Categoria"
+      path="/jacuzzi-no-quarto/"
     />
   );
 }
