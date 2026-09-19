@@ -53,6 +53,17 @@ export default function Ficha({ sitio }) {
         <div className="ficha-corpo">
           <div>
             <p>{sitio.resumo}</p>
+            {sitio.review ? (
+              <>
+                <h2>O espaço</h2>
+                {sitio.review.split(/\n\n+/).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+                <p className="fonte review-nota">
+                  Leitura editorial a partir de fontes públicas — ainda não visitámos este sítio.
+                </p>
+              </>
+            ) : null}
             <h2>A água</h2>
             <p>
               {sitio.agua ||

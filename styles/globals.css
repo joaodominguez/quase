@@ -327,6 +327,7 @@ select option{background:var(--cartao);color:var(--tinta)}
 .ficha-corpo p{color:var(--tinta-2);font-size:17.5px;line-height:1.65}
 .ficha-corpo h2{margin:28px 0 12px;font-size:24px}
 .ficha-corpo h2:first-child{margin-top:0}
+.ficha-corpo .review-nota{margin-top:8px;margin-bottom:0;font-size:14px;color:var(--tinta-3)}
 
 .lado{background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r);padding:24px;align-self:start}
 @media(min-width:840px){.lado{position:sticky;top:22px}}

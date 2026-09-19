@@ -31,7 +31,11 @@ const evOk = sitios.filter((s) => s.carregador && s.carregador !== "desconhecido
 console.log(`sitios: ${sitios.length}`);
 console.log(`com EV (sim/perto/nao): ${evOk}`);
 console.log(`com foto: ${sitios.filter((s) => s.imagem).length}`);
+console.log(`com review: ${sitios.filter((s) => s.review).length}`);
 console.log(`com preço: ${sitios.filter((s) => s.preco != null).length}`);
+for (const s of sitios) {
+  if (!s.review || String(s.review).trim().length < 40) fail(`${s.id}: review em falta ou demasiado curta`);
+}
 
 if (errors) {
   console.error(`\n${errors} erros`);
