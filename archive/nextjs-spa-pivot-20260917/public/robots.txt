@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://quase.pt/sitemap.xml
