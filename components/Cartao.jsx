@@ -1,9 +1,10 @@
-import { CAT_LABEL, CAT_CLASS, precoLabel } from "../lib/sitios";
+import { CAT_LABEL, CAT_CLASS, precoLabel, precoFallback } from "../lib/sitios";
 
 export default function Cartao({ sitio }) {
   const cat = CAT_LABEL[sitio.categoria] || sitio.categoria;
   const catClass = CAT_CLASS[sitio.categoria] || "cat-hotel";
   const preco = precoLabel(sitio);
+  const fallback = precoFallback(sitio);
   const href = sitio.url || "#";
 
   return (
@@ -29,7 +30,11 @@ export default function Cartao({ sitio }) {
         <div className="cartao-onde">{sitio.onde?.split(",")[0]}</div>
         <p className="cartao-resumo">{sitio.resumo}</p>
         <div className="cartao-pe">
-          <span className="preco">{preco}</span>
+          {preco ? (
+            <span className="preco">{preco}</span>
+          ) : fallback ? (
+            <span className="preco preco-falta">{fallback}</span>
+          ) : null}
           {sitio.carregador && sitio.carregador !== "desconhecido" ? (
             <span className="ev" title={sitio.carregadorTexto || ""}>
               {sitio.carregador === "sim" ? "EV no sítio" : sitio.carregador === "perto" ? "EV perto" : "Sem EV"}

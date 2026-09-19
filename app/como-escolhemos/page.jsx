@@ -24,6 +24,11 @@ export default function Page() {
         Ainda não visitámos os sítios. Temperatura medida existe só onde a registámos. Preços e
         horários mudam — confirma sempre no operador.
       </p>
+      <p>
+        Fotografias: só entram com licença clara (Commons/CC) ou autorização. Sem foto, o cartão
+        usa a cor da categoria — não inventamos imagens. Preços fixos no guia são os que
+        confirmámos; nos hotéis com Booking, o botão da ficha é a fonte viva.
+      </p>
       <h2>Transparência</h2>
       <p>
         Alguns links de reserva são afiliados. A escolha editorial é independente. Fotografias

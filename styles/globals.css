@@ -252,6 +252,7 @@ p{margin:0 0 1em;max-width:68ch}
 .cartao-resumo{font-size:15px;color:var(--tinta-2);margin:6px 0 0;line-height:1.5}
 .cartao-pe{margin-top:auto;padding-top:13px;display:flex;justify-content:space-between;gap:12px;align-items:baseline;font-size:14.5px;color:var(--tinta-3)}
 .cartao-pe .preco{color:var(--tinta);font-weight:600}
+.cartao-pe .preco-falta{color:var(--tinta-3);font-weight:500}
 .cartao-pe .nota{font-variant-numeric:tabular-nums}
 
 .faixa{display:flex;gap:16px;overflow-x:auto;padding-bottom:14px;margin-inline:-22px;padding-inline:22px;scroll-snap-type:x mandatory}

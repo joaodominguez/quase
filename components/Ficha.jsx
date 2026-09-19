@@ -96,15 +96,22 @@ export default function Ficha({ sitio }) {
                   <dd>{sitio.quando}</dd>
                 </>
               ) : null}
-              {sitio.preco != null ? (
-                <>
-                  <dt>preço</dt>
-                  <dd>
+              <dt>preço</dt>
+              <dd>
+                {sitio.preco != null ? (
+                  <>
+                    {sitio.precoNota ? `${sitio.precoNota} ` : null}
                     {sitio.preco} €
                     {sitio.precoUnidade ? ` / ${sitio.precoUnidade}` : ""}
-                  </dd>
-                </>
-              ) : null}
+                  </>
+                ) : sitio.bookingUrl ? (
+                  "Confirma na Booking — muda com a época"
+                ) : sitio.tipo === "termas" ? (
+                  "Confirma a entrada no operador"
+                ) : (
+                  "Sem preço fixo publicado aqui"
+                )}
+              </dd>
               <dt>carregador elétrico</dt>
               <dd>{carregadorLabel(sitio)}</dd>
               {sitio.oficialUrl ? (
