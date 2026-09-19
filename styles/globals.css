@@ -810,6 +810,31 @@ select option{background:var(--cartao);color:var(--tinta)}
 .mapa-entrada .mapa-fonte{position:static;text-align:center;padding-block:4px 12px;margin:0}
 .mapa-entrada .mapa-fonte a{color:var(--tinta);text-decoration:underline;text-underline-offset:3px}
 
+/* No telemóvel: mapa maior, continente em cima e ilhas em baixo (viewBox empilhado). */
+@media (max-width: 760px){
+  .mapa-entrada{
+    padding-block:14px 10px;
+  }
+  .mapa-entrada .mapa,
+  .mapa-zona.mapa-empilhado .mapa,
+  .mapa-empilhado .mapa{
+    max-height:none;
+    width:100%;
+    height:auto;
+  }
+  .mapa-tela{padding-bottom:28px;padding-inline:0}
+  .mapa-empilhado .mapa .ponto{stroke-width:1.5}
+  .mapa-entrada .mapa-fonte,
+  .mapa-empilhado .mapa-fonte{
+    position:static;
+    text-align:center;
+    left:auto;bottom:auto;
+    max-width:none;
+    padding-inline:12px;
+  }
+  .mapa-balao{width:min(210px,calc(100% - 16px))}
+}
+
 /* —— Next layer —— */
 .logo svg{display:block;height:28px;width:auto}
 .kicker-ficha{

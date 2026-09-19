@@ -1,0 +1,11 @@
+{
+  "desktop": {
+    "viewBox": "0 0 1000 620"
+  },
+  "mobile": {
+    "viewBox": "0 0 500 1559",
+    "continente": "translate(-1110.88 -50.19) scale(1.7528)",
+    "acores": "translate(0.07 931.23) scale(0.9957)",
+    "madeira": "translate(-16.28 550.26) scale(2.0172)"
+  }
+}
