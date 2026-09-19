@@ -1,23 +1,30 @@
 # quase.pt
 
-Guia editorial de **SPA e hoteis com piscina interior** em Portugal, Acores e Madeira.
+Guia editorial de sítios em Portugal onde se entra em **água aquecida**: termas, hotéis com piscina interior / termas, jacuzzi no quarto e motéis.
 
-## Stack
+## Estado actual (produção)
 
-- Next.js static export (`output: "export"`)
-- Conteudo em `data/hotels.js` e `data/lists.js`
-- Deploy rsync para `/var/www/quase` no origin
+O site live é **HTML estático** (não Next.js). O snapshot em produção (2026-09-17) está na raiz deste repositório:
 
-## Comandos
+- `index.html` — índice com 103 sítios + filtros
+- `ficar/`, `termas/`, `moteis/` — fichas
+- `mapa/`, `listas/`, hubs regionais
+- `fotos/` — imagens CC
+- `styles.*.css`, `indice.*.js`, `mapa.*.js`, `tema.*.js`
+- `data/sitios.json` — dados estruturados extraídos do índice
+
+## Deploy
 
 ```bash
-npm install
-npm run dev
-npm run build
-# deploy (requer SSH ao origin):
 REMOTE_HOST=91.99.167.243 ./scripts/deploy.sh
 ```
 
-## Wipe 2026-09-17
+Sincroniza a raiz do repo para `/var/www/quase` (exclui `archive/`, `data/`, `scripts/`).
 
-O CMS Laravel antigo (milhares de posts) foi arquivado. Ver `docs/server-cutover.md`.
+## Arquivo
+
+`archive/nextjs-spa-pivot-20260917/` — pivot Next.js anterior (SPA/piscinas, ~12 hotéis), conservado para referência.
+
+## Nota
+
+O gerador que produziu este HTML ainda não está neste repo — só o output deployado. Próximo passo: recuperar/reconstruir o gerador a partir deste snapshot.
