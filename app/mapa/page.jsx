@@ -1,4 +1,5 @@
-import { allSitios, CAT_LABEL } from "../../lib/sitios";
+import { allSitios } from "../../lib/sitios";
+import MapaIlustrado from "../../components/MapaIlustrado";
 
 export const metadata = {
   title: "Mapa",
@@ -12,47 +13,32 @@ export default function Page() {
   return (
     <main id="principal">
       <div className="col">
-        <div className="indice-topo">
-          <h1>Mapa</h1>
-          <p className="sub">
-            {sitios.length} sítios com coordenadas. Abre cada um para a ficha completa.
+        <div className="mapa-topo">
+          <h1>Onde é que isto fica</h1>
+          <p>
+            Os {sitios.length} sítios do guia. Cada ponto é um, a cor é a categoria, e carregar
+            abre a ficha.
           </p>
+          <div className="mapa-legenda" aria-hidden="true">
+            <span style={{ "--c": "var(--cat-termas)" }}>
+              <i /> Termas
+            </span>
+            <span style={{ "--c": "var(--cat-hotel-termal)" }}>
+              <i /> Hotéis com termas
+            </span>
+            <span style={{ "--c": "var(--cat-hotel)" }}>
+              <i /> Piscina interior
+            </span>
+            <span style={{ "--c": "var(--cat-jacuzzi)" }}>
+              <i /> Jacuzzi no quarto
+            </span>
+            <span style={{ "--c": "var(--cat-motel)" }}>
+              <i /> Motéis
+            </span>
+          </div>
         </div>
-        <ul className="mapa-lista" style={{ listStyle: "none", padding: 0, margin: "0 0 3rem" }}>
-          {sitios.map((s) => (
-            <li
-              key={s.id}
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr auto",
-                gap: "0.5rem 1rem",
-                padding: "0.85rem 0",
-                borderBottom: "1px solid var(--linha)",
-              }}
-            >
-              <div>
-                <a href={s.url} style={{ fontFamily: "var(--f-display)", fontSize: "1.15rem" }}>
-                  {s.nome}
-                </a>
-                <div style={{ color: "var(--tinta-3)", fontSize: "0.85rem" }}>
-                  {CAT_LABEL[s.categoria]} · {s.onde}
-                  {s.carregador && s.carregador !== "desconhecido"
-                    ? ` · EV: ${s.carregador === "sim" ? "no sítio" : s.carregador === "perto" ? "perto" : "não"}`
-                    : ""}
-                </div>
-              </div>
-              <a
-                href={`https://www.google.com/maps?q=${s.geo.lat},${s.geo.lon}`}
-                rel="nofollow noopener"
-                target="_blank"
-                style={{ alignSelf: "center", fontSize: "0.85rem", color: "var(--fria)" }}
-              >
-                Mapa
-              </a>
-            </li>
-          ))}
-        </ul>
       </div>
+      <MapaIlustrado sitios={sitios} variante="pagina" />
     </main>
   );
 }

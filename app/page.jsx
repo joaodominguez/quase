@@ -1,5 +1,6 @@
 import { allSitios, sortedForGrid } from "../lib/sitios";
 import Indice from "../components/Indice";
+import MapaIlustrado from "../components/MapaIlustrado";
 
 export default function HomePage() {
   const sitios = sortedForGrid(allSitios());
@@ -21,6 +22,7 @@ export default function HomePage() {
         </div>
       </div>
       <Indice sitios={sitios} />
+      <MapaIlustrado sitios={sitios} variante="entrada" />
     </main>
   );
 }
