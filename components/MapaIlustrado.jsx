@@ -154,7 +154,11 @@ export default function MapaIlustrado({
             />
           </g>
           <g transform={layout?.acores}>
-            <g dangerouslySetInnerHTML={{ __html: molduraAcores + acores }} />
+            <g
+              dangerouslySetInnerHTML={{
+                __html: (layout?.molduraAcores || molduraAcores) + acores,
+              }}
+            />
             <Pontos
               pontos={grupos.acores}
               r={r}
@@ -163,7 +167,11 @@ export default function MapaIlustrado({
             />
           </g>
           <g transform={layout?.madeira}>
-            <g dangerouslySetInnerHTML={{ __html: molduraMadeira + madeira }} />
+            <g
+              dangerouslySetInnerHTML={{
+                __html: (layout?.molduraMadeira || molduraMadeira) + madeira,
+              }}
+            />
             <Pontos
               pontos={grupos.madeira}
               r={r}

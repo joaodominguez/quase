@@ -3,9 +3,11 @@
     "viewBox": "0 0 1000 620"
   },
   "mobile": {
-    "viewBox": "0 0 500 1559",
-    "continente": "translate(-1110.88 -50.19) scale(1.7528)",
-    "acores": "translate(0.07 931.23) scale(0.9957)",
-    "madeira": "translate(-16.28 550.26) scale(2.0172)"
+    "viewBox": "0 0 500 1604",
+    "continente": "translate(-1122.51 -52.69) scale(1.7678)",
+    "acores": "translate(-63.52 913) scale(1.2503)",
+    "madeira": "translate(-102.12 411.53) scale(2.5863)",
+    "molduraAcores": "<g class=\"moldura\"><rect x=\"62.0\" y=\"57.7\" width=\"377.5\" height=\"219.1\" rx=\"10\"/><text x=\"76.0\" y=\"81.7\">Açores</text></g>",
+    "molduraMadeira": "<g class=\"moldura\"><rect x=\"44.9\" y=\"333.9\" width=\"182.5\" height=\"119.2\" rx=\"10\"/><text x=\"58.9\" y=\"357.9\">Madeira</text></g>"
   }
 }
