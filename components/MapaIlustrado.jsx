@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { CAT_LABEL } from "../lib/sitios";
+import { CAT_LABEL } from "../lib/sitios-meta";
 import mapaPontos from "../data/mapa-pontos.json";
 import mapaLayout from "../data/mapa-layout.json";
 import {

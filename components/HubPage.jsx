@@ -1,5 +1,5 @@
 import Cartao from "./Cartao";
-import { sortedForGrid } from "../lib/sitios";
+import { sortedForGrid } from "../lib/sitios-meta";
 
 export default function HubPage({
   title,

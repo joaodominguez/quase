@@ -1,6 +1,4 @@
 import "../styles/globals.css";
-import SiteHeader from "../components/SiteHeader";
-import SiteFooter from "../components/SiteFooter";
 
 export const metadata = {
   metadataBase: new URL("https://quase.pt"),
@@ -10,7 +8,6 @@ export const metadata = {
   },
   description:
     "Cento e três sítios em Portugal onde se entra em água aquecida no inverno: termas, hotéis com piscina interior aquecida e motéis.",
-  alternates: { canonical: "/" },
   icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
   openGraph: {
     type: "website",
@@ -43,14 +40,7 @@ export default function RootLayout({ children }) {
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2210CKKWX" />
         <script dangerouslySetInnerHTML={{ __html: ga }} />
       </head>
-      <body>
-        <a className="saltar" href="#principal">
-          Saltar para o conteúdo
-        </a>
-        <SiteHeader solid />
-        {children}
-        <SiteFooter />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

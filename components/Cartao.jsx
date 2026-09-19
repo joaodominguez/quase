@@ -1,4 +1,4 @@
-import { CAT_LABEL, CAT_CLASS, precoLabel, precoFallback } from "../lib/sitios";
+import { CAT_LABEL, CAT_CLASS, precoLabel, precoFallback } from "../lib/sitios-meta";
 
 export default function Cartao({ sitio }) {
   const cat = CAT_LABEL[sitio.categoria] || sitio.categoria;
