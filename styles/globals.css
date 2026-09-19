@@ -708,6 +708,24 @@ select option{background:var(--cartao);color:var(--tinta)}
 }
 .barra-filtros .fila{display:flex;gap:7px;flex-wrap:wrap}
 .barra-filtros .fila + .fila{margin-top:8px}
+
+/* No telemóvel o sticky com 4 filas de pills come metade do ecrã —
+   fica estático; no desktop mantém-se colado ao topo. */
+@media (max-width: 760px){
+  .barra-filtros{
+    position:static;
+    padding-block:10px 12px;
+  }
+  .barra-filtros .fila{gap:6px}
+  .filtro{
+    padding:6px 12px;
+    font-size:13px;
+    min-height:34px;
+  }
+  .filtro i{width:8px;height:8px}
+  .indice-topo{padding-block:22px 14px}
+  .indice-topo h1{font-size:clamp(24px,7vw,32px)}
+}
 .filtro{
   border:1px solid var(--linha-forte);border-radius:99px;padding:8px 15px;
   font-size:14px;font-weight:500;background:var(--cartao);color:var(--tinta);

@@ -16,12 +16,12 @@ const styles = {
 
 function MarkA() {
   return (
-    <svg viewBox="0 0 220 56" fill="currentColor" height="40" aria-hidden="true">
-      <text x="2" y="40" fontFamily="var(--f-display)" fontSize="42" fontWeight="600" letterSpacing="-1.5">
+    <svg viewBox="0 0 138 56" fill="currentColor" height="40" aria-hidden="true">
+      <text x="0" y="40" fontFamily="var(--f-display)" fontSize="42" fontWeight="600" letterSpacing="-1.8">
         quase
       </text>
-      <circle cx="198" cy="28" r="14" fill="none" stroke="currentColor" strokeWidth="3.2" />
-      <circle cx="198" cy="28" r="5.5" fill="currentColor" />
+      <circle cx="123" cy="28" r="11.5" fill="none" stroke="currentColor" strokeWidth="2.6" />
+      <circle cx="123" cy="28" r="4.2" fill="currentColor" />
     </svg>
   );
 }
@@ -61,7 +61,7 @@ export default function Page() {
         <p className="kicker-ficha">A — activa</p>
         <MarkA />
         <p style={{ color: "var(--tinta-3)", marginTop: "0.75rem" }}>
-          Wordmark Bricolage + anel/ponto (água / alvo).
+          Wordmark Bricolage + anel junto à palavra (espaço reduzido).
         </p>
       </div>
       <div style={styles.card}>
