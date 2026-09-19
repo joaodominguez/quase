@@ -33,8 +33,11 @@ console.log(`com EV (sim/perto/nao): ${evOk}`);
 console.log(`com foto: ${sitios.filter((s) => s.imagem).length}`);
 console.log(`com review: ${sitios.filter((s) => s.review).length}`);
 console.log(`com preço: ${sitios.filter((s) => s.preco != null).length}`);
+console.log(`com Instagram: ${sitios.filter((s) => s.instagram).length}`);
+console.log(`com site oficial: ${sitios.filter((s) => s.oficialUrl).length}`);
 for (const s of sitios) {
   if (!s.review || String(s.review).trim().length < 40) fail(`${s.id}: review em falta ou demasiado curta`);
+  if (s.instagram && !/^[A-Za-z0-9._]+$/.test(s.instagram)) fail(`${s.id}: Instagram inválido`);
 }
 
 if (errors) {

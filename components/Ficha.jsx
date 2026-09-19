@@ -124,6 +124,20 @@ export default function Ficha({ sitio }) {
                   </dd>
                 </>
               ) : null}
+              {sitio.instagram ? (
+                <>
+                  <dt>Instagram</dt>
+                  <dd>
+                    <a
+                      href={`https://www.instagram.com/${sitio.instagram}/`}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      @{sitio.instagram}
+                    </a>
+                  </dd>
+                </>
+              ) : null}
             </dl>
 
             {sitio.bookingUrl ? (
