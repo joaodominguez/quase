@@ -24,7 +24,13 @@
       "lon": -25.31498,
       "precisao": "estabelecimento",
       "geoNome": "Terra Nostra Garden Hotel, 5, Rua Padre José Jacinto Botelho, Furnas, Povoação, Açores, 9675-061, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fterra-nostra-garden.pt-pt.html&sid=terra-nostra",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano.",
+    "sub": "Furnas, ilha de São Miguel. Ainda não visitado por nós."
   },
   {
     "id": "octant-furnas",
@@ -51,7 +57,13 @@
       "lon": -25.30424,
       "precisao": "estabelecimento",
       "geoNome": "Octant Hotels Furnas, Av. Dr. Manuel de Arriaga, Avenida Doutor Manuel de Arriaga, Furnas, Povoação, Açores, 9675-022, Portugal"
-    }
+    },
+    "carregadorTexto": "A 785 m · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Foctant-furnas.pt-pt.html&sid=octant-furnas",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano.",
+    "sub": "Furnas, São Miguel. Ainda não visitado por nós."
   },
   {
     "id": "pedras-do-mar",
@@ -78,7 +90,13 @@
       "lon": -25.61872,
       "precisao": "estabelecimento",
       "geoNome": "Pedras do Mar Resort & Spa, 3, Rua da Terça, Fenais da Luz, Ponta Delgada, Açores, 9545-229, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpedras-do-mar-resort-and-spa.pt-pt.html&sid=pedras-do-mar",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano.",
+    "sub": "Fenais da Luz, São Miguel. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "savoy-palace",
@@ -105,7 +123,13 @@
       "lon": -16.92056,
       "precisao": "estabelecimento",
       "geoNome": "Savoy Palace, Avenida do Infante, Penha de França, Ilhéus, Sé, Funchal, Madeira, 9004-526, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fsavoy-palace.pt-pt.html&sid=savoy-palace",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano.",
+    "sub": "Funchal, Madeira. Ainda não visitado por nós."
   },
   {
     "id": "reids-palace",
@@ -132,7 +156,13 @@
       "lon": -16.92379,
       "precisao": "estabelecimento",
       "geoNome": "Afternoon Tea at Belmond Reid's Palace, Estrada Monumental, Monumental, Nazaré, São Martinho, Funchal, Madeira, 9000-098, Portugal"
-    }
+    },
+    "carregadorTexto": "A 440 m, 7 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Freid-s-palace.pt-pt.html&sid=reids-palace",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano.",
+    "sub": "Funchal, Madeira. Ainda não visitado por nós."
   },
   {
     "id": "six-senses-douro",
@@ -159,7 +189,13 @@
       "lon": -7.81147,
       "precisao": "estabelecimento",
       "geoNome": "Six Senses Douro Valley, EN 222, Lagares, Adega do Chão, Samodães, Lamego, Viseu, 5040-211, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Tesla",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fsix-senses-douro-valley.pt-pt.html&sid=six-senses-douro",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona out a mar.",
+    "sub": "Lamego, Douro. Ainda não visitado por nós."
   },
   {
     "id": "vidago-palace",
@@ -186,7 +222,13 @@
       "lon": -7.57573,
       "precisao": "estabelecimento",
       "geoNome": "Vidago Palace Hotel, PR4 Trilho das Colinas, Vidago (União das freguesias de Vidago, Arcossó, Selhariz e Vilarinho das Paranheiras), Chaves, Vila Real, 5425-307, Portugal"
-    }
+    },
+    "carregadorTexto": "A 157 m, 2 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fvidago-palace.pt-pt.html&sid=vidago-palace",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona out a mar.",
+    "sub": "Vidago, Vila Real. Ainda não visitado por nós."
   },
   {
     "id": "the-yeatman",
@@ -213,7 +255,13 @@
       "lon": -8.61292,
       "precisao": "estabelecimento",
       "geoNome": "The Yeatman, Rua do Choupelo, Devesas, Santa Marinha, Vila Nova de Gaia, Porto, 4400-088, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · The Yeatman Hotel",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fthe-yeatman.pt-pt.html&sid=the-yeatman",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona out a mar.",
+    "sub": "Vila Nova de Gaia, Porto. Ainda não visitado por nós."
   },
   {
     "id": "torre-de-gomariz",
@@ -240,7 +288,13 @@
       "lon": -8.53602,
       "precisao": "estabelecimento",
       "geoNome": "Torre de Gomariz Wine & Spa Hotel, Avenida Sobral Castelo, Cervães, Vila Verde, Braga, 4730-005, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Tesla",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Ftorre-de-gomariz-wine-amp-spa.pt-pt.html&sid=torre-de-gomariz",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona out a mar.",
+    "sub": "Vila Verde, Minho. Ainda não visitado por nós."
   },
   {
     "id": "areias-do-seixo",
@@ -267,7 +321,13 @@
       "lon": -9.38171,
       "precisao": "localidade",
       "geoNome": "Santa Cruz, Silveira, Torres Vedras, Lisboa, 2560-494, Portugal"
-    }
+    },
+    "carregadorTexto": "A 64 m, 3 postos à volta · Santa Cruz Dive House",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fareias-do-seixo-a-dos-cunhados1.pt-pt.html&sid=areias-do-seixo",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona out a mar.",
+    "sub": "Santa Cruz, Torres Vedras. Ainda não visitado por nós."
   },
   {
     "id": "sublime-comporta",
@@ -294,7 +354,13 @@
       "lon": -8.786,
       "precisao": "localidade",
       "geoNome": "Comporta, Alcácer do Sal, Setúbal, Portugal"
-    }
+    },
+    "carregadorTexto": "A 606 m · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fsublime-comporta-retreat-amp-restaurant.pt-pt.html&sid=sublime-comporta",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona out a mar.",
+    "sub": "Comporta, Alentejo. Ainda não visitado por nós."
   },
   {
     "id": "longevity-alvor",
@@ -321,7 +387,13 @@
       "lon": -8.58431,
       "precisao": "estabelecimento",
       "geoNome": "Longevity Health & Wellness Hotel, Rua Cruz da Bota, Galo Loiro, Praia de Alvor, Alvor, Portimão, Faro, 8500-322, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Flongevity-health-amp-wellness.pt-pt.html&sid=longevity-alvor",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona out a abr.",
+    "sub": "Alvor, Algarve. Ainda não visitado por nós."
   },
   {
     "id": "silk-motel",
@@ -348,7 +420,9 @@
       "lon": -9.35224,
       "precisao": "localidade",
       "geoNome": "Sintra, Lisboa, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 336 m, 2 postos à volta · Mobi.E"
   },
   {
     "id": "requinte-motel-sintra",
@@ -375,7 +449,9 @@
       "lon": -9.35224,
       "precisao": "localidade",
       "geoNome": "Sintra, Lisboa, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 336 m, 2 postos à volta · Mobi.E"
   },
   {
     "id": "elite-motel-sintra",
@@ -402,7 +478,9 @@
       "lon": -9.35224,
       "precisao": "localidade",
       "geoNome": "Sintra, Lisboa, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 336 m, 2 postos à volta · Mobi.E"
   },
   {
     "id": "havay-motel",
@@ -429,7 +507,9 @@
       "lon": -8.60705,
       "precisao": "localidade",
       "geoNome": "Grande Hotel do Porto, Rua do Ateneu Comercial do Porto, Baixa do Porto, Conjunto Urbano da Ribeira, Centro Histórico do Porto, Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória, Porto, 4000-428, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 33 m, 19 postos à volta · Mobi.E"
   },
   {
     "id": "alto-de-valongo",
@@ -456,7 +536,9 @@
       "lon": -8.518,
       "precisao": "estabelecimento",
       "geoNome": "Motel Alto de Valongo, Rua Ribeiro do Cambado, Alto da Serra, Valongo, Porto, 4435-835, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 200 m, 3 postos à volta · Mobi.E"
   },
   {
     "id": "dlirius-azuis",
@@ -483,7 +565,9 @@
       "lon": -8.60705,
       "precisao": "localidade",
       "geoNome": "Grande Hotel do Porto, Rua do Ateneu Comercial do Porto, Baixa do Porto, Conjunto Urbano da Ribeira, Centro Histórico do Porto, Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória, Porto, 4000-428, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 33 m, 19 postos à volta · Mobi.E"
   },
   {
     "id": "motel-h2on",
@@ -510,7 +594,9 @@
       "lon": -9.14405,
       "precisao": "localidade",
       "geoNome": "Frielas, Loures, Lisboa, 2660-028, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 104 m · Mobi.E"
   },
   {
     "id": "motel-avenue-lisboa",
@@ -537,7 +623,9 @@
       "lon": -9.14411,
       "precisao": "estabelecimento",
       "geoNome": "Motel Avenue Lisboa, Rua dos Fetais, Zona Antiga de Fetais, Camarate, Unhos e Apelação, Loures, Lisboa, 2680-142, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 442 m, 4 postos à volta · Bluecharge"
   },
   {
     "id": "classic-motel-sintra",
@@ -564,7 +652,9 @@
       "lon": -9.36483,
       "precisao": "localidade",
       "geoNome": "Ral, Terrugem, Sintra, Lisboa, 2710-446, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "motel-xroomz",
@@ -573,7 +663,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-xroomz/",
     "temp": null,
     "tempFonte": null,
     "preco": null,
@@ -591,7 +681,10 @@
       "lon": -9.14305,
       "precisao": "localidade",
       "geoNome": "São José, Santo António, Madalena, Lisboa, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-mood",
@@ -600,7 +693,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-mood/",
     "temp": null,
     "tempFonte": null,
     "preco": 65,
@@ -618,7 +711,10 @@
       "lon": -8.94667,
       "precisao": "estabelecimento",
       "geoNome": "Motel Mood, 1070, Avenida Rainha Santa Isabel, Bairro da Cova da Loba, Bairro do Barrão, Montijo e Afonsoeiro, Montijo, Setúbal, 2870-088, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-lux-trafaria",
@@ -627,7 +723,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-lux-trafaria/",
     "temp": null,
     "tempFonte": null,
     "preco": 70,
@@ -645,7 +741,10 @@
       "lon": -9.22194,
       "precisao": "estabelecimento",
       "geoNome": "Motel Lux Trafaria, Rua de São Pedro da Caparica, Pêra de Baixo, Pêra, Caparica e Trafaria, Almada, Setúbal, 2825-837, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-seven",
@@ -654,7 +753,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-seven/",
     "temp": null,
     "tempFonte": null,
     "preco": 68,
@@ -672,7 +771,10 @@
       "lon": -9.05188,
       "precisao": "estabelecimento",
       "geoNome": "Motel Seven, Avenida 10 de Junho, Aldeia de Paio Pires, Seixal, Setúbal, 2830-416, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "habana-motel",
@@ -681,7 +783,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/habana-motel/",
     "temp": null,
     "tempFonte": null,
     "preco": 30,
@@ -699,7 +801,10 @@
       "lon": -8.68477,
       "precisao": "estabelecimento",
       "geoNome": "Habana Motel, 4015, Avenida Mário Brito, Freixieiro, Perafita, Matosinhos, Porto, 4455-496, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-tropicana",
@@ -708,7 +813,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-tropicana/",
     "temp": null,
     "tempFonte": null,
     "preco": 50,
@@ -726,7 +831,10 @@
       "lon": -8.63244,
       "precisao": "estabelecimento",
       "geoNome": "Motel Tropicana, 1761, Valadares, Vila Nova de Gaia, Porto, 4405-528, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-flamingo",
@@ -735,7 +843,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-flamingo/",
     "temp": null,
     "tempFonte": null,
     "preco": null,
@@ -753,7 +861,10 @@
       "lon": -8.69482,
       "precisao": "estabelecimento",
       "geoNome": "Motel Flamingo, Rua Joaquim Alves da Silva, Perafita, Matosinhos, Porto, 4455-533, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-portofino",
@@ -780,7 +891,9 @@
       "lon": -8.61064,
       "precisao": "localidade",
       "geoNome": "São Mamede de Infesta, Matosinhos, Porto, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 365 m, 4 postos à volta · Mobi.E"
   },
   {
     "id": "motel-twenty-one",
@@ -789,7 +902,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-twenty-one/",
     "temp": null,
     "tempFonte": null,
     "preco": 55,
@@ -807,7 +920,10 @@
       "lon": -8.54429,
       "precisao": "estabelecimento",
       "geoNome": "Motel Twenty One, Rua Alvarinho Santos, Ponte Real, Lagoa, Gondomar (São Cosme), Valbom e Jovim, Gondomar, Porto, 4420-195, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-dunas-dovar",
@@ -834,7 +950,9 @@
       "lon": -8.61334,
       "precisao": "estabelecimento",
       "geoNome": "Motel Dunas, Rua de Olho Marinho, Arada, Ovar, Aveiro, 3885-113, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "motel-eclipse",
@@ -843,7 +961,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-eclipse/",
     "temp": null,
     "tempFonte": null,
     "preco": 45,
@@ -861,7 +979,10 @@
       "lon": -8.55653,
       "precisao": "estabelecimento",
       "geoNome": "Motel Eclipse, EN 16, Esporão, Angeja, Albergaria-a-Velha, Aveiro, 3850-416, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-emocoes",
@@ -888,7 +1009,9 @@
       "lon": -8.57267,
       "precisao": "estabelecimento",
       "geoNome": "Motel Emoções, 3100, Avenida de São Cristóvão, Pousadela, Nogueira da Regedoura, Santa Maria da Feira, Aveiro, 4500-706, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 423 m · Mobi.E"
   },
   {
     "id": "motel-principe-encantado",
@@ -897,7 +1020,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-principe-encantado/",
     "temp": null,
     "tempFonte": null,
     "preco": 45,
@@ -915,7 +1038,10 @@
       "lon": -8.4511,
       "precisao": "estabelecimento",
       "geoNome": "Principe Encantado, IC 2;EN 1, Quintas de Mala, Casal Comba, Mealhada, Aveiro, 3050-131, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-horly",
@@ -924,7 +1050,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-horly/",
     "temp": null,
     "tempFonte": null,
     "preco": 45,
@@ -942,7 +1068,10 @@
       "lon": -8.44034,
       "precisao": "estabelecimento",
       "geoNome": "Motel Horly, Rua de Entre Campos, Palmeira, Braga, 4700-734, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-bracancun",
@@ -951,7 +1080,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-bracancun/",
     "temp": null,
     "tempFonte": null,
     "preco": 48,
@@ -969,7 +1098,10 @@
       "lon": -8.01014,
       "precisao": "localidade",
       "geoNome": "Aveleira, Arganil, Coimbra, 3300-102, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-eleven",
@@ -978,7 +1110,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-eleven/",
     "temp": null,
     "tempFonte": null,
     "preco": 55,
@@ -996,7 +1128,10 @@
       "lon": -8.86648,
       "precisao": "estabelecimento",
       "geoNome": "Eleven, EN 242, Carreira D'Água, Marrazes e Barosa, Leiria, 2400-489, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-avenue-leiria-pombal",
@@ -1005,7 +1140,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-avenue-leiria-pombal/",
     "temp": null,
     "tempFonte": null,
     "preco": 50,
@@ -1023,7 +1158,10 @@
       "lon": -8.79568,
       "precisao": "localidade",
       "geoNome": "Milagres, Leiria, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-pantanal",
@@ -1032,7 +1170,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-pantanal/",
     "temp": null,
     "tempFonte": null,
     "preco": 50,
@@ -1050,7 +1188,10 @@
       "lon": -8.62332,
       "precisao": "estabelecimento",
       "geoNome": "Pantanal, IC 2;EN 1, Tinto, Pelariga, Pombal, Leiria, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "motel-fonte-dos-amores",
@@ -1077,7 +1218,9 @@
       "lon": -8.44246,
       "precisao": "estabelecimento",
       "geoNome": "Fonte dos Amores, Rua Fetal, Fornos, Torre de Vilela, Coimbra, 3020-927, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "motel-afrodite-mtl",
@@ -1086,7 +1229,7 @@
     "tipo": "motel",
     "categoria": "motel",
     "regiao": "portugal",
-    "url": null,
+    "url": "/moteis/motel-afrodite-mtl/",
     "temp": null,
     "tempFonte": null,
     "preco": 58,
@@ -1104,7 +1247,10 @@
       "lon": -8.77264,
       "precisao": "localidade",
       "geoNome": "São Romão de Neiva, Viana do Castelo, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null,
+    "urlGerada": true
   },
   {
     "id": "poca-dona-beija",
@@ -1131,7 +1277,9 @@
       "lon": -25.31964,
       "precisao": "estabelecimento",
       "geoNome": "Poça da Dona Beija, Lomba das Barracas, Furnas, Povoação, Açores, 9675-040, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 615 m · Mobi.E"
   },
   {
     "id": "caldeira-velha",
@@ -1158,7 +1306,9 @@
       "lon": -25.49951,
       "precisao": "estabelecimento",
       "geoNome": "Caldeira Velha, Ribeira Grande (Conceição), Ribeira Grande, Açores, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "termas-carapacho",
@@ -1185,7 +1335,9 @@
       "lon": -27.95943,
       "precisao": "estabelecimento",
       "geoNome": "Termas do Carapacho, Rua Doutor Manuel Sousa de Meneses, Carapacho, Luz, Santa Cruz da Graciosa, Açores, 9880-120, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "ponta-da-ferraria",
@@ -1212,7 +1364,9 @@
       "lon": -25.85232,
       "precisao": "estabelecimento",
       "geoNome": "Ponta da Ferraria, Rua Ilha Sabrina, Ginetes, Ponta Delgada, Açores, 9555-102, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "termas-de-chaves",
@@ -1239,7 +1393,9 @@
       "lon": -7.47288,
       "precisao": "estabelecimento",
       "geoNome": "Termas de Chaves, Ponte das Caldas, Santa Maria Maior, Chaves, Vila Real, 5400-534, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 205 m, 10 postos à volta · Mobi.E"
   },
   {
     "id": "pedras-salgadas",
@@ -1266,7 +1422,9 @@
       "lon": -7.60747,
       "precisao": "estabelecimento",
       "geoNome": "Pedras Salgadas Spa & Nature Park, Rua do Universal, Rebordochão, Bornes de Aguiar, Vila Pouca de Aguiar, Vila Real, 5450-165, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 512 m, 2 postos à volta · Mobi.E"
   },
   {
     "id": "termas-de-vizela",
@@ -1293,7 +1451,9 @@
       "lon": -8.30885,
       "precisao": "estabelecimento",
       "geoNome": "Termas de Vizela, Passadiços de Vizela, Caldas de Vizela (São Miguel e São João), Vizela, Braga, 4815-552, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 157 m, 5 postos à volta · Mobi.E"
   },
   {
     "id": "caldas-da-saude",
@@ -1320,7 +1480,9 @@
       "lon": -8.47963,
       "precisao": "estabelecimento",
       "geoNome": "Termas das Caldas da Saúde, 754, Rua das Termas, Areias, Santo Tirso, Porto, 4784-907, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 740 m · Mobi.E"
   },
   {
     "id": "termas-de-amarante",
@@ -1347,7 +1509,9 @@
       "lon": -8.08046,
       "precisao": "localidade",
       "geoNome": "Amarante, Porto, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 297 m, 8 postos à volta · Tesla"
   },
   {
     "id": "termas-de-sao-vicente",
@@ -1374,7 +1538,9 @@
       "lon": -8.28557,
       "precisao": "localidade",
       "geoNome": "Penafiel, Porto, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 294 m, 4 postos à volta · Mobi.E"
   },
   {
     "id": "termas-de-melgaco",
@@ -1401,7 +1567,9 @@
       "lon": -8.25934,
       "precisao": "localidade",
       "geoNome": "Melgaço, Vila e Roussas, Melgaço, Viana do Castelo, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 195 m, 5 postos à volta · Mobi.E"
   },
   {
     "id": "torel-quinta-da-vacaria",
@@ -1428,7 +1596,14 @@
       "lon": -7.76889,
       "precisao": "estabelecimento",
       "geoNome": "Torel Quinta da Vacaria - Douro Valley, Quinta da Vacaria, Canelas, Peso da Régua, Vila Real, 5050-364, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Ftorel-quinta-da-vacaria-douro-valley.pt-pt.html&sid=torel-quinta-da-vacaria",
+    "oficialUrl": "https://www.torelquintadavacaria.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano.",
+    "sub": "Peso da Régua, distrito de Vila Real. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "casa-da-calcada",
@@ -1455,7 +1630,14 @@
       "lon": -8.08046,
       "precisao": "localidade",
       "geoNome": "Amarante, Porto, Portugal"
-    }
+    },
+    "carregadorTexto": "A 297 m, 8 postos à volta · Tesla",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fcasa-da-calcada-relais-chateaux.pt-pt.html&sid=casa-da-calcada",
+    "oficialUrl": "https://www.casadacalcada.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano.",
+    "sub": "Amarante, distrito do Porto. Ainda não visitado por nós."
   },
   {
     "id": "termas-sao-pedro-do-sul",
@@ -1482,7 +1664,9 @@
       "lon": -8.09074,
       "precisao": "estabelecimento",
       "geoNome": "Termas de São Pedro do Sul (Grande Hotel Thermas), Rua Principal, Termas, São Pedro do Sul, Várzea e Baiões, São Pedro do Sul, São João da Serra, Viseu, 3660-692, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 152 m, 2 postos à volta · Mobi.E"
   },
   {
     "id": "grande-hotel-de-luso",
@@ -1509,7 +1693,14 @@
       "lon": -8.37821,
       "precisao": "estabelecimento",
       "geoNome": "Grande Hotel de Luso, Alameda Cassiano Branco, Várzeas, Luso, Mealhada, Aveiro, 3050-267, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Tesla",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fgrandehoteldeluso.pt-pt.html&sid=grande-hotel-de-luso",
+    "oficialUrl": "https://www.hoteluso.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Luso, Mealhada, distrito de Aveiro. Ainda não visitado por nós."
   },
   {
     "id": "curia-palace-hotel",
@@ -1536,7 +1727,14 @@
       "lon": -8.43596,
       "precisao": "localidade",
       "geoNome": "Anadia, Aveiro, Portugal"
-    }
+    },
+    "carregadorTexto": "A 130 m, 6 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpalace-curia-golf-spa-resort.pt-pt.html&sid=curia-palace-hotel",
+    "oficialUrl": "https://www.almeidahotels.pt/pt/hotel-curia-em-coimbra/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar.",
+    "sub": "Anadia, distrito de Aveiro. Ainda não visitado por nós."
   },
   {
     "id": "aquadome-unhais-da-serra",
@@ -1563,7 +1761,9 @@
       "lon": -7.50419,
       "precisao": "localidade",
       "geoNome": "Covilhã, Castelo Branco, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "termas-de-longroiva",
@@ -1590,7 +1790,9 @@
       "lon": -7.20997,
       "precisao": "estabelecimento",
       "geoNome": "Termas de Longroiva, EN 331, Longroiva, Mêda, Guarda, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "termas-do-cro",
@@ -1617,7 +1819,9 @@
       "lon": -7.04428,
       "precisao": "estabelecimento",
       "geoNome": "Termas do Cró, EN 324, Roque Amador, Rapoula do Côa, Sabugal, Guarda, Portugal"
-    }
+    },
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "casa-de-sao-lourenco",
@@ -1644,7 +1848,14 @@
       "lon": -7.54087,
       "precisao": "localidade",
       "geoNome": "Manteigas, Guarda, Portugal"
-    }
+    },
+    "carregadorTexto": "A 21 m, 3 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fcasa-de-sao-lourenco.pt-pt.html&sid=casa-de-sao-lourenco",
+    "oficialUrl": "https://www.casadesaolourenco.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Manteigas, distrito da Guarda. Ainda não visitado por nós."
   },
   {
     "id": "pousada-serra-da-estrela",
@@ -1671,7 +1882,14 @@
       "lon": -7.53398,
       "precisao": "estabelecimento",
       "geoNome": "Pousada Serra da Estrela, Estrada Regional 339, Covilhã e Canhoso, Covilhã, Castelo Branco, 6200-324, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpousada-da-serra-da-estrela.pt-pt.html&sid=pousada-serra-da-estrela",
+    "oficialUrl": "https://www.pousadas.pt/pt/hotel/pousada-serra-estrela",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano.",
+    "sub": "Covilhã, distrito de Castelo Branco. Ainda não visitado por nós."
   },
   {
     "id": "penha-longa",
@@ -1698,7 +1916,14 @@
       "lon": -9.39595,
       "precisao": "estabelecimento",
       "geoNome": "Hotel Resort Penha Longa, Urbanização Village do Alto, Beloura, Penha Longa, Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra, Lisboa, 2714-511, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fcaesarparkhotel.pt-pt.html&sid=penha-longa",
+    "oficialUrl": "https://www.ritzcarlton.com/pt/hotels/lisrz-penha-longa-resort/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano, piscina interior das 8h às 20h.",
+    "sub": "Sintra, distrito de Lisboa. Ainda não visitado por nós."
   },
   {
     "id": "palacio-estoril",
@@ -1725,7 +1950,14 @@
       "lon": -9.42045,
       "precisao": "localidade",
       "geoNome": "Cascais, Lisboa, Portugal"
-    }
+    },
+    "carregadorTexto": "A 48 m, 27 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpalacio-estoril-golf.pt-pt.html&sid=palacio-estoril",
+    "oficialUrl": "https://www.palacioestorilhotel.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano. a piscina exterior só funciona de 15 de abril a 31 de outubro.",
+    "sub": "Cascais, distrito de Lisboa. Ainda não visitado por nós."
   },
   {
     "id": "praia-del-rey-marriott",
@@ -1752,7 +1984,14 @@
       "lon": -9.28237,
       "precisao": "estabelecimento",
       "geoNome": "Praia D'El Rey Marriott Golf & Beach Resort, 1, Avenida Dona Inês de Castro, Amoreira, Óbidos, Leiria, 2510-451, Portugal"
-    }
+    },
+    "carregadorTexto": "A 414 m, 2 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpraia-d-el-rey-marriott-golf-beach-resort.pt-pt.html&sid=praia-del-rey-marriott",
+    "oficialUrl": "https://www.praia-del-rey.com/en/marriott",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Óbidos, distrito de Leiria. Ainda não visitado por nós."
   },
   {
     "id": "convento-do-espinheiro",
@@ -1779,7 +2018,14 @@
       "lon": -7.88909,
       "precisao": "estabelecimento",
       "geoNome": "Convento do Espinheiro, CM 1089, Espinheiro, Canaviais, Évora, 7002-502, Portugal"
-    }
+    },
+    "carregadorTexto": "A 161 m · Tesla",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fconvento-do-espinheiro-heritage-spa.pt-pt.html&sid=convento-do-espinheiro",
+    "oficialUrl": "https://www.conventodoespinheiro.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano, spa das 10h15 às 19h. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Évora, distrito de Évora. Ainda não visitado por nós."
   },
   {
     "id": "torre-de-palma",
@@ -1806,7 +2052,14 @@
       "lon": -7.4888,
       "precisao": "estabelecimento",
       "geoNome": "Torre de Palma Wine Hotel, EN 369, Vaiamonte, Monforte, Portalegre, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Torre de Palma Wine Hotel",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Ftorre-de-palma-wine.pt-pt.html&sid=torre-de-palma",
+    "oficialUrl": "https://www.torredepalma.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Monforte, distrito de Portalegre. Ainda não visitado por nós."
   },
   {
     "id": "vila-gale-alentejo-vineyards",
@@ -1833,7 +2086,14 @@
       "lon": -8.02083,
       "precisao": "estabelecimento",
       "geoNome": "Vila Galé Alentejo Vineyards & Olive, EM 529, Santa Vitória e Mombeja, Beja, 7800-730, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fvilagaleclubedecampo.pt-pt.html&sid=vila-gale-alentejo-vineyards",
+    "oficialUrl": "https://www.vilagale.com/en/hotels/alentejo/vila-gale-alentejo-vineyards",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona todo o ano. a piscina interior só por marcação, em sessões de 45 minutos.",
+    "sub": "Santa Vitória, distrito de Beja. Ainda não visitado por nós."
   },
   {
     "id": "epic-sana-algarve",
@@ -1860,7 +2120,14 @@
       "lon": -8.25263,
       "precisao": "localidade",
       "geoNome": "Albufeira, Faro, Portugal"
-    }
+    },
+    "carregadorTexto": "A 304 m, 5 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fepic-sana-algarve.pt-pt.html&sid=epic-sana-algarve",
+    "oficialUrl": "https://www.sanahotels.com/en/hotel/epic-sana-algarve/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona spa das 10h às 20h.",
+    "sub": "Albufeira, distrito de Faro. Ainda não visitado por nós."
   },
   {
     "id": "villa-termal-monchique",
@@ -1887,7 +2154,9 @@
       "lon": -8.55419,
       "precisao": "estabelecimento",
       "geoNome": "Villa Termal das Caldas de Monchique Spa Resort, Caldas de Monchique, Monchique, Faro, 8550-232, Portugal"
-    }
+    },
+    "carregador": "perto",
+    "carregadorTexto": "A 589 m · Mobi.E"
   },
   {
     "id": "hotel-do-caracol",
@@ -1914,7 +2183,14 @@
       "lon": -27.23649,
       "precisao": "estabelecimento",
       "geoNome": "Hotel do Caracol, 1, Largo da Silveira, São Pedro, Angra (São Pedro), Angra do Heroísmo, Açores, 9700-193, Portugal"
-    }
+    },
+    "carregadorTexto": "A 405 m, 2 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fhotel-do-caracol.pt-pt.html&sid=hotel-do-caracol",
+    "oficialUrl": "https://www.bensaudehotels.com/en/hoteldocaracol",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Angra do Heroísmo, ilha Terceira. Ainda não visitado por nós."
   },
   {
     "id": "azoris-faial-garden",
@@ -1941,7 +2217,14 @@
       "lon": -28.62759,
       "precisao": "estabelecimento",
       "geoNome": "Azoris Faial Garden, Rua Doutor Alexandre de Lacerda Goulart da Silva, Matriz, Horta (Angústias), Horta, Açores, 9901-856, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Ffayal-resort.pt-pt.html&sid=azoris-faial-garden",
+    "oficialUrl": "https://www.azorishotels.com/pt/faialgarden",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Horta, ilha do Faial. Ainda não visitado por nós."
   },
   {
     "id": "pestana-casino-park",
@@ -1968,7 +2251,14 @@
       "lon": -16.91734,
       "precisao": "estabelecimento",
       "geoNome": "Pestana Casino Park, Rua Imperatriz Dona Amélia, Infante, Ilhéus, Sé, Funchal, Madeira, 9004-513, Portugal"
-    }
+    },
+    "carregadorTexto": "No próprio sítio · Mobi.E",
+    "carregador": "sim",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpestanacasinopark.pt-pt.html&sid=pestana-casino-park",
+    "oficialUrl": "https://www.pestana.com/pt/hotel/pestana-casino-park",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona a piscina interior aquecida é descrita pelo hotel como disponível todo o ano.",
+    "sub": "Funchal, Madeira. Ainda não visitado por nós."
   },
   {
     "id": "the-cliff-bay",
@@ -1995,7 +2285,14 @@
       "lon": -16.92709,
       "precisao": "estabelecimento",
       "geoNome": "La Villa at The Cliff Bay, Estrada Monumental, Casa Branca, Nazaré, São Martinho, Funchal, Madeira, 9000-925, Portugal"
-    }
+    },
+    "carregadorTexto": "A 534 m, 2 postos à volta · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fthe-cliff-bay.pt-pt.html&sid=the-cliff-bay",
+    "oficialUrl": "https://www.portobay.com/en/hotels/madeira-hotels/the-cliff-bay/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Funchal, Madeira. Ainda não visitado por nós."
   },
   {
     "id": "quinta-do-furao",
@@ -2022,7 +2319,14 @@
       "lon": -16.88884,
       "precisao": "estabelecimento",
       "geoNome": "Quinta do Furão, Estrada da Achada do Gramacho, Pico do Tanoeiro, Santana, Madeira, 9230-082, Portugal"
-    }
+    },
+    "carregadorTexto": "A 368 m · Mobi.E",
+    "carregador": "perto",
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fquinta-do-furao.pt-pt.html&sid=quinta-do-furao",
+    "oficialUrl": "https://www.quintadofurao.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Santana, Madeira. Ainda não visitado por nós."
   },
   {
     "id": "pestana-porto-santo",
@@ -2049,7 +2353,14 @@
       "lon": -16.35579,
       "precisao": "estabelecimento",
       "geoNome": "Pestana Porto Santo, 120, Rua Teodoro Gomes De Sousa, Campo de Baixo, Vila Baleira, Porto Santo, Madeira, 9400-200, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpestana-porto-santo.pt-pt.html&sid=pestana-porto-santo",
+    "oficialUrl": "https://www.pestana.com/pt/hotel/pestana-porto-santo",
+    "agua": "O próprio hotel publica 25 graus (fonte). Não é uma medição nossa — ainda não lá fomos com termómetro.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Porto Santo. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "your-hotel-spa-alcobaca",
@@ -2076,7 +2387,14 @@
       "lon": -9.00201,
       "precisao": "estabelecimento",
       "geoNome": "Your Hotel & Spa, CM 1300, Casais da Vestiaria, Alcobaça e Vestiaria, Alcobaça, Leiria, 2450-304, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Ftermas-da-piedade.pt-pt.html&sid=your-hotel-spa-alcobaca",
+    "oficialUrl": "https://www.yourhotelspa.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano, das 9h às 20h, exceto domingos.",
+    "sub": "Vestiaria, Alcobaça, distrito de Leiria. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "aqua-village-oliveira-do-hospital",
@@ -2103,7 +2421,14 @@
       "lon": -7.84214,
       "precisao": "estabelecimento",
       "geoNome": "Aqua Village Health Resort & Spa, Avenida Principal, Caldas de São Paulo, Penalva de Alva e São Sebastião da Feira, Oliveira do Hospital, Coimbra, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Faqua-village-health-resort.pt-pt.html&sid=aqua-village-oliveira-do-hospital",
+    "oficialUrl": "https://www.aquavillage.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar.",
+    "sub": "Caldas de São Paulo, Oliveira do Hospital, distrito de Coimbra. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "hotel-bienestar-termas-de-moncao",
@@ -2130,7 +2455,14 @@
       "lon": -8.47498,
       "precisao": "estabelecimento",
       "geoNome": "Hotel Bienestar Termas de Monção, Avenida das Caldas, Caldas, Monção e Troviscoso, Monção, Viana do Castelo, 4959-442, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Ftermas-de-moncao.pt-pt.html&sid=hotel-bienestar-termas-de-moncao",
+    "oficialUrl": "https://www.hotelbienestartermasdemoncao.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano.",
+    "sub": "Monção, distrito de Viana do Castelo. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "palace-hotel-spa-asturias-carvalhal",
@@ -2157,7 +2489,14 @@
       "lon": -7.93167,
       "precisao": "localidade",
       "geoNome": "Termas do Carvalhal, EN 2, Soutelo, Mões, Castro Daire, Viseu, 3600-398, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fasturias-amp-spa.pt-pt.html&sid=palace-hotel-spa-asturias-carvalhal",
+    "oficialUrl": "https://hotelasturias.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar. Funciona todo o ano.",
+    "sub": "Termas do Carvalhal, Castro Daire, distrito de Viseu. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "grande-hotel-caldas-da-felgueira",
@@ -2184,7 +2523,14 @@
       "lon": -7.86519,
       "precisao": "localidade",
       "geoNome": "Caldas da Felgueira, Canas de Senhorim, Nelas, Viseu, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fgrande-das-caldas-da-felgueira.pt-pt.html&sid=grande-hotel-caldas-da-felgueira",
+    "oficialUrl": "https://www.grandehoteldafelgueira.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "Tem alojamento próprio e água termal, o que quer dizer que se dorme em cima da nascente em vez de ir e voltar.",
+    "sub": "Caldas da Felgueira, Nelas, distrito de Viseu. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "pestana-blue-alvor-beach",
@@ -2211,7 +2557,14 @@
       "lon": -8.58026,
       "precisao": "estabelecimento",
       "geoNome": "Pestana Blue Alvor Beach, Praia dos Três Irmãos, Prainha, Praia de Alvor, Alvor, Portimão, Faro, 8501-904, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpestana-blue-alvor-beach-all-inclusive.pt-pt.html&sid=pestana-blue-alvor-beach",
+    "oficialUrl": "https://www.pestana.com/pt/hotel/pestana-blue-alvor",
+    "agua": "O próprio hotel publica 28 graus (fonte). Não é uma medição nossa — ainda não lá fomos com termómetro.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona piscina interior de 1 de outubro a 31 de maio, das 8h às 20h.",
+    "sub": "Alvor, Portimão, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "pestana-viking",
@@ -2238,7 +2591,14 @@
       "lon": -8.38426,
       "precisao": "estabelecimento",
       "geoNome": "Pestana Viking, Rua Encosta da Praia, Crastos, Porches, Lagoa, Faro, 8400-450, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpestanaviking.pt-pt.html&sid=pestana-viking",
+    "oficialUrl": "https://www.pestana.com/pt/hotel/pestana-viking",
+    "agua": "O próprio hotel publica 25 graus (fonte). Não é uma medição nossa — ainda não lá fomos com termómetro.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Porches, Lagoa, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "real-marina-hotel-spa-olhao",
@@ -2265,7 +2625,14 @@
       "lon": -7.84755,
       "precisao": "estabelecimento",
       "geoNome": "Real Marina Hotel & SPA, Rua João Bernardino Gomes, Olhão, Faro, 8700-307, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Freal-marina-spa.pt-pt.html&sid=real-marina-hotel-spa-olhao",
+    "oficialUrl": "https://www.realmarina.realhotelsgroup.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Olhão, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "vale-doliveiras-quinta-resort-spa",
@@ -2292,7 +2659,14 @@
       "lon": -8.47111,
       "precisao": "localidade",
       "geoNome": "Carvoeiro, Lagoa e Carvoeiro, Lagoa, Faro, 8400-518, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fvale-d-oliveiras-quinta-resort-and-spa.pt-pt.html&sid=vale-doliveiras-quinta-resort-spa",
+    "oficialUrl": "https://www.valeoliveirasresort.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Carvoeiro, Lagoa, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "vila-gale-collection-elvas",
@@ -2319,7 +2693,14 @@
       "lon": -7.16698,
       "precisao": "estabelecimento",
       "geoNome": "Vila Galé Collection Elvas, 13, Avenida 14 de Janeiro, Centro Histórico de Elvas, Assunção, Ajuda, Salvador e Santo Ildefonso, Elvas, Portalegre, 7350-092, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fvila-gale-collection-elvas.pt-pt.html&sid=vila-gale-collection-elvas",
+    "oficialUrl": "https://www.vilagale.com/en/hotels-portugal/hotels-alentejo/vila-gale-collection-elvas/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Elvas, distrito de Portalegre. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "octant-evora",
@@ -2346,7 +2727,14 @@
       "lon": -7.75569,
       "precisao": "estabelecimento",
       "geoNome": "Octant Hotels Évora, Lote 52, Ramal de Reguengos, Courelas do Perdiganito, Nossa Senhora de Machede, Évora, 7005-671 Évora, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Foctant-evora.pt-pt.html&sid=octant-evora",
+    "oficialUrl": "https://evora.octanthotels.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona piscina aberta 24 horas.",
+    "sub": "Nossa Senhora de Machede, Évora, distrito de Évora. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "the-lince-ecorkhotel-evora",
@@ -2373,7 +2761,14 @@
       "lon": -7.90928,
       "precisao": "localidade",
       "geoNome": "Évora, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fecorkhotel-evora-suites-spa.pt-pt.html&sid=the-lince-ecorkhotel-evora",
+    "oficialUrl": "https://thelincehotels.com/ecorkhotel/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Évora, distrito de Évora. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "hotel-dom-goncalo-spa-fatima",
@@ -2400,7 +2795,14 @@
       "lon": -8.66591,
       "precisao": "localidade",
       "geoNome": "Fátima, Ourém, Santarém, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fhotel-dom-goncalo-spa.pt-pt.html&sid=hotel-dom-goncalo-spa-fatima",
+    "oficialUrl": "https://www.hoteldg.com/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Fátima, Ourém, distrito de Santarém. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "vila-gale-collection-tomar",
@@ -2427,7 +2829,14 @@
       "lon": -8.40961,
       "precisao": "estabelecimento",
       "geoNome": "Vila Galé Collection Tomar, 8, Rua Santa Iria, Colégio Nuno Álvares, Corredora do Mestre, Tomar (São João Baptista) e Santa Maria dos Olivais, Tomar, Santarém, 2300-473, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fvila-gale-collection-tomar.pt-pt.html&sid=vila-gale-collection-tomar",
+    "oficialUrl": "https://www.vilagale.com/en/hotels-portugal/hotels-center-of-portugal/vila-gale-collection-tomar/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Tomar, distrito de Santarém. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "montebelo-mosteiro-de-alcobaca",
@@ -2454,7 +2863,14 @@
       "lon": -8.97749,
       "precisao": "estabelecimento",
       "geoNome": "Montebelo Mosteiro de Alcobaça Historic Hotel, 2, Rua Silvério Raposo, Alcobaça e Vestiaria, Alcobaça, Leiria, 2460-075, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fmontebelo-mosteiro-de-alcobaca-historic.pt-pt.html&sid=montebelo-mosteiro-de-alcobaca",
+    "oficialUrl": "https://montebelohotels.com/montebelo-mosteiro-de-alcobaca-historic-hotel/pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Alcobaça, distrito de Leiria. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "grand-hotel-acores-atlantico",
@@ -2481,7 +2897,14 @@
       "lon": -25.66198,
       "precisao": "estabelecimento",
       "geoNome": "Grand Hotel Açores Atlântico, Rua da Fonte, Ponta Delgada (São Pedro), Ponta Delgada, Açores, 9500-300, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Facores-atlantico.pt-pt.html&sid=grand-hotel-acores-atlantico",
+    "oficialUrl": "https://www.bensaudehotels.com/en/grandhotelacoresatlantico",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Ponta Delgada, ilha de São Miguel. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "hotel-ponta-delgada",
@@ -2508,7 +2931,14 @@
       "lon": -25.67556,
       "precisao": "estabelecimento",
       "geoNome": "Hotel Ponta Delgada, Rua João Francisco Cabral, Ponta Delgada (São José), Ponta Delgada, Açores, 9500-208, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fponta-delgada.pt-pt.html&sid=hotel-ponta-delgada",
+    "oficialUrl": "https://hotelpdl.com/pt",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Ponta Delgada, ilha de São Miguel. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "saccharum-calheta",
@@ -2535,7 +2965,14 @@
       "lon": -17.16791,
       "precisao": "estabelecimento",
       "geoNome": "Savoy Saccharum Resort & Spa, 1, Rua da Serra de Água, Serra de Água, Arco da Calheta, Calheta, Madeira, 9370-083, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fsaccharum.pt-pt.html&sid=saccharum-calheta",
+    "oficialUrl": "https://www.savoysignature.com/saccharumhotel/pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona spa das 10h às 20h.",
+    "sub": "Arco da Calheta, Calheta, Madeira. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "purala-wool-valley-covilha",
@@ -2562,7 +2999,14 @@
       "lon": -7.49854,
       "precisao": "estabelecimento",
       "geoNome": "Puralã - Wool Valley Hotel & SPA, Avenida Infante Dom Henrique, Covilhã e Canhoso, Covilhã, Castelo Branco, 6200-506, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fturismo-da-covilha.pt-pt.html&sid=purala-wool-valley-covilha",
+    "oficialUrl": "https://www.hotelpurala.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Covilhã, distrito de Castelo Branco. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "casa-das-penhas-douradas",
@@ -2589,7 +3033,14 @@
       "lon": -7.56426,
       "precisao": "localidade",
       "geoNome": "Penhas Douradas, Manteigas (São Pedro), Manteigas, Guarda, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fcasa-das-penhas-douradas.pt-pt.html&sid=casa-das-penhas-douradas",
+    "oficialUrl": "https://www.casadaspenhasdouradas.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Penhas Douradas, Manteigas, distrito da Guarda. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "agua-hotels-terra-fria",
@@ -2616,7 +3067,14 @@
       "lon": -6.78798,
       "precisao": "estabelecimento",
       "geoNome": "Água Hotels Terra Fria, EM 537, Pinela, Bragança, Distrito de Bragança, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fagua-hotels-terra-fria.pt-pt.html&sid=agua-hotels-terra-fria",
+    "oficialUrl": "https://www.aguahotels.pt/pt/terra-fria/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. O site do hotel não usa a palavra aquecida a propósito da piscina interior, por isso não o afirmamos.",
+    "sub": "Pinela, Bragança, distrito de Bragança. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "pestana-troia-eco-resort",
@@ -2643,7 +3101,14 @@
       "lon": -8.83564,
       "precisao": "localidade",
       "geoNome": "Península de Troia, Grândola, Setúbal, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fpestana-troia-eco-resort-amp-residences-troia.pt-pt.html&sid=pestana-troia-eco-resort",
+    "oficialUrl": "https://www.pestana.com/pt/hotel/pestana-troia",
+    "agua": "O próprio hotel publica 26 graus (fonte). Não é uma medição nossa — ainda não lá fomos com termómetro.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Tróia, Grândola, distrito de Setúbal. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "craveiral-farmhouse",
@@ -2670,7 +3135,14 @@
       "lon": -8.6686,
       "precisao": "estabelecimento",
       "geoNome": "Craveiral Farmhouse Tesla Destination Charger, EM 501, Seladas, São Teotónio, Odemira, Beja, 7630-578, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fcraveiral-farmhouse.pt-pt.html&sid=craveiral-farmhouse",
+    "oficialUrl": "https://www.craveiral.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "São Teotónio, Odemira, distrito de Beja. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "monte-do-malhao",
@@ -2697,7 +3169,14 @@
       "lon": -7.44571,
       "precisao": "localidade",
       "geoNome": "Castro Marim, Faro, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fmonte-do-malhapso.pt-pt.html&sid=monte-do-malhao",
+    "oficialUrl": "https://www.montedomalhao.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta. Funciona jacuzzi aquecido 24 horas; a hidromassagem funciona das 9h30 às 23h30.",
+    "sub": "Castro Marim, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "ap-maria-nova-lounge",
@@ -2724,7 +3203,14 @@
       "lon": -7.65102,
       "precisao": "estabelecimento",
       "geoNome": "AP Maria Nova Lounge Hotel, 17, Rua António Pinheiro, Marlin, Tavira (Santa Maria e Santiago), Tavira, Faro, 8800-323, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fporta-nova.pt-pt.html&sid=ap-maria-nova-lounge",
+    "oficialUrl": "https://ap-hotelsresorts.com/maria-nova/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Tavira, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "3hb-faro",
@@ -2751,7 +3237,14 @@
       "lon": -7.93301,
       "precisao": "estabelecimento",
       "geoNome": "3HB Faro, Beco de Santo António, Faro (Sé e São Pedro), Faro, 8000-225, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2F3hb-collection-faro.pt-pt.html&sid=3hb-faro",
+    "oficialUrl": "https://3hb.com/en/home/3hb-faro/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "Faro, distrito de Faro. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   },
   {
     "id": "herdade-do-amarelo",
@@ -2778,6 +3271,13 @@
       "lon": -8.66394,
       "precisao": "localidade",
       "geoNome": "São Luís, Odemira, Beja, Portugal"
-    }
+    },
+    "bookingUrl": "https://www.kqzyfj.com/click-101804737-12180791?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fpt%2Fherdade-do-amarelo-nature-spa.pt-pt.html&sid=herdade-do-amarelo",
+    "oficialUrl": "https://www.herdadedoamarelo.pt/",
+    "agua": "Ainda não medimos a água deste sítio. Quando medirmos, fica aqui a temperatura à superfície e a meio, com a hora e o dia da medição.",
+    "ficar": "A piscina interior é aquecida, não termal: a água é tratada e aquecida como a de qualquer piscina coberta.",
+    "sub": "São Luís, Odemira, distrito de Beja. Ainda não visitado por nós.",
+    "carregador": "desconhecido",
+    "carregadorTexto": null
   }
 ]

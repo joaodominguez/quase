@@ -1,0 +1,17 @@
+{
+  "name": "quase",
+  "version": "3.0.0",
+  "private": true,
+  "description": "quase.pt — sítios em Portugal onde se entra em água aquecida",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "check": "node scripts/check-sitios.mjs",
+    "deploy": "npm run build && ./scripts/deploy.sh"
+  },
+  "dependencies": {
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}

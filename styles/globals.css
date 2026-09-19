@@ -1,0 +1,825 @@
+/* ---------------------------------------------------------------
+   quase.pt — dois temas
+   As fichas descrevem o PAPEL, não a cor: --fundo é o fundo da página,
+   seja ele branco ou quase preto. O tema claro vive na raiz; o escuro
+   entra pela preferência do sistema e pelo interruptor, nesta ordem.
+
+   O que NÃO muda entre temas: tudo o que assenta sobre fotografia. O véu,
+   os vidros e as legendas por cima de imagens ficam sempre escuros, porque
+   a fotografia é a mesma nos dois e o texto tem de passar em cima dela.
+   --------------------------------------------------------------- */
+
+:root{
+  color-scheme: light dark;
+
+  --fundo:#F6F8F7;
+  --elevado:#FFFFFF;
+  --cartao:#FFFFFF;
+  --cartao-hover:#EFF3F2;
+  --linha:rgba(15,33,31,.11);
+  --linha-forte:rgba(15,33,31,.20);
+  --toque:rgba(15,33,31,.06);
+  --toque-forte:rgba(15,33,31,.10);
+  --vidro:rgba(15,33,31,.07);
+  --vidro-forte:rgba(15,33,31,.13);
+  --vidro-borda:rgba(15,33,31,.16);
+
+  --tinta:#0F211F;
+  --tinta-2:#465855;
+  --tinta-3:#6B7C79;
+
+  --fria:#2E6C8E;
+  --quente:#9A6316;
+
+  --sombra:0 1px 2px rgba(15,33,31,.06), 0 8px 24px rgba(15,33,31,.07);
+
+  --f-display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --f-texto:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+
+  --larg:1180px;
+  --r:14px;
+  --r-p:8px;
+}
+
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --fundo:#070E10;
+    --elevado:#0D1719;
+    --cartao:#132123;
+    --cartao-hover:#1A2B2E;
+    --linha:rgba(237,243,241,.10);
+    --linha-forte:rgba(237,243,241,.20);
+    --toque:rgba(237,243,241,.09);
+    --toque-forte:rgba(237,243,241,.14);
+    --vidro:rgba(237,243,241,.12);
+    --vidro-forte:rgba(237,243,241,.20);
+    --vidro-borda:rgba(237,243,241,.22);
+    --tinta:#EDF3F1;
+    --tinta-2:#9DB0AD;
+    --tinta-3:#6A7B79;
+    --fria:#74A9CB;
+    --quente:#E8A863;
+    --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"]{
+  --fundo:#070E10;
+  --elevado:#0D1719;
+  --cartao:#132123;
+  --cartao-hover:#1A2B2E;
+  --linha:rgba(237,243,241,.10);
+  --linha-forte:rgba(237,243,241,.20);
+  --toque:rgba(237,243,241,.09);
+  --toque-forte:rgba(237,243,241,.14);
+  --vidro:rgba(237,243,241,.12);
+  --vidro-forte:rgba(237,243,241,.20);
+  --vidro-borda:rgba(237,243,241,.22);
+  --tinta:#EDF3F1;
+  --tinta-2:#9DB0AD;
+  --tinta-3:#6A7B79;
+  --fria:#74A9CB;
+  --quente:#E8A863;
+  --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.45);
+}
+
+/* Sobre fotografia a escala é sempre escura, nos dois temas: a imagem não
+   muda e o texto tem de continuar a passar por cima dela. */
+:root{
+  --sobre-foto:#EDF3F1;
+  --sobre-foto-2:rgba(237,243,241,.78);
+  --veu-forte:rgba(7,14,16,.94);
+  --veu-medio:rgba(7,14,16,.62);
+  --veu-leve:rgba(7,14,16,.22);
+}
+
+*{box-sizing:border-box}
+/* O atributo hidden vale display:none na folha do browser, mas qualquer regra
+   de classe com display ganha-lhe em especificidade — e os cartões são flex.
+   Sem isto, esconder um cartão não o esconde. */
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+
+body{
+  margin:0;
+  background:var(--fundo);
+  color:var(--tinta);
+  font-family:var(--f-texto);
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+button{font-family:inherit}
+:focus-visible{outline:2px solid var(--quente);outline-offset:3px;border-radius:2px}
+
+h1,h2,h3,h4{
+  font-family:var(--f-display);font-weight:500;margin:0;
+  letter-spacing:-.025em;text-wrap:balance;line-height:1.05;
+}
+h1{font-size:clamp(40px,7vw,78px)}
+h2{font-size:clamp(26px,3.6vw,38px)}
+h3{font-size:21px;letter-spacing:-.015em;line-height:1.2}
+p{margin:0 0 1em;max-width:68ch}
+
+.col{max-width:var(--larg);margin:0 auto;padding-inline:22px}
+.saltar{position:absolute;left:-9999px}
+.saltar:focus{
+  position:fixed;left:14px;top:14px;z-index:90;
+  background:var(--tinta);color:var(--fundo);padding:12px 18px;border-radius:var(--r-p);
+  text-decoration:none;font-weight:600;
+}
+
+/* ---------------- cabeçalho, por cima da imagem ---------------- */
+.topo{position:absolute;top:0;left:0;right:0;z-index:20;padding-top:env(safe-area-inset-top,0px)}
+.topo.solido{position:static;background:var(--elevado);border-bottom:1px solid var(--linha)}
+.topo-in{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding-block:18px}
+.logo{display:inline-flex;align-items:center;min-height:44px;color:var(--tinta);text-decoration:none}
+.logo svg{height:24px;width:auto}
+.menu{display:flex;gap:6px;flex-wrap:wrap}
+.menu a{
+  font-size:15.5px;color:var(--tinta);text-decoration:none;font-weight:500;
+  min-height:44px;display:inline-flex;align-items:center;padding-inline:13px;
+  border-radius:var(--r-p);opacity:.78;
+}
+.menu a:hover{opacity:1;background:var(--toque)}
+.menu a[aria-current]{opacity:1;background:var(--toque-forte)}
+
+/* ---------------- herói ---------------- */
+.heroi{
+  position:relative;min-height:min(58vh,470px);
+  display:flex;align-items:flex-end;overflow:hidden;background:var(--elevado);
+}
+.heroi img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* O véu escurece a fotografia o suficiente para o texto passar em qualquer
+   imagem, incluindo as claras. */
+.heroi::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top, rgba(7,14,16,.94) 0%, rgba(7,14,16,.55) 38%, rgba(7,14,16,.22) 68%, rgba(7,14,16,.45) 100%);
+}
+.heroi > .col{position:relative;z-index:2;width:100%;padding-block:52px 46px}
+.heroi h1{max-width:15ch}
+.heroi .sub{font-size:clamp(17px,2vw,20px);color:var(--sobre-foto-2);max-width:44ch;margin:20px 0 28px}
+.heroi-leitura{position:absolute;right:22px;top:calc(102px + env(safe-area-inset-top,0px));z-index:2;text-align:right}
+.heroi-leitura .n{
+  display:block;font-family:var(--f-display);font-size:clamp(42px,7vw,72px);
+  font-weight:600;line-height:1;color:var(--quente);letter-spacing:-.04em;font-variant-numeric:tabular-nums;
+}
+.heroi-leitura .l{display:block;font-size:14px;color:var(--sobre-foto-2);margin-top:4px}
+.creditos{position:absolute;left:22px;bottom:12px;z-index:2;font-size:11.5px;color:rgba(237,243,241,.6);max-width:60ch}
+.creditos a{color:inherit}
+
+/* ---------------- botões ---------------- */
+.botoes{display:flex;gap:11px;flex-wrap:wrap}
+.botao{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-height:48px;padding-inline:24px;border:0;border-radius:var(--r-p);
+  font-family:var(--f-texto);font-size:16px;font-weight:600;cursor:pointer;text-decoration:none;
+  background:var(--tinta);color:var(--fundo);transition:transform .14s ease,opacity .14s ease;
+}
+.botao:hover{transform:translateY(-1px);opacity:.92}
+/* O botão de vidro assenta sempre sobre fotografia, e a fotografia é a mesma
+   nos dois temas. Usar var(--tinta) fazia-o ficar tinta escura sobre foto
+   escurecida no tema claro — ilegível. */
+.botao.vidro{
+  background:rgba(237,243,241,.13);color:var(--sobre-foto);
+  box-shadow:inset 0 0 0 1px rgba(237,243,241,.32);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  box-shadow:inset 0 0 0 1px var(--vidro-forte);
+}
+@media (prefers-reduced-motion: reduce){.botao{transition:none}.botao:hover{transform:none}}
+
+/* ---------------- pílulas ---------------- */
+.pilulas{display:flex;gap:9px;flex-wrap:wrap}
+.pilula{
+  display:inline-flex;align-items:center;gap:8px;min-height:44px;padding-inline:17px;
+  border-radius:999px;font-size:15px;font-weight:500;cursor:pointer;text-decoration:none;
+  background:var(--cartao);color:var(--tinta);border:1px solid var(--linha);
+  transition:background .14s ease,border-color .14s ease;
+}
+.pilula:hover{background:var(--cartao-hover);border-color:var(--linha-forte)}
+.pilula[aria-pressed="true"]{background:var(--tinta);color:var(--fundo);border-color:var(--tinta)}
+.pilula b{font-weight:600;color:var(--quente);font-variant-numeric:tabular-nums}
+.pilula[aria-pressed="true"] b{color:var(--fundo);opacity:.55}
+@media (prefers-reduced-motion: reduce){.pilula{transition:none}}
+
+/* ---------------- grelha de cartões ---------------- */
+.seccao{padding-block:64px 8px}
+.seccao-topo{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:26px}
+.seccao-topo p{color:var(--tinta-2);margin:8px 0 0;max-width:52ch;font-size:16px}
+.ver-todos{font-size:15.5px;font-weight:600;color:var(--tinta);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;opacity:.8}
+.ver-todos:hover{opacity:1}
+
+.grelha{display:grid;gap:18px;list-style:none;margin:0;padding:0;grid-template-columns:repeat(auto-fill,minmax(266px,1fr))}
+.cartao{
+  position:relative;border-radius:var(--r);overflow:hidden;background:var(--cartao);
+  border:1px solid var(--linha);box-shadow:var(--sombra);
+  display:flex;flex-direction:column;transition:transform .18s ease;
+}
+.cartao:hover{transform:translateY(-3px)}
+@media (prefers-reduced-motion: reduce){.cartao{transition:none}.cartao:hover{transform:none}}
+
+.cartao-img{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--elevado)}
+.cartao-img img{width:100%;height:100%;object-fit:cover}
+/* Sessenta dos setenta e seis sítios não têm fotografia. O cartão sem imagem
+   não pode parecer partido: mostra um campo de água profunda em vez de um
+   buraco cinzento. */
+.cartao-img.sem-foto{
+  display:grid;place-items:center;
+  background:
+    radial-gradient(120% 100% at 30% 0%, rgba(116,169,203,.18), transparent 60%),
+    linear-gradient(155deg,#12363B 0%,#0D2124 55%,#0A181A 100%);
+}
+.cartao-img.sem-foto span{font-family:var(--f-display);font-size:15px;font-weight:500;color:rgba(237,243,241,.42)}
+.cartao-grau{
+  position:absolute;left:12px;top:12px;z-index:2;
+  display:inline-flex;align-items:baseline;padding:6px 11px;border-radius:999px;
+  background:rgba(7,14,16,.62);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  font-family:var(--f-display);font-weight:600;font-size:17px;color:var(--quente);
+  font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+}
+.cartao-grau.fr{color:var(--fria)}
+.cartao-grau.por-medir{color:var(--sobre-foto-2);font-size:13px;font-weight:500;font-family:var(--f-texto)}
+.cartao-estado{
+  position:absolute;right:12px;top:12px;z-index:2;padding:6px 11px;border-radius:999px;
+  background:rgba(232,168,99,.92);color:#20160A;font-size:12.5px;font-weight:700;
+}
+.cartao-corpo{padding:16px 17px 18px;display:flex;flex-direction:column;gap:5px;flex:1}
+.cartao-corpo h3 a{text-decoration:none}
+.cartao-corpo h3 a::after{content:"";position:absolute;inset:0;z-index:1}
+.cartao-onde{font-size:14.5px;color:var(--tinta-3)}
+.cartao-resumo{font-size:15px;color:var(--tinta-2);margin:6px 0 0;line-height:1.5}
+.cartao-pe{margin-top:auto;padding-top:13px;display:flex;justify-content:space-between;gap:12px;align-items:baseline;font-size:14.5px;color:var(--tinta-3)}
+.cartao-pe .preco{color:var(--tinta);font-weight:600}
+.cartao-pe .nota{font-variant-numeric:tabular-nums}
+
+.faixa{display:flex;gap:16px;overflow-x:auto;padding-bottom:14px;margin-inline:-22px;padding-inline:22px;scroll-snap-type:x mandatory}
+.faixa > *{flex:0 0 clamp(250px,72vw,330px);scroll-snap-align:start}
+.faixa::-webkit-scrollbar{height:6px}
+.faixa::-webkit-scrollbar-thumb{background:var(--linha-forte);border-radius:99px}
+
+/* ---------------- controlos do índice ---------------- */
+.controlos{background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r);padding:22px;margin-top:26px}
+.controlos fieldset{border:0;margin:0;padding:0}
+.controlos legend{font-size:15px;color:var(--tinta-2);padding:0}
+.filtros{display:grid;gap:22px 26px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin-top:18px}
+.campo > label,.campo .rot{display:block;font-size:14.5px;color:var(--tinta-2);margin-bottom:9px}
+.campo .val{color:var(--quente);font-weight:600;font-variant-numeric:tabular-nums}
+input[type="range"]{width:100%;height:44px;accent-color:var(--quente);background:transparent;cursor:pointer}
+/* O select nativo aplica espaçamento interno próprio e ignora parte do nosso,
+   o que deixava o texto descentrado na caixa. Com appearance reposta, a altura
+   e o alinhamento passam a ser nossos, e a seta é desenhada à parte para poder
+   seguir a cor do tema — uma seta em data URI ficaria fixa numa cor só. */
+.select-embrulho{position:relative;display:block}
+.select-embrulho::after{
+  content:"";position:absolute;right:16px;top:50%;
+  width:9px;height:9px;margin-top:-6px;
+  border-right:2px solid var(--tinta-3);border-bottom:2px solid var(--tinta-3);
+  transform:rotate(45deg);pointer-events:none;border-radius:1px;
+}
+.select-embrulho:hover::after{border-color:var(--tinta-2)}
+select{
+  appearance:none;-webkit-appearance:none;-moz-appearance:none;
+  display:block;width:100%;height:48px;line-height:normal;
+  font-family:inherit;font-size:15.5px;
+  padding:0 42px 0 15px;margin:0;
+  border-radius:var(--r-p);background:var(--cartao);color:var(--tinta);
+  border:1px solid var(--linha-forte);cursor:pointer;
+  text-overflow:ellipsis;
+}
+select:hover{border-color:var(--tinta-3)}
+/* O menu aberto é desenhado pelo sistema: sem isto as opções saem brancas
+   sobre branco no tema escuro do Windows e do Linux. */
+select option{background:var(--cartao);color:var(--tinta)}
+.fim-filtros{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:22px;padding-top:18px;border-top:1px solid var(--linha)}
+.contagem{margin:0;font-size:16px;color:var(--tinta-2)}
+.contagem b{color:var(--tinta);font-weight:700;font-variant-numeric:tabular-nums}
+.limpar{background:none;border:0;color:var(--tinta-2);font-size:15px;cursor:pointer;min-height:44px;padding-inline:4px;text-decoration:underline;text-underline-offset:4px}
+.limpar:hover{color:var(--tinta)}
+.vazio-msg{grid-column:1/-1;background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r);padding:40px 24px;text-align:center;color:var(--tinta-2)}
+
+/* ---------------- escala ---------------- */
+.escala-zona{margin-top:20px;padding:24px 22px 18px;background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r)}
+.escala-zona .titulo{font-size:14.5px;color:var(--tinta-3);margin:0 0 30px}
+.escala{position:relative;height:66px}
+.trilho{position:absolute;left:0;right:0;top:30px;height:3px;border-radius:99px;background:linear-gradient(to right,var(--fria),#7E9A87 46%,var(--quente))}
+.ponto{
+  position:absolute;top:22px;width:19px;height:19px;margin-left:-9.5px;border-radius:50%;
+  background:var(--tinta);border:0;padding:0;cursor:pointer;box-shadow:0 0 0 4px var(--elevado);
+}
+.ponto[data-fora]{opacity:.2}
+.ponto[data-activo]{background:var(--quente);transform:scale(1.3)}
+@media (prefers-reduced-motion: no-preference){.ponto{transition:opacity .2s ease,transform .2s ease,background .2s ease}}
+.eixo{display:flex;justify-content:space-between;font-size:13px;color:var(--tinta-3);margin-top:4px}
+
+/* ---------------- ficha ---------------- */
+.medidas{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:12px;margin-top:-30px;position:relative;z-index:3}
+.medida{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--r);padding:15px 17px}
+.medida .k{font-size:13.5px;color:var(--tinta-3)}
+.medida .v{font-family:var(--f-display);font-size:25px;font-weight:600;margin-top:3px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.medida .v.vazio{font-family:var(--f-texto);font-size:16px;font-weight:500;color:var(--tinta-3);letter-spacing:0}
+.medida.q .v{color:var(--quente)}
+.medida.nascente .v{color:var(--fria)}
+
+.ficha-corpo{display:grid;gap:34px;padding-block:44px}
+@media(min-width:840px){.ficha-corpo{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}}
+.ficha-corpo p{color:var(--tinta-2);font-size:17.5px;line-height:1.65}
+.ficha-corpo h2{margin:28px 0 12px;font-size:24px}
+.ficha-corpo h2:first-child{margin-top:0}
+
+.lado{background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r);padding:24px;align-self:start}
+@media(min-width:840px){.lado{position:sticky;top:22px}}
+.lado dl{margin:0;display:grid;gap:15px}
+.lado dt{font-size:13.5px;color:var(--tinta-3)}
+.lado dd{margin:3px 0 0;font-size:16px}
+.lado .botao{display:flex;width:100%;margin-top:22px}
+.lado .fonte{font-size:13px;color:var(--tinta-3);margin:14px 0 0;line-height:1.5}
+
+.terceiros{font-size:14.5px;color:var(--tinta-3);line-height:1.55;margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid var(--linha)}
+.terceiros b{color:var(--tinta);font-weight:700}
+.terceiros a{color:var(--tinta-2)}
+.fonte-preco{font-size:14px;color:var(--tinta-3);margin:0 0 16px;line-height:1.5}
+.fonte-preco a{color:var(--tinta-2)}
+.explica-nascente{font-size:15.5px;color:var(--tinta-3);margin:18px 0 0;max-width:58ch;line-height:1.55}
+.aviso{background:rgba(232,168,99,.10);border:1px solid rgba(232,168,99,.32);border-radius:var(--r);padding:16px 19px;margin-top:20px}
+.aviso p{margin:0;font-size:15.5px;color:#F0CFA4;max-width:62ch}
+.proximos{margin-top:12px}
+.proximos .q{font-size:15px;color:var(--tinta-3);margin:0 0 16px}
+
+/* ---------------- listas editoriais ---------------- */
+.resposta{background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r);padding:24px;margin-top:26px}
+.resposta .q{font-size:14.5px;color:var(--tinta-3);margin:0 0 14px}
+.resposta ol{margin:0;padding-left:20px;display:grid;gap:10px;font-size:16.5px;color:var(--tinta-2)}
+.resposta b{color:var(--quente);font-weight:600}
+
+.numerada{display:grid;gap:18px;grid-template-columns:minmax(0,1fr);align-items:center;margin-bottom:16px}
+@media(min-width:720px){.numerada{grid-template-columns:auto 260px minmax(0,1fr)}}
+.numerada .ord{font-family:var(--f-display);font-size:34px;font-weight:600;color:var(--tinta-3);letter-spacing:-.03em;line-height:1}
+.numerada .foto{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;position:relative}
+.numerada .foto img{width:100%;height:100%;object-fit:cover}
+.numerada h3{margin-bottom:5px}
+.numerada h3 a{text-decoration:none}
+.numerada .onde{font-size:14.5px;color:var(--tinta-3)}
+.numerada .txt{font-size:16px;color:var(--tinta-2);margin:9px 0 0;max-width:56ch}
+.numerada .dados{margin-top:10px;font-size:15px;color:var(--tinta-3)}
+.numerada .dados b{color:var(--quente);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* ---------------- texto corrido ---------------- */
+.texto{padding-block:34px 48px;max-width:70ch}
+.texto h2{margin:32px 0 12px}
+.texto h3{margin:24px 0 8px}
+.texto p{color:var(--tinta-2);font-size:17.5px}
+.texto dl{display:grid;gap:16px;margin:20px 0 0;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.texto dt{font-size:13.5px;color:var(--tinta-3)}
+.texto dd{margin:4px 0 0;font-size:16.5px}
+.texto a{color:var(--tinta)}
+.por-medir{background:var(--elevado);border:1px solid var(--linha);border-radius:var(--r);padding:20px 22px;margin-top:22px}
+.por-medir p{margin:0;font-size:15.5px;color:var(--tinta-2);max-width:64ch}
+
+/* ---------------- rodapé ---------------- */
+.rodape{background:var(--elevado);border-top:1px solid var(--linha);padding-block:48px 56px;margin-top:70px}
+.rodape .grelha-pe{display:grid;gap:30px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.rodape h2{font-size:14px;font-family:var(--f-texto);font-weight:700;color:var(--tinta);margin-bottom:14px}
+.rodape ul{margin:0;padding:0;list-style:none;display:grid;gap:11px}
+.rodape a{color:var(--tinta-2);text-decoration:none;font-size:15.5px}
+.rodape a:hover{color:var(--tinta)}
+.rodape .fim{margin:36px 0 0;font-size:14px;color:var(--tinta-3);max-width:66ch;line-height:1.6}
+
+/* ---------------- créditos de fotografia ---------------- */
+/* A licença CC BY-SA exige atribuição onde a imagem aparece. Fica no rodapé,
+   discreta mas completa: toda a fotografia da página, com autor e licença. */
+.creditos-lista{margin-top:34px;padding-top:24px;border-top:1px solid var(--linha)}
+.creditos-lista h2{font-size:13px;font-family:var(--f-texto);font-weight:700;color:var(--tinta-3);margin-bottom:12px}
+.creditos-lista ul{margin:0;padding:0;list-style:none;display:grid;gap:7px}
+.creditos-lista li{font-size:13px;color:var(--tinta-3);line-height:1.5}
+.creditos-lista a{color:var(--tinta-2);text-decoration:none}
+.creditos-lista a:hover{color:var(--tinta)}
+
+/* ---------------- legenda da fotografia ---------------- */
+/* A licença quer o crédito junto da imagem. Fica colado ao fundo dela,
+   pequeno e legível sobre o escurecimento. */
+.cartao-img{margin:0}
+.legenda-foto{
+  position:absolute;left:0;right:0;bottom:0;z-index:2;
+  padding:18px 12px 8px;
+  font-size:11px;line-height:1.35;color:var(--sobre-foto-2);
+  background:linear-gradient(to top, rgba(7,14,16,.78), transparent);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.cartao-img.sem-foto .legenda-foto{display:none}
+.creditos{
+  position:absolute;left:22px;bottom:12px;z-index:2;
+  font-size:11.5px;color:rgba(237,243,241,.6);max-width:60ch;margin:0;
+}
+
+/* atalhos dentro do herói, por baixo dos botões */
+
+/* ---------------- mapa ---------------- */
+.mapa-zona{position:relative;background:var(--elevado)}
+.mapa-cartao{
+  position:absolute;z-index:10;left:22px;right:22px;bottom:22px;
+  background:rgba(13,23,25,.88);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border:1px solid var(--linha-forte);border-radius:var(--r);
+  padding:24px 24px 22px;max-width:520px;
+  box-shadow:0 20px 50px rgba(0,0,0,.45);
+}
+@media(min-width:900px){
+  .mapa-cartao{left:calc((100vw - var(--larg))/2 + 22px);right:auto;top:50%;bottom:auto;transform:translateY(-50%)}
+}
+.mapa-cartao h1{font-size:clamp(32px,4.6vw,52px);margin-bottom:12px}
+.mapa-cartao p{color:var(--tinta-2);font-size:16.5px;max-width:40ch;margin-bottom:18px}
+.mapa-legenda{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px;font-size:13.5px;color:var(--tinta-3)}
+.mapa-legenda span{display:inline-flex;align-items:center;gap:7px}
+.mapa-legenda i{width:10px;height:10px;border-radius:50%;background:var(--c);display:inline-block}
+
+/* ---------------- herói dividido ---------------- */
+/* A imagem de destaque é vertical. Em vez de a esticar, ocupa metade e o
+   texto ocupa a outra: fica intencional em vez de cortada. */
+@media(min-width:900px){
+}
+@media(min-width:900px){.heroi-texto{padding:80px 56px 80px max(22px, calc((100vw - var(--larg))/2 + 22px))}}
+@media(min-width:900px){.heroi-foto{min-height:600px}}
+
+/* mapa em secção própria, com cabeçalho */
+.mapa-topo{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  padding-block:52px 22px;
+}
+.mapa-topo p{color:var(--tinta-2);margin:8px 0 0;font-size:16px}
+.mapa-legenda b{color:var(--tinta);font-weight:600}
+
+
+/* ---------------- interruptor de tema ---------------- */
+.tema{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:var(--r-p);cursor:pointer;
+  background:transparent;border:1px solid var(--linha);color:var(--tinta);
+  flex:none;
+}
+.tema:hover{background:var(--toque)}
+.tema svg{width:18px;height:18px;display:block}
+.tema .sol{display:none}
+.tema .lua{display:block}
+:root[data-theme="dark"] .tema .sol,
+:root[data-theme="light"] .tema .lua{display:block}
+:root[data-theme="dark"] .tema .lua,
+:root[data-theme="light"] .tema .sol{display:none}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .tema .sol{display:block}
+  :root:not([data-theme="light"]) .tema .lua{display:none}
+}
+.topo-fim{display:flex;align-items:center;gap:10px}
+
+/* O cabeçalho sobre o herói dividido tem fundo próprio nos dois temas, por
+   isso não precisa das cores de cima de fotografia. */
+.topo.solido .menu a{color:var(--tinta)}
+
+
+/* ---------------- mapa ilustrado ---------------- */
+:root{
+  --cat-termas:#B4722A;
+  --cat-hotel-termal:#24605F;
+  --cat-hotel:#2A6E96;
+  --cat-motel:#476F4C;
+  --mapa-terra:#DDE5E3;
+  --mapa-linha:rgba(15,33,31,.22);
+  --mapa-moldura:rgba(15,33,31,.10);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --cat-termas:#D9913F;
+    --cat-hotel-termal:#3D8F8D;
+    --cat-hotel:#4396C4;
+    --cat-motel:#6EA074;
+    --mapa-terra:#16262A;
+    --mapa-linha:rgba(237,243,241,.22);
+    --mapa-moldura:rgba(237,243,241,.09);
+  }
+}
+:root[data-theme="dark"]{
+  --cat-termas:#D9913F;
+  --cat-hotel-termal:#3D8F8D;
+  --cat-hotel:#4396C4;
+  --cat-motel:#6EA074;
+  --mapa-terra:#16262A;
+  --mapa-linha:rgba(237,243,241,.22);
+  --mapa-moldura:rgba(237,243,241,.09);
+}
+
+.mapa-tela{position:relative;padding-bottom:46px}
+.mapa{width:100%;height:auto;display:block;overflow:visible}
+.mapa .terra path{fill:var(--mapa-terra);stroke:var(--mapa-linha);stroke-width:1;stroke-linejoin:round}
+.mapa .moldura rect{fill:none;stroke:var(--mapa-moldura);stroke-width:1.5}
+.mapa .moldura text{fill:var(--tinta-3);font-family:var(--f-texto);font-size:15px;font-weight:600}
+.mapa .ponto{
+  stroke:var(--fundo);stroke-width:2;cursor:pointer;
+  transition:r .14s ease, stroke-width .14s ease;
+}
+.mapa a:hover .ponto,.mapa a:focus-visible .ponto{r:8;stroke-width:2.5}
+.mapa a:focus{outline:none}
+.mapa a:focus-visible .ponto{stroke:var(--quente);stroke-width:3}
+@media (prefers-reduced-motion: reduce){.mapa .ponto{transition:none}}
+.mapa .p-termas{fill:var(--cat-termas)}
+.mapa .p-hotel-termal{fill:var(--cat-hotel-termal)}
+.mapa .p-hotel{fill:var(--cat-hotel)}
+.mapa .p-motel{fill:var(--cat-motel)}
+.mapa-fonte{position:absolute;left:22px;bottom:14px;margin:0;font-size:12px;color:var(--tinta-3);max-width:60ch}
+
+.mapa-balao{
+  position:absolute;z-index:20;width:210px;pointer-events:none;
+  background:var(--cartao);border:1px solid var(--linha-forte);border-radius:var(--r);
+  box-shadow:var(--sombra);overflow:hidden;
+}
+.mapa-balao img{width:100%;height:104px;object-fit:cover}
+.mapa-balao-corpo{padding:11px 13px 13px;display:grid;gap:2px}
+.mapa-balao strong{font-family:var(--f-display);font-size:15.5px;font-weight:600;letter-spacing:-.01em;line-height:1.2}
+.mapa-balao .onde{font-size:12.5px;color:var(--tinta-3)}
+.mapa-balao .dados{font-size:13px;color:var(--quente);font-weight:600;margin-top:3px}
+
+/* ---------------- menu em ecrã pequeno ---------------- */
+.menu-btn{
+  display:none;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:var(--r-p);cursor:pointer;
+  background:transparent;border:1px solid var(--linha);color:var(--tinta);flex:none;
+}
+.menu-btn:hover{background:var(--toque)}
+.menu-btn svg{width:20px;height:20px;display:block}
+.menu-btn .fechar{display:none}
+.menu-aberto .menu-btn .abrir{display:none}
+.menu-aberto .menu-btn .fechar{display:block}
+
+@media (max-width:939px){
+  .js .menu-btn{display:inline-flex}
+  .topo-in{flex-wrap:nowrap}
+  .js .menu{
+    display:none;
+    position:absolute;left:0;right:0;top:100%;z-index:40;
+    flex-direction:column;gap:2px;align-items:stretch;
+    background:var(--elevado);border-block:1px solid var(--linha);
+    padding:10px 14px 16px;box-shadow:var(--sombra);
+  }
+  .js.menu-aberto .menu{display:flex}
+  .js .menu a{
+    padding:2px 12px;min-height:50px;font-size:17px;border-radius:var(--r-p);
+    opacity:1;justify-content:flex-start;
+  }
+  .topo{position:relative}
+  .topo.solido{position:relative}
+}
+
+/* ---------------- nota de terceiros ---------------- */
+/* A nota é de outra casa e tem de se ler como tal: o valor grande, a fonte
+   identificada, e a ressalva à vista. O nome da fonte serve de distintivo —
+   usar o logótipo real da TripAdvisor ou da Google exigia licença de marca. */
+.nota-externa{
+  display:flex;align-items:center;gap:14px;
+  margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid var(--linha);
+}
+.nota-valor{
+  flex:none;display:flex;align-items:baseline;
+  font-family:var(--f-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums;
+}
+.nota-valor b{font-size:30px;font-weight:700;color:var(--tinta);line-height:1}
+.nota-valor span{font-size:15px;color:var(--tinta-3);font-weight:500}
+.nota-corpo{display:grid;gap:2px;min-width:0}
+.nota-marca{
+  display:inline-block;font-size:13px;font-weight:700;letter-spacing:.01em;
+  padding:3px 9px;border-radius:999px;background:var(--toque-forte);color:var(--tinta);
+}
+.nota-corpo a{text-decoration:none}
+.nota-corpo a:hover .nota-marca{background:var(--vidro-forte)}
+.marca-tripadvisor{background:rgba(52,178,131,.18);color:#2F9E76}
+:root[data-theme="dark"] .marca-tripadvisor,
+:root:not([data-theme="light"]) .marca-tripadvisor{color:#5FD3A8}
+.marca-google{background:rgba(66,133,244,.16);color:#2C6FD4}
+:root[data-theme="dark"] .marca-google,
+:root:not([data-theme="light"]) .marca-google{color:#7FAEF7}
+.nota-n{font-size:13px;color:var(--tinta-3)}
+.nota-aviso{font-size:12px;color:var(--tinta-3);font-style:italic}
+
+.lado dd.fraco{color:var(--tinta-3);font-size:14.5px;line-height:1.45}
+
+.botao.levar{
+  display:flex;width:100%;margin-top:20px;gap:9px;
+  background:var(--tinta);color:var(--fundo);
+}
+.botao.levar svg{width:19px;height:19px;flex:none}
+
+/* Número que vem do estabelecimento, não medido por nós: fica mais discreto
+   que uma medição própria, e o til diz que é aproximado. */
+.cartao-grau.deles{opacity:.82;font-weight:500}
+
+.nota-externa{display:grid;gap:12px;margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid var(--linha)}
+.nota-linha{display:flex;align-items:center;gap:13px}
+.nota-externa .nota-aviso{margin:0;font-size:12px;color:var(--tinta-3);font-style:italic;max-width:none}
+
+/* ---------------- herói: a linha de água ---------------- */
+/* Um corte vertical no gesto de entrar: o ar frio em cima, a linha de água a
+   meio, a água mesmo em baixo. A fotografia entra como material e não como
+   paisagem — só a superfície, que é a parte que corta na horizontal sem perder
+   nada. Das 21 imagens do guia, só três mostram água em que se entra. */
+.orla{background:var(--fundo)}
+.orla-ar{padding-block:clamp(36px,5.4vw,58px) clamp(28px,3.6vw,42px)}
+.orla h1{max-width:15ch;font-size:clamp(36px,5.4vw,62px)}
+.orla-sub{margin:20px 0 0;max-width:48ch;font-size:clamp(17px,1.9vw,19.5px);color:var(--tinta-2)}
+
+/* As quatro portas. Não são cartões, é um índice: a contagem lê-se primeiro e
+   a frase por baixo diz o que se compra com ela. */
+.portas{
+  list-style:none;margin:clamp(30px,4.6vw,48px) 0 0;padding:26px 0 0;
+  border-top:1px solid var(--linha);display:grid;gap:26px 30px;
+}
+@media(min-width:680px){.portas{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.portas{grid-template-columns:repeat(4,1fr);gap:0 30px}}
+.portas li{margin:0}
+.portas a{display:block;text-decoration:none;color:inherit;max-width:32ch}
+.portas .n{
+  display:block;font-family:var(--f-display);font-weight:600;
+  font-size:clamp(36px,4vw,46px);line-height:.95;letter-spacing:-.04em;
+  font-variant-numeric:tabular-nums;
+}
+.portas .q{
+  display:block;margin-top:9px;font-size:17px;font-weight:600;
+  text-decoration:underline;text-decoration-color:var(--linha-forte);text-underline-offset:4px;
+}
+.portas a:hover .q{text-decoration-color:currentColor}
+.portas .d{display:block;margin-top:6px;font-size:14.5px;line-height:1.45;color:var(--tinta-3)}
+
+/* A linha de água: o filete quente marca onde o calor começa. É uma medida,
+   não um enfeite. */
+.orla-agua{
+  position:relative;overflow:hidden;margin:0;
+  border-top:2px solid var(--quente);
+  min-height:clamp(200px,27vw,300px);
+  display:flex;align-items:flex-end;background:#0A181A;
+}
+.orla-agua img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.orla-agua::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to bottom,rgba(7,14,16,.12) 0%,rgba(7,14,16,.52) 44%,rgba(7,14,16,.88) 100%);
+}
+.orla-fundo{position:relative;z-index:2;width:100%;padding-block:26px 22px}
+.orla-frase{
+  margin:0;font-family:var(--f-display);font-weight:500;
+  font-size:clamp(21px,2.4vw,27px);line-height:1.05;letter-spacing:-.025em;color:var(--sobre-foto);
+}
+.orla-nota{margin:10px 0 0;max-width:44ch;font-size:14.5px;line-height:1.5;color:var(--sobre-foto-2)}
+.orla-ligacoes{display:flex;align-items:center;gap:8px 20px;flex-wrap:wrap;margin:18px 0 0}
+.orla-mapa{
+  color:var(--sobre-foto-2);font-size:15.5px;font-weight:500;
+  min-height:44px;display:inline-flex;align-items:center;
+  text-decoration:underline;text-underline-offset:4px;text-decoration-color:rgba(237,243,241,.4);
+}
+.orla-mapa:hover{color:var(--sobre-foto);text-decoration-color:currentColor}
+.orla-credito{
+  position:absolute;z-index:2;right:22px;bottom:9px;margin:0;
+  font-size:11px;color:rgba(237,243,241,.55);text-align:right;max-width:46ch;
+}
+.orla-credito a{color:inherit}
+
+@media(max-width:559px){
+  .orla-agua{display:block;min-height:0}
+  .orla-agua img{object-position:50% 78%}
+  .orla-agua::after{background:linear-gradient(to bottom,rgba(7,14,16,.34) 0%,rgba(7,14,16,.62) 40%,rgba(7,14,16,.90) 100%)}
+  .orla-fundo{padding-block:96px 20px}
+  .orla-credito{position:static;text-align:left;padding:0 22px 12px;max-width:none}
+  .portas{gap:22px}
+  .portas .n{font-size:32px}
+}
+:root{--cat-jacuzzi:#7E4159}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--cat-jacuzzi:#B06B86}}
+:root[data-theme="dark"]{--cat-jacuzzi:#B06B86}
+.mapa .p-jacuzzi-no-quarto{fill:var(--cat-jacuzzi)}
+
+
+/* ================= o índice como entrada ================= */
+/* A entrada é o inventário. Não há herói: chega-se e está-se a olhar para os
+   103. O argumento do guia é saber onde estão todos, e mostrá-los todos de uma
+   vez é a prova disso. */
+.indice-topo{padding-block:30px 20px}
+.indice-topo h1{font-size:clamp(27px,3.6vw,42px);max-width:22ch}
+.indice-topo .sub{color:var(--tinta-2);margin:12px 0 0;max-width:54ch;font-size:16.5px}
+
+.barra-filtros{
+  position:sticky;top:0;z-index:30;background:var(--fundo);
+  border-bottom:1px solid var(--linha);
+  padding-block:13px;
+}
+.barra-filtros .fila{display:flex;gap:7px;flex-wrap:wrap}
+.barra-filtros .fila + .fila{margin-top:8px}
+.filtro{
+  border:1px solid var(--linha-forte);border-radius:99px;padding:8px 15px;
+  font-size:14px;font-weight:500;background:var(--cartao);color:var(--tinta);
+  display:inline-flex;gap:7px;align-items:center;cursor:pointer;min-height:40px;
+  font-family:var(--f-texto);
+}
+.filtro:hover{border-color:var(--tinta-3)}
+.filtro b{font-variant-numeric:tabular-nums;color:var(--tinta-3);font-weight:700}
+.filtro i{width:9px;height:9px;border-radius:50%;background:var(--c);display:block;flex:none}
+.filtro[aria-pressed="true"]{background:var(--tinta);color:var(--fundo);border-color:var(--tinta)}
+.filtro[aria-pressed="true"] b{color:var(--fundo);opacity:.55}
+.conta-linha{font-size:14px;color:var(--tinta-3);padding-block:14px 0;margin:0}
+
+/* ================= campo de cor ================= */
+/* Oitenta e dois dos 103 não têm fotografia, e os motéis nunca vão ter. Um
+   cartão sem imagem não fica com um buraco: fica com a cor da sua categoria e
+   o nome grande lá dentro. É um estado final aceitável, não um lugar vago. */
+.capa{position:relative;overflow:hidden;display:flex;align-items:flex-end;color:#fff;margin:0}
+.capa img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.capa.tem-foto::before{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to bottom,rgba(6,12,13,.5) 0%,transparent 34%,transparent 60%,rgba(6,12,13,.68) 100%);
+}
+.capa > *{position:relative;z-index:2}
+.capa .cat{position:absolute;left:13px;top:12px;font-size:11px;font-weight:700;opacity:.9;letter-spacing:.005em}
+.capa .cred{position:absolute;right:11px;bottom:9px;z-index:2;font-size:9px;opacity:.62;
+            text-align:right;max-width:74%;line-height:1.3}
+.capa .nm{font-family:var(--f-display);font-weight:700;letter-spacing:-.03em;line-height:1.02;
+          text-wrap:balance}
+.cat-termas{background:var(--cat-termas)}
+.cat-hotel-termal{background:var(--cat-hotel-termal)}
+.cat-hotel{background:var(--cat-hotel)}
+.cat-jacuzzi-no-quarto{background:var(--cat-jacuzzi)}
+.cat-motel{background:var(--cat-motel)}
+
+/* grelha densa da entrada */
+.grelha-densa{
+  display:grid;gap:11px;list-style:none;margin:16px 0 0;padding:0;
+  grid-template-columns:repeat(auto-fill,minmax(158px,1fr));
+}
+.grelha-densa .cartao{border-radius:var(--r);overflow:hidden;background:var(--cartao);
+  border:1px solid var(--linha);display:flex;flex-direction:column;box-shadow:none}
+.grelha-densa .cartao:hover{transform:none;border-color:var(--linha-forte)}
+.grelha-densa .capa{aspect-ratio:1}
+.grelha-densa .capa .nm{font-size:15.5px;padding:13px}
+.grelha-densa .cartao-corpo{padding:10px 12px 12px;gap:2px}
+.grelha-densa .cartao-corpo h3{font-size:13.5px;line-height:1.25;font-weight:600;font-family:var(--f-texto);letter-spacing:-.005em}
+.grelha-densa .cartao-onde{font-size:11.5px}
+.grelha-densa .cartao-pe{padding-top:6px;font-size:12px}
+.grelha-densa .cartao-resumo{display:none}
+
+/* A capa da ficha sem fotografia usa o campo de cor da categoria: sem véu,
+   porque não há imagem para escurecer, e com o nome a ler-se sobre a cor. */
+.heroi[class*="cat-"]{background-image:none}
+.heroi[class*="cat-"]::after{background:linear-gradient(to top,rgba(6,12,13,.34),transparent 62%)}
+
+/* O botão que abre o resto da grelha. Larga e óbvia, porque o que está por
+   baixo dela são noventa e um sítios. */
+.mostrar-mais{
+  display:block;width:100%;margin-top:14px;min-height:56px;
+  border:1px solid var(--linha-forte);border-radius:var(--r);
+  background:var(--cartao);color:var(--tinta);
+  font-family:var(--f-texto);font-size:16px;font-weight:600;cursor:pointer;
+}
+.mostrar-mais:hover{background:var(--cartao-hover);border-color:var(--tinta-3)}
+.mostrar-mais[hidden]{display:none}
+
+/* Botão da Booking. Azul da marca deles, porque é o que as pessoas reconhecem
+   e porque a ligação é de afiliado — disfarçá-la de botão do site seria pior. */
+.botao.booking{
+  display:flex;width:100%;margin-top:18px;
+  background:#003580;color:#fff;
+}
+.botao.booking:hover{background:#00224f}
+
+/* O mapa na entrada é mais baixo do que na sua própria página: aqui é uma
+   orientação antes da grelha, lá é o assunto. */
+.mapa-entrada{border-top:1px solid var(--linha);padding-block:8px 6px}
+.mapa-entrada .mapa{max-height:min(46vh,380px);width:auto;margin:0 auto}
+.mapa-entrada .mapa-fonte{position:static;text-align:center;padding-block:4px 12px;margin:0}
+.mapa-entrada .mapa-fonte a{color:var(--tinta);text-decoration:underline;text-underline-offset:3px}
+
+/* —— Next layer —— */
+.logo svg{display:block;height:28px;width:auto}
+.kicker-ficha{
+  margin:0 0 .6rem;
+  font-size:.72rem;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--tinta-3);
+}
+.cartao-pe{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+.cartao-pe .ev{
+  font-size:.72rem;
+  font-weight:600;
+  letter-spacing:.04em;
+  color:var(--fria);
+}
+.ficha-foto{margin:1.5rem 0 0;border-radius:var(--r);overflow:hidden}
+.ficha-foto img{width:100%;height:auto;display:block}
+.ficha-foto figcaption{padding:.6rem .2rem;font-size:.8rem;color:var(--tinta-3)}
+.hub-lista{padding:2rem 0 4rem}
+.prose-page{padding:3rem 0 4rem;max-width:40rem}
+.prose-page h1{font-family:var(--f-display);font-size:clamp(2rem,4vw,3rem);margin:0 0 1rem}
+.prose-page h2{font-family:var(--f-display);margin:2rem 0 .75rem}
+.prose-page a{color:var(--fria)}
+.logo-opcoes{display:grid;gap:1.5rem;margin:2rem 0}
+.logo-opcao{
+  padding:1.5rem;
+  border:1px solid var(--linha);
+  border-radius:var(--r);
+  background:var(--cartao);
+}
+.logo-opcao svg{height:40px;width:auto;color:var(--tinta)}
