@@ -408,6 +408,13 @@
       "regiao": "portugal"
     },
     {
+      "id": "alambique-hotel",
+      "cx": 805.0,
+      "cy": 242.1,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
       "id": "termas-de-longroiva",
       "cx": 828.3,
       "cy": 157.4,

@@ -42,7 +42,7 @@ export default function Ficha({ sitio }) {
         <div className="medidas">
           {sitio.quando ? (
             <div className="medida">
-              <div className="k">quando ir</div>
+              <div className="k">Quando ir</div>
               <div className="v" style={{ fontSize: 17 }}>
                 {sitio.quando}
               </div>
@@ -50,13 +50,13 @@ export default function Ficha({ sitio }) {
           ) : null}
           {sitio.temp != null ? (
             <div className="medida">
-              <div className="k">temperatura</div>
+              <div className="k">Temperatura</div>
               <div className="v">{sitio.temp}°</div>
             </div>
           ) : null}
           {sitio.preco != null ? (
             <div className="medida">
-              <div className="k">preço</div>
+              <div className="k">Preço</div>
               <div className="v">{sitio.preco} €</div>
             </div>
           ) : null}
@@ -71,9 +71,6 @@ export default function Ficha({ sitio }) {
                 {sitio.review.split(/\n\n+/).map((para, i) => (
                   <p key={i}>{para}</p>
                 ))}
-                <p className="fonte review-nota">
-                  Leitura editorial a partir de fontes públicas — ainda não visitámos este sítio.
-                </p>
               </>
             ) : null}
             <h2>A água</h2>
@@ -100,15 +97,15 @@ export default function Ficha({ sitio }) {
 
           <div className="lado">
             <dl>
-              <dt>onde</dt>
+              <dt>Onde</dt>
               <dd>{sitio.onde}</dd>
               {sitio.quando ? (
                 <>
-                  <dt>quando ir</dt>
+                  <dt>Quando ir</dt>
                   <dd>{sitio.quando}</dd>
                 </>
               ) : null}
-              <dt>preço</dt>
+              <dt>Preço</dt>
               <dd>
                 {sitio.preco != null ? (
                   <>
@@ -124,11 +121,11 @@ export default function Ficha({ sitio }) {
                   "Sem preço fixo publicado aqui"
                 )}
               </dd>
-              <dt>carregador elétrico</dt>
+              <dt>Carregador elétrico</dt>
               <dd>{carregadorLabel(sitio)}</dd>
               {sitio.oficialUrl ? (
                 <>
-                  <dt>site oficial</dt>
+                  <dt>Site oficial</dt>
                   <dd>
                     <a href={sitio.oficialUrl} rel="noopener" target="_blank">
                       Abrir site

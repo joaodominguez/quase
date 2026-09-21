@@ -116,6 +116,8 @@ export const reviews = {
 
   "aquadome-unhais-da-serra": `Em Unhais da Serra (Covilhã), a 750 m, o Aquadome apresenta-se como spa de montanha: lagunas interiores, água termal, serra à porta. Formato mais «água» do que «hotel de cidade».\n\nHá alojamento associado para quem quer ficar. Experiência de fim de semana de altitude; confirma horários de lagunas e lotação.`,
 
+  "alambique-hotel": `No Fundão, entre a Gardunha e a Estrela, o Alambique é hotel-resort de escala grande (cerca de 195 quartos) com o Golden Rock Water Spa no centro do argumento: o site oficial descreve três piscinas interiores aquecidas, jacuzzis, saunas e hammam, com acesso tipicamente incluído na estadia.\n\nNão é termas de nascente — é spa de água aquecida num resort de interior. Experiência de fim de semana familiar ou de bem-estar; confirma tipologias e o que cada pacote inclui no spa.`,
+
   "termas-de-longroiva": `No Douro Superior, água sulfúrea que emerge quente junto ao castelo — cenário de aldeia histórica, não de resort. O balneário serve a nascente e a paisagem seca à volta.\n\nExperiência remota e específica. Confirma horários (9–19h tipicamente). Vem-se pela água e pelo sítio; não por animações.`,
 
   "termas-do-cro": `No Sabugal, nas Aldeias Históricas, balneário de raiz com piscina hidrodinâmica. Marcação obrigatória — a visita não é espontânea.\n\nEspaço contemporâneo em território antigo. Experiência controlada e local; liga bem a um roteiro de aldeias se estiveres na Beira.`,
