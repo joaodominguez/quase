@@ -37,14 +37,12 @@ rsync_cmd() {
 echo "==> Preparing remote release $STAMP"
 ssh_cmd "${REMOTE_USER}@${REMOTE_HOST}" "mkdir -p '$RELEASE_DIR' '$REMOTE_APP/data' '$REMOTE_APP/shared' '$REMOTE_APP/public'"
 
-# Seed data file once if missing
-ssh_cmd "${REMOTE_USER}@${REMOTE_HOST}" \
-  "test -f '$REMOTE_APP/data/sitios.json' || echo 'seed needed'" >/tmp/quase-seed-check
-if grep -q "seed needed" /tmp/quase-seed-check; then
-  echo "==> Seeding data/sitios.json"
-  rsync_cmd -avz -e "ssh -o StrictHostKeyChecking=no" \
-    data/sitios.json "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_APP}/data/sitios.json"
-fi
+# Catálogo editorial: DATA_DIR é a fonte em runtime (admin também grava aqui).
+# Em cada deploy, o JSON do repo sobrescreve o persistente — entradas novas
+# chegam a produção; edições só no servidor voltam a alinhar com o git.
+echo "==> Syncing data/sitios.json → $REMOTE_APP/data/"
+rsync_cmd -avz -e "ssh -o StrictHostKeyChecking=no" \
+  data/sitios.json "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_APP}/data/sitios.json"
 
 echo "==> Syncing standalone build"
 rsync_cmd -avz --delete -e "ssh -o StrictHostKeyChecking=no" \
