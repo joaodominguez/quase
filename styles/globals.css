@@ -823,9 +823,14 @@ select option{background:var(--cartao);color:var(--tinta)}
 .botao.booking:hover{background:#00224f}
 
 /* O mapa na entrada é mais baixo do que na sua própria página: aqui é uma
-   orientação antes da grelha, lá é o assunto. */
+   orientação antes da grelha, lá é o assunto. No desktop o continente fica
+   à esquerda e as ilhas à direita (transforms em mapa-layout.json). */
 .mapa-entrada{border-top:1px solid var(--linha);padding-block:8px 6px}
-.mapa-entrada .mapa{max-height:min(46vh,380px);width:auto;margin:0 auto}
+.mapa-entrada .mapa{
+  max-height:min(68vh,560px);
+  width:min(100%,920px);
+  margin:0 auto;
+}
 .mapa-entrada .mapa-fonte{position:static;text-align:center;padding-block:4px 12px;margin:0}
 .mapa-entrada .mapa-fonte a{color:var(--tinta);text-decoration:underline;text-underline-offset:3px}
 

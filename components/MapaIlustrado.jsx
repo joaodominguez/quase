@@ -128,9 +128,9 @@ export default function MapaIlustrado({
   }
 
   const classe = variante === "entrada" ? "mapa-entrada" : "mapa-zona";
-  const layout = mobile ? mapaLayout.mobile : null;
-  const viewBox = mobile ? mapaLayout.mobile.viewBox : mapaLayout.desktop.viewBox;
-  const r = mobile ? 7 : 5.5;
+  const layout = mobile ? mapaLayout.mobile : mapaLayout.desktop;
+  const viewBox = layout.viewBox;
+  const r = mobile ? 7 : 6.5;
 
   return (
     <section className={`${classe}${mobile ? " mapa-empilhado" : ""}`}>
