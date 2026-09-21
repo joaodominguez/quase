@@ -707,19 +707,34 @@ select option{background:var(--cartao);color:var(--tinta)}
 .barra-filtros{
   position:sticky;top:0;z-index:30;background:var(--fundo);
   border-bottom:1px solid var(--linha);
-  padding-block:13px;
+  /* Ritmo vertical no desktop: ar acima, ar abaixo da contagem até à linha. */
+  padding-block:16px 20px;
+}
+/* Uma coluna com gap único: todas as filas (categorias + região + tempo + meta)
+   partilham o mesmo intervalo — sem o 1.º bloco “isolado” e o resto esmagado. */
+.barra-filtros fieldset{
+  display:flex;flex-direction:column;gap:12px;
+  border:0;margin:0;padding:0;
 }
 .barra-filtros .fila{display:flex;gap:7px;flex-wrap:wrap}
-.barra-filtros .fila + .fila{margin-top:8px}
+.barra-filtros .fila + .fila{margin-top:0}
+.barra-filtros .contagem{
+  margin:16px 0 0;
+  font-size:14px;
+  color:var(--tinta-3);
+}
 
 /* No telemóvel o sticky com 4 filas de pills come metade do ecrã —
-   fica estático; no desktop mantém-se colado ao topo. */
+   fica estático; no desktop mantém-se colado ao topo.
+   Ritmo mais apertado no telemóvel — não herdar o espaço do desktop. */
 @media (max-width: 760px){
   .barra-filtros{
     position:static;
     padding-block:10px 12px;
   }
+  .barra-filtros fieldset{gap:8px}
   .barra-filtros .fila{gap:6px}
+  .barra-filtros .contagem{margin-top:10px;font-size:13.5px}
   .filtro{
     padding:6px 12px;
     font-size:13px;
@@ -764,10 +779,13 @@ select option{background:var(--cartao);color:var(--tinta)}
 .cat-jacuzzi-no-quarto{background:var(--cat-jacuzzi)}
 .cat-motel{background:var(--cat-motel)}
 
-/* grelha densa da entrada */
+/* grelha densa da entrada — margem superior alinhada ao ritmo da barra */
 .grelha-densa{
-  display:grid;gap:11px;list-style:none;margin:16px 0 0;padding:0;
+  display:grid;gap:11px;list-style:none;margin:22px 0 0;padding:0;
   grid-template-columns:repeat(auto-fill,minmax(158px,1fr));
+}
+@media (max-width: 760px){
+  .grelha-densa{margin-top:16px}
 }
 .grelha-densa .cartao{border-radius:var(--r);overflow:hidden;background:var(--cartao);
   border:1px solid var(--linha);display:flex;flex-direction:column;box-shadow:none}

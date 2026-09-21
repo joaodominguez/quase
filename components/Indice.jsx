@@ -58,7 +58,7 @@ export default function Indice({ sitios }) {
     <>
       <form className="barra-filtros" id="indice" onSubmit={(e) => e.preventDefault()}>
         <div className="col">
-          <fieldset style={{ border: 0, margin: 0, padding: 0 }}>
+          <fieldset>
             <legend className="saltar">Filtrar os sítios</legend>
             <div className="fila" id="f-tipos">
               {TIPOS.map((t) => (
