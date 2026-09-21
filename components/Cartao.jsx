@@ -25,7 +25,9 @@ export default function Cartao({ sitio }) {
       </figure>
       <div className="cartao-corpo">
         <h3>
-          <a href={href}>{sitio.nome}</a>
+          <a className="cartao-link" href={href}>
+            {sitio.nome}
+          </a>
         </h3>
         <div className="cartao-onde">{sitio.onde?.split(",")[0]}</div>
         <p className="cartao-resumo">{sitio.resumo}</p>
