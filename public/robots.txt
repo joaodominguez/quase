@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /logo-propostas/
+
+Sitemap: https://quase.pt/sitemap.xml

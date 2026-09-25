@@ -1,0 +1,198 @@
+{
+  "vidago-palace": {
+    "path": "/images/places/vidago-palace.jpg",
+    "file": "File:Hotel Vidago.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "José Gonçalves",
+    "source": "https://commons.wikimedia.org/wiki/File:Hotel_Vidago.jpg"
+  },
+  "pedras-salgadas": {
+    "path": "/images/places/pedras-salgadas.jpg",
+    "file": "File:Lake Pedras Salgadas (1).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Joseolgon",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Pedras_Salgadas_(1).jpg"
+  },
+  "termas-vizela": {
+    "path": "/images/places/termas-vizela.jpg",
+    "file": "File:Parque das Termas de Vizela - Caldas de Vizela - Portugal (26000391268).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "source": "https://commons.wikimedia.org/wiki/File:Parque_das_Termas_de_Vizela_-_Caldas_de_Vizela_-_Portugal_(26000391268).jpg"
+  },
+  "terra-nostra": {
+    "path": "/images/places/terra-nostra.jpg",
+    "file": "File:Aerial view of the thermal water pool, Parque Terra Nostra, Furnas, São Miguel Island, Azores, Portugal (PPL1-Corrected)-2.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jules Verne Times Two",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_thermal_water_pool,_Parque_Terra_Nostra,_Furnas,_S%C3%A3o_Miguel_Island,_Azores,_Portugal_(PPL1-Corrected)-2.jpg"
+  },
+  "furnas": {
+    "path": "/images/places/furnas.jpg",
+    "file": "File:20170915 acores 0129-Pano (48715955347).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Monitotxi from Barcelona, Spain",
+    "source": "https://commons.wikimedia.org/wiki/File:20170915_acores_0129-Pano_(48715955347).jpg"
+  },
+  "termas-melgaco": {
+    "path": "/images/places/termas-melgaco.jpg",
+    "file": "File:Balneário Termas de Melgaço (1).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Joseolgon",
+    "source": "https://commons.wikimedia.org/wiki/File:Balne%C3%A1rio_Termas_de_Melga%C3%A7o_(1).jpg"
+  },
+  "ponte-de-lima": {
+    "path": "/images/places/ponte-de-lima.jpg",
+    "file": "File:Paço ou Castelo do Corutelo - Freixo - Portugal (10968568434).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "source": "https://commons.wikimedia.org/wiki/File:Pa%C3%A7o_ou_Castelo_do_Corutelo_-_Freixo_-_Portugal_(10968568434).jpg"
+  },
+  "monchique": {
+    "path": "/images/places/monchique.jpg",
+    "file": "File:Caldas de Monchique - Occidente 355 1888.jpg",
+    "license": "Public domain",
+    "author": "Domingos Cazellas Branco (1855-1905)",
+    "source": "https://commons.wikimedia.org/wiki/File:Caldas_de_Monchique_-_Occidente_355_1888.jpg"
+  },
+  "unhais-da-serra": {
+    "path": "/images/places/unhais-da-serra.jpg",
+    "file": "File:Unhais da Serra Hotel das termas b.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Rosino",
+    "source": "https://commons.wikimedia.org/wiki/File:Unhais_da_Serra_Hotel_das_termas_b.jpg"
+  },
+  "sao-pedro-do-sul": {
+    "path": "/images/places/sao-pedro-do-sul.jpg",
+    "file": "File:Capela das Termas de São Pedro do Sul - Portugal (52304328913).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "source": "https://commons.wikimedia.org/wiki/File:Capela_das_Termas_de_S%C3%A3o_Pedro_do_Sul_-_Portugal_(52304328913).jpg"
+  },
+  "geres": {
+    "path": "/images/places/geres.jpg",
+    "file": "File:Portugal-Gerês-P1160687 (25893475135).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "mmmmngai@rogers.com",
+    "source": "https://commons.wikimedia.org/wiki/File:Portugal-Ger%C3%AAs-P1160687_(25893475135).jpg"
+  },
+  "douro-valley": {
+    "path": "/images/places/douro-valley.jpg",
+    "file": "File:Nini Andrade Silva - Aquapura Doudo Vallery 04 - Bar (6007164035).jpg",
+    "license": "CC BY 2.0",
+    "author": "準建築人手札網站 Forgemind ArchiMedia from Taichung, Taiwan, Taiwan",
+    "source": "https://commons.wikimedia.org/wiki/File:Nini_Andrade_Silva_-_Aquapura_Doudo_Vallery_04_-_Bar_(6007164035).jpg"
+  },
+  "serra-da-estrela": {
+    "path": "/images/places/serra-da-estrela.jpg",
+    "file": "File:Lost in the valley.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Fcpmarmelo",
+    "source": "https://commons.wikimedia.org/wiki/File:Lost_in_the_valley.JPG"
+  },
+  "gaia-porto": {
+    "path": "/images/places/gaia-porto.jpg",
+    "file": "File:2008 panorama rive douro porto portugal (25761458512).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "LucS_fr from France",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_panorama_rive_douro_porto_portugal_(25761458512).jpg"
+  },
+  "peneda-geres": {
+    "path": "/images/places/peneda-geres.jpg",
+    "file": "File:Paisagem do Parque Nacional da Peneda - Gerês 02.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "José Amorim",
+    "source": "https://commons.wikimedia.org/wiki/File:Paisagem_do_Parque_Nacional_da_Peneda_-_Ger%C3%AAs_02.jpg"
+  },
+  "pico-vinhas": {
+    "path": "/images/places/pico-vinhas.jpg",
+    "file": "File:Hiking trail Vinhas da Criação Velha (Pico, Azores) 2011 02.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "JopkeB",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiking_trail_Vinhas_da_Cria%C3%A7%C3%A3o_Velha_(Pico,_Azores)_2011_02.jpg"
+  },
+  "comporta": {
+    "path": "/images/places/comporta.jpg",
+    "file": "File:Comporta - Portugal (52396203563).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "source": "https://commons.wikimedia.org/wiki/File:Comporta_-_Portugal_(52396203563).jpg"
+  },
+  "funchal": {
+    "path": "/images/places/funchal.jpg",
+    "file": "File:Carnival Fair in Old Town near Waterfront (53524103099).jpg",
+    "license": "CC BY 2.0",
+    "author": "Carnaval.com Studios from The Inner Mission San Francisco, Earth",
+    "source": "https://commons.wikimedia.org/wiki/File:Carnival_Fair_in_Old_Town_near_Waterfront_(53524103099).jpg"
+  },
+  "algarve-alvor": {
+    "path": "/images/places/algarve-alvor.jpg",
+    "file": "File:Algarve, Portugal 2015 - Alvor (20927640936).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Freebird from Madrid, Spain",
+    "source": "https://commons.wikimedia.org/wiki/File:Algarve,_Portugal_2015_-_Alvor_(20927640936).jpg"
+  },
+  "santa-cruz-oeste": {
+    "path": "/images/places/santa-cruz-oeste.jpg",
+    "file": "File:2025-12-14 Praia Formosa, Santa Cruz, Torres Vedras 3.jpg",
+    "license": "CC BY 4.0",
+    "author": "Alexkom000",
+    "source": "https://commons.wikimedia.org/wiki/File:2025-12-14_Praia_Formosa,_Santa_Cruz,_Torres_Vedras_3.jpg"
+  },
+  "braga-bom-jesus": {
+    "path": "/images/places/braga-bom-jesus.jpg",
+    "file": "File:Interior of Basílica do Bom Jesus do Monte 2026 01.jpg",
+    "license": "CC BY 4.0",
+    "author": "Joseolgon",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Bas%C3%ADlica_do_Bom_Jesus_do_Monte_2026_01.jpg"
+  },
+  "vieira-do-minho": {
+    "path": "/images/places/vieira-do-minho.jpg",
+    "file": "File:Fojo do Lobo da Cabreira 01.jpg",
+    "license": "CC BY 4.0",
+    "author": "Joseolgon",
+    "source": "https://commons.wikimedia.org/wiki/File:Fojo_do_Lobo_da_Cabreira_01.jpg"
+  },
+  "cerveira": {
+    "path": "/images/places/cerveira.jpg",
+    "file": "File:Rio Minho - Vila Nova de Cerveira - Portugal (28252897428).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "source": "https://commons.wikimedia.org/wiki/File:Rio_Minho_-_Vila_Nova_de_Cerveira_-_Portugal_(28252897428).jpg"
+  },
+  "viana-castelo": {
+    "path": "/images/places/viana-castelo.jpg",
+    "file": "File:Cathedral of Viana do Castelo 02.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Krzysztof Golik",
+    "source": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Viana_do_Castelo_02.jpg"
+  },
+  "sintra": {
+    "path": "/images/places/sintra.jpg",
+    "file": "File:Palacio Nacional da Pena, Sintra, Portugal, 2019-05-25, DD 132.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Diego Delso",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_da_Pena,_Sintra,_Portugal,_2019-05-25,_DD_132.jpg"
+  },
+  "fundao": {
+    "path": "/images/places/fundao.jpg",
+    "file": "File:Estação do Fundão, 2013.01.01 (8333626611).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Nuno Morão from Lisboa, Portugal",
+    "source": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_do_Fund%C3%A3o,_2013.01.01_(8333626611).jpg"
+  },
+  "covilha": {
+    "path": "/images/places/covilha.jpg",
+    "file": "File:Parque Natural da Serra da Estrela - Covilhã - Unhais da Serra (WITHOUT WATER).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Miguel Maria Carvalho Filiol de Raimond (MfR351)",
+    "source": "https://commons.wikimedia.org/wiki/File:Parque_Natural_da_Serra_da_Estrela_-_Covilh%C3%A3_-_Unhais_da_Serra_(WITHOUT_WATER).jpg"
+  },
+  "moncao": {
+    "path": "/images/places/moncao.jpg",
+    "file": "File:Monção-Palácio da Brejoeira-Vinha de enforcado-20140911.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Daniel VILLAFRUELA.",
+    "source": "https://commons.wikimedia.org/wiki/File:Mon%C3%A7%C3%A3o-Pal%C3%A1cio_da_Brejoeira-Vinha_de_enforcado-20140911.jpg"
+  }
+}

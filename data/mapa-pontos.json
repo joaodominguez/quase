@@ -1,0 +1,733 @@
+{
+  "viewBox": "0 0 1000 620",
+  "pontos": [
+    {
+      "id": "terra-nostra",
+      "cx": 402.1,
+      "cy": 198.4,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "acores"
+    },
+    {
+      "id": "octant-furnas",
+      "cx": 402.7,
+      "cy": 198.5,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "acores"
+    },
+    {
+      "id": "pedras-do-mar",
+      "cx": 385.9,
+      "cy": 194.7,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "acores"
+    },
+    {
+      "id": "savoy-palace",
+      "cx": 117.1,
+      "cy": 430.1,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "reids-palace",
+      "cx": 116.6,
+      "cy": 430.7,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "six-senses-douro",
+      "cx": 779.2,
+      "cy": 138.5,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "vidago-palace",
+      "cx": 798.5,
+      "cy": 86.7,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "the-yeatman",
+      "cx": 713.7,
+      "cy": 139.5,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "torre-de-gomariz",
+      "cx": 720,
+      "cy": 91.4,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "areias-do-seixo",
+      "cx": 650.9,
+      "cy": 351.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "sublime-comporta",
+      "cx": 699.6,
+      "cy": 431.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "longevity-alvor",
+      "cx": 716,
+      "cy": 563.6,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "silk-motel",
+      "cx": 653.3,
+      "cy": 383,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "requinte-motel-sintra",
+      "cx": 653.3,
+      "cy": 383,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "elite-motel-sintra",
+      "cx": 653.3,
+      "cy": 383,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "havay-motel",
+      "cx": 714.2,
+      "cy": 138,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "alto-de-valongo",
+      "cx": 721.5,
+      "cy": 133,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "dlirius-azuis",
+      "cx": 714.2,
+      "cy": 138,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-h2on",
+      "cx": 670.3,
+      "cy": 384.1,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-avenue-lisboa",
+      "cx": 670.3,
+      "cy": 387.1,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "classic-motel-sintra",
+      "cx": 652.2,
+      "cy": 383.9,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-xroomz",
+      "cx": 670.4,
+      "cy": 395.4,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-mood",
+      "cx": 686.4,
+      "cy": 396.4,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-lux-trafaria",
+      "cx": 663.9,
+      "cy": 402,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-seven",
+      "cx": 677.8,
+      "cy": 408.3,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "habana-motel",
+      "cx": 707.8,
+      "cy": 130,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-tropicana",
+      "cx": 712.1,
+      "cy": 144.3,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-flamingo",
+      "cx": 707,
+      "cy": 130.5,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-portofino",
+      "cx": 713.9,
+      "cy": 133.5,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-twenty-one",
+      "cx": 719.3,
+      "cy": 137.7,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-dunas-dovar",
+      "cx": 713.7,
+      "cy": 163.2,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-eclipse",
+      "cx": 718.3,
+      "cy": 187,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-emocoes",
+      "cx": 717,
+      "cy": 152.3,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-principe-encantado",
+      "cx": 726.9,
+      "cy": 224.4,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-horly",
+      "cx": 727.8,
+      "cy": 91.1,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-bracancun",
+      "cx": 763,
+      "cy": 239,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-eleven",
+      "cx": 693,
+      "cy": 286.3,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-avenue-leiria-pombal",
+      "cx": 698.8,
+      "cy": 281.8,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-pantanal",
+      "cx": 712.8,
+      "cy": 262,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-fonte-dos-amores",
+      "cx": 727.6,
+      "cy": 232.2,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "motel-afrodite-mtl",
+      "cx": 700.6,
+      "cy": 87.4,
+      "cls": "ponto p-motel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "poca-dona-beija",
+      "cx": 401.9,
+      "cy": 198.6,
+      "cls": "ponto p-termas",
+      "regiao": "acores"
+    },
+    {
+      "id": "caldeira-velha",
+      "cx": 392.3,
+      "cy": 197.8,
+      "cls": "ponto p-termas",
+      "regiao": "acores"
+    },
+    {
+      "id": "termas-carapacho",
+      "cx": 261.2,
+      "cy": 114.2,
+      "cls": "ponto p-termas",
+      "regiao": "acores"
+    },
+    {
+      "id": "ponta-da-ferraria",
+      "cx": 373.5,
+      "cy": 192.6,
+      "cls": "ponto p-termas",
+      "regiao": "acores"
+    },
+    {
+      "id": "termas-de-chaves",
+      "cx": 806.9,
+      "cy": 75.6,
+      "cls": "ponto p-termas",
+      "regiao": "portugal"
+    },
+    {
+      "id": "pedras-salgadas",
+      "cx": 795.9,
+      "cy": 96,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-de-vizela",
+      "cx": 738.5,
+      "cy": 114.1,
+      "cls": "ponto p-termas",
+      "regiao": "portugal"
+    },
+    {
+      "id": "caldas-da-saude",
+      "cx": 724.6,
+      "cy": 114.6,
+      "cls": "ponto p-termas",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-de-amarante",
+      "cx": 757.2,
+      "cy": 125.1,
+      "cls": "ponto p-termas",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-de-sao-vicente",
+      "cx": 740.4,
+      "cy": 131.9,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-de-melgaco",
+      "cx": 742.6,
+      "cy": 35.8,
+      "cls": "ponto p-termas",
+      "regiao": "portugal"
+    },
+    {
+      "id": "torel-quinta-da-vacaria",
+      "cx": 782.7,
+      "cy": 137.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "casa-da-calcada",
+      "cx": 757.2,
+      "cy": 125.1,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-sao-pedro-do-sul",
+      "cx": 756.4,
+      "cy": 181.3,
+      "cls": "ponto p-termas",
+      "regiao": "portugal"
+    },
+    {
+      "id": "grande-hotel-de-luso",
+      "cx": 732.9,
+      "cy": 219,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "curia-palace-hotel",
+      "cx": 728.2,
+      "cy": 212.8,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "aquadome-unhais-da-serra",
+      "cx": 804.3,
+      "cy": 230,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "alambique-hotel",
+      "cx": 805.0,
+      "cy": 242.1,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-de-longroiva",
+      "cx": 828.3,
+      "cy": 157.4,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "termas-do-cro",
+      "cx": 841.9,
+      "cy": 212.8,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "casa-de-sao-lourenco",
+      "cx": 801.3,
+      "cy": 217.2,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "pousada-serra-da-estrela",
+      "cx": 801.9,
+      "cy": 228.8,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "penha-longa",
+      "cx": 649.7,
+      "cy": 390.9,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "palacio-estoril",
+      "cx": 647.7,
+      "cy": 397.7,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "praia-del-rey-marriott",
+      "cx": 659,
+      "cy": 324.4,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "convento-do-espinheiro",
+      "cx": 772.8,
+      "cy": 407.8,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "torre-de-palma",
+      "cx": 805.6,
+      "cy": 358.4,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "vila-gale-alentejo-vineyards",
+      "cx": 762.1,
+      "cy": 483.4,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "epic-sana-algarve",
+      "cx": 743.1,
+      "cy": 568.2,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "villa-termal-monchique",
+      "cx": 718.5,
+      "cy": 547.3,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "hotel-do-caracol",
+      "cx": 299.7,
+      "cy": 138.4,
+      "cls": "ponto p-hotel",
+      "regiao": "acores"
+    },
+    {
+      "id": "azoris-faial-garden",
+      "cx": 225.5,
+      "cy": 146.9,
+      "cls": "ponto p-hotel",
+      "regiao": "acores"
+    },
+    {
+      "id": "pestana-casino-park",
+      "cx": 117.6,
+      "cy": 430.1,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "the-cliff-bay",
+      "cx": 116,
+      "cy": 431.1,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "quinta-do-furao",
+      "cx": 122,
+      "cy": 397,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "pestana-porto-santo",
+      "cx": 205.4,
+      "cy": 355.9,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "your-hotel-spa-alcobaca",
+      "cx": 681.9,
+      "cy": 305.3,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "aqua-village-oliveira-do-hospital",
+      "cx": 776.7,
+      "cy": 225,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "hotel-bienestar-termas-de-moncao",
+      "cx": 725,
+      "cy": 39.5,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "palace-hotel-spa-asturias-carvalhal",
+      "cx": 769.4,
+      "cy": 169.4,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "grande-hotel-caldas-da-felgueira",
+      "cx": 774.8,
+      "cy": 207.9,
+      "cls": "ponto p-hotel-termal",
+      "regiao": "portugal"
+    },
+    {
+      "id": "pestana-blue-alvor-beach",
+      "cx": 716.4,
+      "cy": 564.4,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "pestana-viking",
+      "cx": 732.4,
+      "cy": 567.2,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "real-marina-hotel-spa-olhao",
+      "cx": 776.2,
+      "cy": 575,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "vale-doliveiras-quinta-resort-spa",
+      "cx": 725.3,
+      "cy": 567.2,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "vila-gale-collection-elvas",
+      "cx": 831.9,
+      "cy": 378.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "octant-evora",
+      "cx": 783.8,
+      "cy": 413.6,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "the-lince-ecorkhotel-evora",
+      "cx": 771.2,
+      "cy": 411.1,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "hotel-dom-goncalo-spa-fatima",
+      "cx": 709.4,
+      "cy": 299.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "vila-gale-collection-tomar",
+      "cx": 730.3,
+      "cy": 301.6,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "montebelo-mosteiro-de-alcobaca",
+      "cx": 683.9,
+      "cy": 307.5,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "grand-hotel-acores-atlantico",
+      "cx": 383.6,
+      "cy": 200.6,
+      "cls": "ponto p-hotel",
+      "regiao": "acores"
+    },
+    {
+      "id": "hotel-ponta-delgada",
+      "cx": 382.9,
+      "cy": 200.8,
+      "cls": "ponto p-hotel",
+      "regiao": "acores"
+    },
+    {
+      "id": "saccharum-calheta",
+      "cx": 78.4,
+      "cy": 416.4,
+      "cls": "ponto p-hotel",
+      "regiao": "madeira"
+    },
+    {
+      "id": "purala-wool-valley-covilha",
+      "cx": 804.8,
+      "cy": 231.4,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "casa-das-penhas-douradas",
+      "cx": 799.4,
+      "cy": 216.5,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "agua-hotels-terra-fria",
+      "cx": 862.8,
+      "cy": 82.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "pestana-troia-eco-resort",
+      "cx": 695.5,
+      "cy": 425.3,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "craveiral-farmhouse",
+      "cx": 709.1,
+      "cy": 526.2,
+      "cls": "ponto p-hotel",
+      "regiao": "portugal"
+    },
+    {
+      "id": "monte-do-malhao",
+      "cx": 809.1,
+      "cy": 554.4,
+      "cls": "ponto p-jacuzzi-no-quarto",
+      "regiao": "portugal"
+    },
+    {
+      "id": "ap-maria-nova-lounge",
+      "cx": 792.3,
+      "cy": 563.8,
+      "cls": "ponto p-jacuzzi-no-quarto",
+      "regiao": "portugal"
+    },
+    {
+      "id": "3hb-faro",
+      "cx": 769.3,
+      "cy": 575.8,
+      "cls": "ponto p-jacuzzi-no-quarto",
+      "regiao": "portugal"
+    },
+    {
+      "id": "herdade-do-amarelo",
+      "cx": 709.5,
+      "cy": 501.6,
+      "cls": "ponto p-jacuzzi-no-quarto",
+      "regiao": "portugal"
+    }
+  ]
+}

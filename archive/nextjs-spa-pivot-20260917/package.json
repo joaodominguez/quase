@@ -1,0 +1,24 @@
+{
+  "name": "quase",
+  "version": "2.0.0",
+  "description": "quase.pt — guia editorial de SPA e hoteis com piscina interior em Portugal, Acores e Madeira.",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy": "npm run build && ./scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaodominguez/quase.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
