@@ -37,6 +37,28 @@ const LISTAS = {
           (s.porto != null && s.porto <= 2.5),
       ),
   },
+  "escadinhas-beira-mar": {
+    title: "Escadinhas e beira-mar com água aquecida",
+    lead:
+      "Hotéis onde a água quente encontra o Atlântico — escadinhas, falésia ou praia ao lado. Critério editorial, não filtro novo.",
+    pick: () => {
+      const ids = new Set([
+        "areias-do-seixo",
+        "sublime-comporta",
+        "the-cliff-bay",
+        "reids-palace",
+        "pedras-do-mar",
+        "praia-del-rey-marriott",
+        "pestana-viking",
+        "saccharum-calheta",
+        "real-marina-hotel-spa-olhao",
+        "pestana-blue-alvor-beach",
+        "pestana-porto-santo",
+        "longevity-alvor",
+      ]);
+      return allSitios().filter((s) => ids.has(s.id));
+    },
+  },
 };
 
 export function generateStaticParams() {

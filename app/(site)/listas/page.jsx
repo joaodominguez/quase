@@ -29,6 +29,11 @@ const LISTAS = [
     title: "Spa para um fim de semana",
     lead: "Escapadinhas curtas com água quente.",
   },
+  {
+    slug: "escadinhas-beira-mar",
+    title: "Escadinhas e beira-mar com água aquecida",
+    lead: "Falésia, escadinhas e Atlântico — lista editorial.",
+  },
 ];
 
 export default function Page() {

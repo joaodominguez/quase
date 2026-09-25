@@ -1,0 +1,16 @@
+[Unit]
+Description=quase.pt Next.js standalone
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/quase/current
+EnvironmentFile=-/var/www/quase/.env.production
+ExecStart=/usr/bin/node /var/www/quase/current/server.js
+Restart=on-failure
+RestartSec=3
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

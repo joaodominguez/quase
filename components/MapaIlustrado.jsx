@@ -96,6 +96,31 @@ export default function MapaIlustrado({
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  // Deep-link: /mapa/?id=terra-nostra (ou #id) abre o balão desse ponto
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const raw =
+      params.get("id") ||
+      (window.location.hash ? window.location.hash.replace(/^#/, "") : "");
+    if (!raw) return;
+    const id = decodeURIComponent(raw).trim();
+    const all = [...grupos.portugal, ...grupos.acores, ...grupos.madeira];
+    const ponto = all.find((p) => p.id === id);
+    if (!ponto) return;
+    const tryOpen = (attempt = 0) => {
+      const el = svgRef.current?.querySelector(`circle[data-id="${CSS.escape(id)}"]`);
+      if (el) {
+        mostrar(ponto, el);
+        el.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+        return;
+      }
+      if (attempt < 10) requestAnimationFrame(() => tryOpen(attempt + 1));
+    };
+    tryOpen();
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- open once when grupos ready
+  }, [grupos, mobile]);
+
   function mostrar(ponto, el) {
     const s = ponto.sitio;
     const wrap = wrapRef.current;

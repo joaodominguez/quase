@@ -65,6 +65,11 @@ rsync_cmd -avz -e "ssh -o StrictHostKeyChecking=no" \
 echo "==> Switching current → $STAMP"
 ssh_cmd "${REMOTE_USER}@${REMOTE_HOST}" bash -s <<EOF
 set -euo pipefail
+mkdir -p '$REMOTE_APP/shared/fotos' '$REMOTE_APP/backups'
+# Preserve admin-uploaded fotos across releases
+if [ -d '$REMOTE_APP/shared/fotos' ]; then
+  rsync -a '$REMOTE_APP/shared/fotos/' '$RELEASE_DIR/public/fotos/' || true
+fi
 ln -sfn '$RELEASE_DIR' '$REMOTE_APP/current'
 # Keep Apache DocumentRoot content in sync for assets fallback / robots
 if [ -d '$REMOTE_APP/public' ]; then
@@ -73,9 +78,11 @@ fi
 # Prune old releases
 cd '$REMOTE_RELEASES'
 ls -1dt */ 2>/dev/null | tail -n +$((KEEP_RELEASES + 1)) | xargs -r rm -rf
-# Restart app
-if [ -x '$REMOTE_APP/start.sh' ]; then
-  # Kill previous node on the quase port if running via tmux
+# Prefer systemd when unit is installed; else tmux
+if systemctl list-unit-files quase.service >/dev/null 2>&1 && systemctl cat quase.service >/dev/null 2>&1; then
+  systemctl restart quase.service || true
+  echo "Restarted systemd quase.service"
+elif [ -x '$REMOTE_APP/start.sh' ]; then
   tmux has-session -t quase-app 2>/dev/null && tmux kill-session -t quase-app || true
   tmux new-session -d -s quase-app '$REMOTE_APP/start.sh'
   echo "Started tmux session quase-app"

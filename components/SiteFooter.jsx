@@ -24,6 +24,7 @@ export default function SiteFooter() {
               <li><a href="/listas/piscinas-interiores-portugal/">Hotéis com piscina interior aquecida em Portugal</a></li>
               <li><a href="/listas/spa-acores-madeira/">Spa e água quente nos Açores e na Madeira</a></li>
               <li><a href="/listas/spa-fim-de-semana/">Spa para um fim de semana</a></li>
+              <li><a href="/listas/escadinhas-beira-mar/">Escadinhas e beira-mar</a></li>
             </ul>
           </div>
           <div>

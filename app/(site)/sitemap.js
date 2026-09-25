@@ -51,6 +51,11 @@ export default function sitemap() {
       priority: 0.75,
       changeFrequency: "weekly",
     },
+    {
+      path: "listas/escadinhas-beira-mar",
+      priority: 0.75,
+      changeFrequency: "weekly",
+    },
     { path: "como-escolhemos", priority: 0.5, changeFrequency: "monthly" },
     { path: "contacto", priority: 0.4, changeFrequency: "yearly" },
     { path: "privacidade", priority: 0.3, changeFrequency: "yearly" },

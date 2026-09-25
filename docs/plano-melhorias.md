@@ -131,3 +131,11 @@ Gaps de dados: **36** fotos · **45** preços · **63** Instagram · **58** Book
 - Filament/Laravel (o admin Next chega).
 - Scraping de preços Booking (ToS + volatilidade).
 - Inventar visitas, reviews ou redes sociais.
+
+## Progresso (2026-09-25)
+
+- Lista **escadinhas-beira-mar** publicada
+- Deep-link mapa `?id=`
+- Admin: `updatedAt` + upload de foto CC
+- Ops: unit systemd + script backup `sitios.json`
+- Foto CC: Torre de Gomariz (Wikimedia). Demais hotéis sem CC fiável ficam por preencher.
